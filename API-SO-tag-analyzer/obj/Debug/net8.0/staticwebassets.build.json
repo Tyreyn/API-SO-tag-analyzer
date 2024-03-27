@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "GN5F8tXAj6GeIDKtDW1/UYkACNbg72OHj2SdUK4Y0uo=",
+  "Source": "API-SO-tag-analyzer",
+  "BasePath": "_content/API-SO-tag-analyzer",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

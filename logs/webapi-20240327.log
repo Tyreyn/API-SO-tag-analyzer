@@ -1,0 +1,292 @@
+2024-03-27 21:48:36.721 +01:00  FTL  Application startup exceptionSystem.InvalidOperationException: Unable to resolve service for type 'Serilog.Extensions.Hosting.DiagnosticContext' while attempting to activate 'Serilog.AspNetCore.RequestLoggingMiddleware'.
+   at Microsoft.Extensions.Internal.ActivatorUtilities.ConstructorMatcher.CreateInstance(IServiceProvider provider)
+   at Microsoft.Extensions.Internal.ActivatorUtilities.CreateInstance(IServiceProvider provider, Type instanceType, Object[] parameters)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.ReflectionMiddlewareBinder.CreateMiddleware(RequestDelegate next)
+   at Microsoft.AspNetCore.Builder.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+
+2024-03-27 21:48:36.780 +01:00  ERR  Hosting failed to startSystem.InvalidOperationException: Unable to resolve service for type 'Serilog.Extensions.Hosting.DiagnosticContext' while attempting to activate 'Serilog.AspNetCore.RequestLoggingMiddleware'.
+   at Microsoft.Extensions.Internal.ActivatorUtilities.ConstructorMatcher.CreateInstance(IServiceProvider provider)
+   at Microsoft.Extensions.Internal.ActivatorUtilities.CreateInstance(IServiceProvider provider, Type instanceType, Object[] parameters)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.ReflectionMiddlewareBinder.CreateMiddleware(RequestDelegate next)
+   at Microsoft.AspNetCore.Builder.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.<StartAsync>b__15_1(IHostedService service, CancellationToken token)
+   at Microsoft.Extensions.Hosting.Internal.Host.ForeachService[T](IEnumerable`1 services, CancellationToken token, Boolean concurrent, Boolean abortOnFirstException, List`1 exceptions, Func`3 operation)
+
+2024-03-27 21:50:34.767 +01:00  INF  Now listening on: https://localhost:7175
+2024-03-27 21:50:34.809 +01:00  INF  Now listening on: http://localhost:5072
+2024-03-27 21:50:34.811 +01:00  INF  Application started. Press Ctrl+C to shut down.
+2024-03-27 21:50:34.812 +01:00  INF  Hosting environment: Development
+2024-03-27 21:50:34.813 +01:00  INF  Content root path: C:\Users\athos\source\repos\API-SO-tag-analyzer\API-SO-tag-analyzer
+2024-03-27 21:50:38.574 +01:00  INF  Request starting HTTP/2 GET https://localhost:7175/swagger/index.html - null null
+2024-03-27 21:50:38.833 +01:00  INF  Request finished HTTP/2 GET https://localhost:7175/swagger/index.html - 200 null text/html;charset=utf-8 275.8876ms
+2024-03-27 21:50:39.239 +01:00  INF  Request starting HTTP/2 GET https://localhost:7175/_framework/aspnetcore-browser-refresh.js - null null
+2024-03-27 21:50:39.239 +01:00  INF  Request starting HTTP/2 GET https://localhost:7175/_vs/browserLink - null null
+2024-03-27 21:50:39.253 +01:00  INF  Request finished HTTP/2 GET https://localhost:7175/_framework/aspnetcore-browser-refresh.js - 200 13774 application/javascript; charset=utf-8 14.4805ms
+2024-03-27 21:50:39.383 +01:00  INF  Request finished HTTP/2 GET https://localhost:7175/_vs/browserLink - 200 null text/javascript; charset=UTF-8 144.3513ms
+2024-03-27 21:50:39.578 +01:00  INF  Request starting HTTP/2 GET https://localhost:7175/swagger/v1/swagger.json - null null
+2024-03-27 21:50:39.724 +01:00  INF  Request finished HTTP/2 GET https://localhost:7175/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 147.1307ms
+2024-03-27 21:52:42.487 +01:00  INF  Request starting HTTP/2 GET https://localhost:7175/swagger/index.html - null null
+2024-03-27 21:52:42.530 +01:00  INF  Request finished HTTP/2 GET https://localhost:7175/swagger/index.html - 200 null text/html;charset=utf-8 42.9767ms
+2024-03-27 21:52:42.607 +01:00  INF  Request starting HTTP/2 GET https://localhost:7175/_vs/browserLink - null null
+2024-03-27 21:52:42.610 +01:00  INF  Request starting HTTP/2 GET https://localhost:7175/_framework/aspnetcore-browser-refresh.js - null null
+2024-03-27 21:52:42.617 +01:00  INF  Request finished HTTP/2 GET https://localhost:7175/_framework/aspnetcore-browser-refresh.js - 200 13774 application/javascript; charset=utf-8 7.1723ms
+2024-03-27 21:52:42.630 +01:00  INF  Request finished HTTP/2 GET https://localhost:7175/_vs/browserLink - 200 null text/javascript; charset=UTF-8 23.4373ms
+2024-03-27 21:52:43.249 +01:00  INF  Request starting HTTP/2 GET https://localhost:7175/swagger/v1/swagger.json - null null
+2024-03-27 21:52:43.254 +01:00  INF  Request finished HTTP/2 GET https://localhost:7175/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 5.5611ms
+2024-03-27 21:52:50.123 +01:00  INF  Request starting HTTP/2 GET https://localhost:7175/Tags/fetch - null null
+2024-03-27 21:52:50.134 +01:00  INF  Executing endpoint 'API_SO_tag_analyzer.Controllers.TagsController.GetAndSaveTags (API-SO-tag-analyzer)'
+2024-03-27 21:52:50.154 +01:00  INF  Route matched with {action = "GetAndSaveTags", controller = "Tags"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAndSaveTags() on controller API_SO_tag_analyzer.Controllers.TagsController (API-SO-tag-analyzer).
+2024-03-27 21:52:50.292 +01:00  INF  Executing action method API_SO_tag_analyzer.Controllers.TagsController.GetAndSaveTags (API-SO-tag-analyzer) - Validation state: "Valid"
+2024-03-27 21:52:50.297 +01:00  INF  Executed action method API_SO_tag_analyzer.Controllers.TagsController.GetAndSaveTags (API-SO-tag-analyzer), returned result Microsoft.AspNetCore.Mvc.OkResult in 0.9968ms.
+2024-03-27 21:52:50.302 +01:00  INF  Executing StatusCodeResult, setting HTTP status code 200
+2024-03-27 21:52:50.306 +01:00  INF  Executed action API_SO_tag_analyzer.Controllers.TagsController.GetAndSaveTags (API-SO-tag-analyzer) in 147.0419ms
+2024-03-27 21:52:50.307 +01:00  INF  Executed endpoint 'API_SO_tag_analyzer.Controllers.TagsController.GetAndSaveTags (API-SO-tag-analyzer)'
+2024-03-27 21:52:50.309 +01:00  INF  Request finished HTTP/2 GET https://localhost:7175/Tags/fetch - 200 0 null 185.8105ms
+2024-03-27 21:56:33.475 +01:00  DBG  Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-03-27 21:56:33.570 +01:00  DBG  Hosting starting
+2024-03-27 21:56:33.743 +01:00  INF  Now listening on: https://localhost:7175
+2024-03-27 21:56:33.744 +01:00  INF  Now listening on: http://localhost:5072
+2024-03-27 21:56:33.744 +01:00  DBG  Loaded hosting startup assembly API-SO-tag-analyzer
+2024-03-27 21:56:33.745 +01:00  DBG  Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-03-27 21:56:33.746 +01:00  DBG  Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-03-27 21:56:33.747 +01:00  INF  Application started. Press Ctrl+C to shut down.
+2024-03-27 21:56:33.748 +01:00  INF  Hosting environment: Development
+2024-03-27 21:56:33.749 +01:00  INF  Content root path: C:\Users\athos\source\repos\API-SO-tag-analyzer\API-SO-tag-analyzer
+2024-03-27 21:56:33.750 +01:00  DBG  Hosting started
+2024-03-27 21:56:34.011 +01:00  DBG  Connection id "0HN2EK1HDOLNJ" accepted.
+2024-03-27 21:56:34.011 +01:00  DBG  Connection id "0HN2EK1HDOLNI" accepted.
+2024-03-27 21:56:34.013 +01:00  DBG  Connection id "0HN2EK1HDOLNJ" started.
+2024-03-27 21:56:34.013 +01:00  DBG  Connection id "0HN2EK1HDOLNI" started.
+2024-03-27 21:56:34.035 +01:00  DBG  Connection id "0HN2EK1HDOLNJ" received FIN.
+2024-03-27 21:56:34.035 +01:00  DBG  Connection id "0HN2EK1HDOLNI" received FIN.
+2024-03-27 21:56:34.041 +01:00  DBG  Failed to authenticate HTTPS connection.System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+
+2024-03-27 21:56:34.041 +01:00  DBG  Failed to authenticate HTTPS connection.System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+
+2024-03-27 21:56:34.058 +01:00  DBG  Connection id "0HN2EK1HDOLNJ" stopped.
+2024-03-27 21:56:34.058 +01:00  DBG  Connection id "0HN2EK1HDOLNI" stopped.
+2024-03-27 21:56:34.062 +01:00  DBG  Connection id "0HN2EK1HDOLNJ" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-03-27 21:56:34.062 +01:00  DBG  Connection id "0HN2EK1HDOLNI" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-03-27 21:56:37.681 +01:00  DBG  Connection id "0HN2EK1HDOLNK" accepted.
+2024-03-27 21:56:37.682 +01:00  DBG  Connection id "0HN2EK1HDOLNK" started.
+2024-03-27 21:56:37.699 +01:00  DBG  Connection 0HN2EK1HDOLNK established using the following protocol: "Tls13"
+2024-03-27 21:56:37.784 +01:00  INF  Request starting HTTP/2 GET https://localhost:7175/swagger/index.html - null null
+2024-03-27 21:56:37.877 +01:00  DBG  Wildcard detected, all requests with hosts will be allowed.
+2024-03-27 21:56:37.906 +01:00  DBG  No candidates found for the request path '/swagger/index.html'
+2024-03-27 21:56:37.922 +01:00  DBG  Request did not match any endpoints
+2024-03-27 21:56:38.083 +01:00  DBG  Response markup is scheduled to include browser refresh script injection.
+2024-03-27 21:56:38.133 +01:00  DBG  Response markup was updated to include browser refresh script injection.
+2024-03-27 21:56:38.143 +01:00  INF  Request finished HTTP/2 GET https://localhost:7175/swagger/index.html - 200 null text/html;charset=utf-8 364.5497ms
+2024-03-27 21:56:38.705 +01:00  INF  Request starting HTTP/2 GET https://localhost:7175/_vs/browserLink - null null
+2024-03-27 21:56:38.705 +01:00  INF  Request starting HTTP/2 GET https://localhost:7175/_framework/aspnetcore-browser-refresh.js - null null
+2024-03-27 21:56:38.743 +01:00  INF  Request finished HTTP/2 GET https://localhost:7175/_framework/aspnetcore-browser-refresh.js - 200 13774 application/javascript; charset=utf-8 38.1877ms
+2024-03-27 21:56:38.780 +01:00  INF  Request finished HTTP/2 GET https://localhost:7175/_vs/browserLink - 200 null text/javascript; charset=UTF-8 75.0241ms
+2024-03-27 21:56:38.886 +01:00  INF  Request starting HTTP/2 GET https://localhost:7175/swagger/v1/swagger.json - null null
+2024-03-27 21:56:38.893 +01:00  DBG  No candidates found for the request path '/swagger/v1/swagger.json'
+2024-03-27 21:56:38.897 +01:00  DBG  Request did not match any endpoints
+2024-03-27 21:56:38.956 +01:00  INF  Request finished HTTP/2 GET https://localhost:7175/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 70.1388ms
+2024-03-27 21:56:39.271 +01:00  INF  Starting saving tags to file C:\Users\athos\source\repos\API-SO-tag-analyzer\API-SO-tag-analyzer\so-response.json
+2024-03-27 21:56:47.138 +01:00  INF  Request starting HTTP/2 GET https://localhost:7175/Tags/fetch - null null
+2024-03-27 21:56:47.148 +01:00  DBG  1 candidate(s) found for the request path '/Tags/fetch'
+2024-03-27 21:56:47.152 +01:00  DBG  Endpoint 'API_SO_tag_analyzer.Controllers.TagsController.GetAndSaveTags (API-SO-tag-analyzer)' with route pattern 'Tags/fetch' is valid for the request path '/Tags/fetch'
+2024-03-27 21:56:47.154 +01:00  DBG  Request matched endpoint 'API_SO_tag_analyzer.Controllers.TagsController.GetAndSaveTags (API-SO-tag-analyzer)'
+2024-03-27 21:56:47.161 +01:00  DBG  Static files was skipped as the request already matched an endpoint.
+2024-03-27 21:56:47.165 +01:00  INF  Executing endpoint 'API_SO_tag_analyzer.Controllers.TagsController.GetAndSaveTags (API-SO-tag-analyzer)'
+2024-03-27 21:56:47.190 +01:00  INF  Route matched with {action = "GetAndSaveTags", controller = "Tags"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAndSaveTags() on controller API_SO_tag_analyzer.Controllers.TagsController (API-SO-tag-analyzer).
+2024-03-27 21:56:47.194 +01:00  DBG  Execution plan of authorization filters (in the following order): ["None"]
+2024-03-27 21:56:47.196 +01:00  DBG  Execution plan of resource filters (in the following order): ["None"]
+2024-03-27 21:56:47.198 +01:00  DBG  Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-03-27 21:56:47.200 +01:00  DBG  Execution plan of exception filters (in the following order): ["None"]
+2024-03-27 21:56:47.201 +01:00  DBG  Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-03-27 21:56:47.204 +01:00  DBG  Executing controller factory for controller API_SO_tag_analyzer.Controllers.TagsController (API-SO-tag-analyzer)
+2024-03-27 21:56:47.206 +01:00  DBG  Executed controller factory for controller API_SO_tag_analyzer.Controllers.TagsController (API-SO-tag-analyzer)
+2024-03-27 21:56:47.255 +01:00  INF  Executing action method API_SO_tag_analyzer.Controllers.TagsController.GetAndSaveTags (API-SO-tag-analyzer) - Validation state: "Valid"
+2024-03-27 21:56:47.258 +01:00  INF  Get and save tags
+2024-03-27 21:56:47.262 +01:00  INF  Executed action method API_SO_tag_analyzer.Controllers.TagsController.GetAndSaveTags (API-SO-tag-analyzer), returned result Microsoft.AspNetCore.Mvc.OkResult in 2.7662ms.
+2024-03-27 21:56:47.268 +01:00  INF  Executing StatusCodeResult, setting HTTP status code 200
+2024-03-27 21:56:47.272 +01:00  INF  Executed action API_SO_tag_analyzer.Controllers.TagsController.GetAndSaveTags (API-SO-tag-analyzer) in 66.9689ms
+2024-03-27 21:56:47.274 +01:00  INF  Executed endpoint 'API_SO_tag_analyzer.Controllers.TagsController.GetAndSaveTags (API-SO-tag-analyzer)'
+2024-03-27 21:56:47.276 +01:00  INF  HTTP GET /Tags/fetch responded 200 in 112.5539 ms
+2024-03-27 21:56:47.279 +01:00  INF  Request finished HTTP/2 GET https://localhost:7175/Tags/fetch - 200 0 null 141.0963ms
+2024-03-27 22:01:42.135 +01:00  INF  Starting JsonFileService
+2024-03-27 22:01:42.370 +01:00  INF  Starting TagsController
+2024-03-27 22:01:42.391 +01:00  INF  Prepare 1000 tags storage
+2024-03-27 22:01:42.540 +01:00  INF  Getting 100 tags from page 1
+2024-03-27 22:01:43.061 +01:00  INF  Now listening on: https://localhost:7175
+2024-03-27 22:01:43.065 +01:00  INF  Now listening on: http://localhost:5072
+2024-03-27 22:01:43.067 +01:00  INF  Application started. Press Ctrl+C to shut down.
+2024-03-27 22:01:43.069 +01:00  INF  Hosting environment: Development
+2024-03-27 22:01:43.069 +01:00  INF  Content root path: C:\Users\athos\source\repos\API-SO-tag-analyzer\API-SO-tag-analyzer
+2024-03-27 22:01:43.369 +01:00  INF  Getting 100 tags from page 1
+2024-03-27 22:01:44.015 +01:00  INF  Getting 100 tags from page 1
+2024-03-27 22:01:44.597 +01:00  INF  Getting 100 tags from page 1
+2024-03-27 22:01:45.164 +01:00  INF  Getting 100 tags from page 1
+2024-03-27 22:01:45.780 +01:00  INF  Getting 100 tags from page 1
+2024-03-27 22:01:46.307 +01:00  INF  Request starting HTTP/2 GET https://localhost:7175/swagger/index.html - null null
+2024-03-27 22:01:46.336 +01:00  INF  Getting 100 tags from page 1
+2024-03-27 22:01:46.715 +01:00  INF  Request finished HTTP/2 GET https://localhost:7175/swagger/index.html - 200 null text/html;charset=utf-8 413.3223ms
+2024-03-27 22:01:46.906 +01:00  INF  Request starting HTTP/2 GET https://localhost:7175/_framework/aspnetcore-browser-refresh.js - null null
+2024-03-27 22:01:46.907 +01:00  INF  Request starting HTTP/2 GET https://localhost:7175/_vs/browserLink - null null
+2024-03-27 22:01:46.943 +01:00  INF  Request finished HTTP/2 GET https://localhost:7175/_framework/aspnetcore-browser-refresh.js - 200 13774 application/javascript; charset=utf-8 36.4764ms
+2024-03-27 22:01:46.944 +01:00  INF  Getting 100 tags from page 1
+2024-03-27 22:01:47.032 +01:00  INF  Request finished HTTP/2 GET https://localhost:7175/_vs/browserLink - 200 null text/javascript; charset=UTF-8 124.3576ms
+2024-03-27 22:01:47.414 +01:00  INF  Request starting HTTP/2 GET https://localhost:7175/swagger/v1/swagger.json - null null
+2024-03-27 22:01:47.482 +01:00  INF  Request finished HTTP/2 GET https://localhost:7175/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 67.6544ms
+2024-03-27 22:01:47.538 +01:00  INF  Getting 100 tags from page 1
+2024-03-27 22:01:48.117 +01:00  INF  Getting 100 tags from page 1
+2024-03-27 22:01:48.671 +01:00  INF  Starting saving tags to file C:\Users\athos\source\repos\API-SO-tag-analyzer\API-SO-tag-analyzer\so-response.json
+2024-03-27 22:03:28.112 +01:00  INF  Request starting HTTP/2 GET https://localhost:7175/swagger/index.html - null null
+2024-03-27 22:03:28.153 +01:00  INF  Request finished HTTP/2 GET https://localhost:7175/swagger/index.html - 200 null text/html;charset=utf-8 40.2713ms
+2024-03-27 22:03:28.236 +01:00  INF  Request starting HTTP/2 GET https://localhost:7175/_vs/browserLink - null null
+2024-03-27 22:03:28.244 +01:00  INF  Request starting HTTP/2 GET https://localhost:7175/_framework/aspnetcore-browser-refresh.js - null null
+2024-03-27 22:03:28.251 +01:00  INF  Request finished HTTP/2 GET https://localhost:7175/_framework/aspnetcore-browser-refresh.js - 200 13774 application/javascript; charset=utf-8 6.4247ms
+2024-03-27 22:03:28.261 +01:00  INF  Request finished HTTP/2 GET https://localhost:7175/_vs/browserLink - 200 null text/javascript; charset=UTF-8 24.9738ms
+2024-03-27 22:03:28.865 +01:00  INF  Request starting HTTP/2 GET https://localhost:7175/swagger/v1/swagger.json - null null
+2024-03-27 22:03:28.871 +01:00  INF  Request finished HTTP/2 GET https://localhost:7175/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 6.1386ms
+2024-03-27 22:03:35.516 +01:00  INF  Starting JsonFileService
+2024-03-27 22:03:35.732 +01:00  INF  Starting TagsController
+2024-03-27 22:03:35.767 +01:00  INF  Prepare 1000 tags storage
+2024-03-27 22:03:35.910 +01:00  INF  Getting 100 tags from page 1
+2024-03-27 22:03:36.386 +01:00  INF  Now listening on: https://localhost:7175
+2024-03-27 22:03:36.389 +01:00  INF  Now listening on: http://localhost:5072
+2024-03-27 22:03:36.391 +01:00  INF  Application started. Press Ctrl+C to shut down.
+2024-03-27 22:03:36.392 +01:00  INF  Hosting environment: Development
+2024-03-27 22:03:36.393 +01:00  INF  Content root path: C:\Users\athos\source\repos\API-SO-tag-analyzer\API-SO-tag-analyzer
+2024-03-27 22:03:36.736 +01:00  INF  Getting 100 tags from page 2
+2024-03-27 22:03:37.346 +01:00  INF  Getting 100 tags from page 3
+2024-03-27 22:03:37.896 +01:00  INF  Getting 100 tags from page 4
+2024-03-27 22:03:38.490 +01:00  INF  Getting 100 tags from page 5
+2024-03-27 22:03:39.029 +01:00  INF  Request starting HTTP/2 GET https://localhost:7175/swagger/index.html - null null
+2024-03-27 22:03:39.083 +01:00  INF  Getting 100 tags from page 6
+2024-03-27 22:03:39.286 +01:00  INF  Request finished HTTP/2 GET https://localhost:7175/swagger/index.html - 200 null text/html;charset=utf-8 263.8304ms
+2024-03-27 22:03:39.357 +01:00  INF  Request starting HTTP/2 GET https://localhost:7175/_framework/aspnetcore-browser-refresh.js - null null
+2024-03-27 22:03:39.357 +01:00  INF  Request starting HTTP/2 GET https://localhost:7175/_vs/browserLink - null null
+2024-03-27 22:03:39.368 +01:00  INF  Request finished HTTP/2 GET https://localhost:7175/_framework/aspnetcore-browser-refresh.js - 200 13774 application/javascript; charset=utf-8 10.3934ms
+2024-03-27 22:03:39.454 +01:00  INF  Request finished HTTP/2 GET https://localhost:7175/_vs/browserLink - 200 null text/javascript; charset=UTF-8 96.4145ms
+2024-03-27 22:03:39.537 +01:00  INF  Request starting HTTP/2 GET https://localhost:7175/swagger/v1/swagger.json - null null
+2024-03-27 22:03:39.627 +01:00  INF  Request finished HTTP/2 GET https://localhost:7175/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 89.9539ms
+2024-03-27 22:03:39.704 +01:00  INF  Getting 100 tags from page 7
+2024-03-27 22:03:40.272 +01:00  INF  Getting 100 tags from page 8
+2024-03-27 22:03:40.833 +01:00  INF  Getting 100 tags from page 9
+2024-03-27 22:03:41.426 +01:00  INF  Getting 100 tags from page 10
+2024-03-27 22:03:42.004 +01:00  INF  Starting saving tags to file C:\Users\athos\source\repos\API-SO-tag-analyzer\API-SO-tag-analyzer\so-response.json
+2024-03-27 22:04:29.805 +01:00  INF  Starting JsonFileService
+2024-03-27 22:04:30.042 +01:00  INF  Starting TagsController
+2024-03-27 22:04:30.061 +01:00  INF  Prepare 1000 tags storage
+2024-03-27 22:04:30.213 +01:00  INF  Getting 100 tags from page 1
+2024-03-27 22:04:30.734 +01:00  INF  Now listening on: https://localhost:7175
+2024-03-27 22:04:30.737 +01:00  INF  Now listening on: http://localhost:5072
+2024-03-27 22:04:30.740 +01:00  INF  Application started. Press Ctrl+C to shut down.
+2024-03-27 22:04:30.741 +01:00  INF  Hosting environment: Development
+2024-03-27 22:04:30.742 +01:00  INF  Content root path: C:\Users\athos\source\repos\API-SO-tag-analyzer\API-SO-tag-analyzer
+2024-03-27 22:04:31.206 +01:00  INF  Getting 100 tags from page 2
+2024-03-27 22:04:31.808 +01:00  INF  Getting 100 tags from page 3
+2024-03-27 22:04:32.367 +01:00  INF  Getting 100 tags from page 4
+2024-03-27 22:04:33.162 +01:00  INF  Getting 100 tags from page 5
+2024-03-27 22:04:33.471 +01:00  INF  Request starting HTTP/2 GET https://localhost:7175/swagger/index.html - null null
+2024-03-27 22:04:33.807 +01:00  INF  Request finished HTTP/2 GET https://localhost:7175/swagger/index.html - 200 null text/html;charset=utf-8 350.8916ms
+2024-03-27 22:04:33.939 +01:00  INF  Request starting HTTP/2 GET https://localhost:7175/_vs/browserLink - null null
+2024-03-27 22:04:33.945 +01:00  INF  Request starting HTTP/2 GET https://localhost:7175/_framework/aspnetcore-browser-refresh.js - null null
+2024-03-27 22:04:33.969 +01:00  INF  Getting 100 tags from page 6
+2024-03-27 22:04:34.072 +01:00  INF  Request finished HTTP/2 GET https://localhost:7175/_framework/aspnetcore-browser-refresh.js - 200 13774 application/javascript; charset=utf-8 126.7386ms
+2024-03-27 22:04:34.149 +01:00  INF  Request finished HTTP/2 GET https://localhost:7175/_vs/browserLink - 200 null text/javascript; charset=UTF-8 210.4454ms
+2024-03-27 22:04:34.222 +01:00  INF  Request starting HTTP/2 GET https://localhost:7175/swagger/v1/swagger.json - null null
+2024-03-27 22:04:34.282 +01:00  INF  Request finished HTTP/2 GET https://localhost:7175/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 59.8763ms
+2024-03-27 22:04:34.631 +01:00  INF  Getting 100 tags from page 7
+2024-03-27 22:04:35.201 +01:00  INF  Getting 100 tags from page 8
+2024-03-27 22:04:35.768 +01:00  INF  Getting 100 tags from page 9
+2024-03-27 22:04:36.298 +01:00  INF  Getting 100 tags from page 10
+2024-03-27 22:04:36.871 +01:00  INF  Starting saving tags to file C:\Users\athos\source\repos\API-SO-tag-analyzer\API-SO-tag-analyzer\so-response.json
+2024-03-27 22:05:53.518 +01:00  INF  Starting JsonFileService
+2024-03-27 22:05:53.721 +01:00  INF  Starting TagsController
+2024-03-27 22:06:07.056 +01:00  INF  Prepare 1000 tags storage
+2024-03-27 22:06:09.669 +01:00  INF  Getting 100 tags from page 1
+2024-03-27 22:06:10.629 +01:00  INF  Now listening on: https://localhost:7175
+2024-03-27 22:06:10.632 +01:00  INF  Now listening on: http://localhost:5072
+2024-03-27 22:06:10.635 +01:00  INF  Application started. Press Ctrl+C to shut down.
+2024-03-27 22:06:10.636 +01:00  INF  Hosting environment: Development
+2024-03-27 22:06:10.637 +01:00  INF  Content root path: C:\Users\athos\source\repos\API-SO-tag-analyzer\API-SO-tag-analyzer
+2024-03-27 22:06:40.531 +01:00  INF  Getting 100 tags from page 2
+2024-03-27 22:06:41.537 +01:00  INF  Request starting HTTP/2 GET https://localhost:7175/swagger/index.html - null null
+2024-03-27 22:06:41.713 +01:00  INF  Request finished HTTP/2 GET https://localhost:7175/swagger/index.html - 200 null text/html;charset=utf-8 180.728ms
+2024-03-27 22:06:41.799 +01:00  INF  Request starting HTTP/2 GET https://localhost:7175/_vs/browserLink - null null
+2024-03-27 22:06:41.799 +01:00  INF  Request starting HTTP/2 GET https://localhost:7175/_framework/aspnetcore-browser-refresh.js - null null
+2024-03-27 22:06:41.813 +01:00  INF  Request finished HTTP/2 GET https://localhost:7175/_framework/aspnetcore-browser-refresh.js - 200 13774 application/javascript; charset=utf-8 14.7982ms
+2024-03-27 22:06:41.843 +01:00  INF  Request finished HTTP/2 GET https://localhost:7175/_vs/browserLink - 200 null text/javascript; charset=UTF-8 44.2638ms
+2024-03-27 22:06:42.937 +01:00  INF  Request starting HTTP/2 GET https://localhost:7175/swagger/v1/swagger.json - null null
+2024-03-27 22:06:45.602 +01:00  INF  Getting 100 tags from page 3
+2024-03-27 22:06:45.941 +01:00  INF  Request finished HTTP/2 GET https://localhost:7175/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 3004.4176ms
+2024-03-27 22:06:50.008 +01:00  INF  Getting 100 tags from page 4
+2024-03-27 22:06:52.927 +01:00  INF  Getting 100 tags from page 5
+2024-03-27 22:06:53.485 +01:00  INF  Getting 100 tags from page 6
+2024-03-27 22:06:54.086 +01:00  INF  Getting 100 tags from page 7
+2024-03-27 22:06:54.647 +01:00  INF  Getting 100 tags from page 8
+2024-03-27 22:06:55.208 +01:00  INF  Getting 100 tags from page 9
+2024-03-27 22:06:55.772 +01:00  INF  Getting 100 tags from page 10
+2024-03-27 22:06:56.412 +01:00  INF  Starting saving tags to file C:\Users\athos\source\repos\API-SO-tag-analyzer\API-SO-tag-analyzer\so-response.json
+2024-03-27 22:07:36.395 +01:00  INF  Starting JsonFileService
+2024-03-27 22:07:36.604 +01:00  INF  Starting TagsController
+2024-03-27 22:07:39.366 +01:00  INF  Prepare 1000 tags storage
+2024-03-27 22:07:39.514 +01:00  INF  Getting 100 tags from page 1
+2024-03-27 22:07:40.090 +01:00  INF  Now listening on: https://localhost:7175
+2024-03-27 22:07:40.094 +01:00  INF  Now listening on: http://localhost:5072
+2024-03-27 22:07:40.099 +01:00  INF  Application started. Press Ctrl+C to shut down.
+2024-03-27 22:07:40.100 +01:00  INF  Hosting environment: Development
+2024-03-27 22:07:40.101 +01:00  INF  Content root path: C:\Users\athos\source\repos\API-SO-tag-analyzer\API-SO-tag-analyzer
+2024-03-27 22:07:40.334 +01:00  INF  Getting 100 tags from page 2
+2024-03-27 22:07:40.929 +01:00  INF  Getting 100 tags from page 3
+2024-03-27 22:07:41.480 +01:00  INF  Getting 100 tags from page 4
+2024-03-27 22:07:41.481 +01:00  INF  Request starting HTTP/2 GET https://localhost:7175/swagger/index.html - null null
+2024-03-27 22:07:41.672 +01:00  INF  Request finished HTTP/2 GET https://localhost:7175/swagger/index.html - 200 null text/html;charset=utf-8 208.7751ms
+2024-03-27 22:07:41.774 +01:00  INF  Request starting HTTP/2 GET https://localhost:7175/_vs/browserLink - null null
+2024-03-27 22:07:41.774 +01:00  INF  Request starting HTTP/2 GET https://localhost:7175/_framework/aspnetcore-browser-refresh.js - null null
+2024-03-27 22:07:41.797 +01:00  INF  Request finished HTTP/2 GET https://localhost:7175/_framework/aspnetcore-browser-refresh.js - 200 13774 application/javascript; charset=utf-8 22.5841ms
+2024-03-27 22:07:41.837 +01:00  INF  Request finished HTTP/2 GET https://localhost:7175/_vs/browserLink - 200 null text/javascript; charset=UTF-8 62.7901ms
+2024-03-27 22:07:41.883 +01:00  INF  Request starting HTTP/2 GET https://localhost:7175/swagger/v1/swagger.json - null null
+2024-03-27 22:07:41.948 +01:00  INF  Request finished HTTP/2 GET https://localhost:7175/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 64.756ms
+2024-03-27 22:07:42.042 +01:00  INF  Getting 100 tags from page 5
+2024-03-27 22:07:42.625 +01:00  INF  Getting 100 tags from page 6
+2024-03-27 22:07:43.162 +01:00  INF  Getting 100 tags from page 7
+2024-03-27 22:07:43.751 +01:00  INF  Getting 100 tags from page 8
+2024-03-27 22:07:44.310 +01:00  INF  Getting 100 tags from page 9
+2024-03-27 22:07:44.870 +01:00  INF  Getting 100 tags from page 10
+2024-03-27 22:07:45.471 +01:00  INF  Starting saving tags to file C:\Users\athos\source\repos\API-SO-tag-analyzer\API-SO-tag-analyzer\so-response.json
+2024-03-27 22:08:52.191 +01:00  INF  Starting JsonFileService
+2024-03-27 22:08:52.441 +01:00  INF  Starting TagsController
+2024-03-27 22:08:52.462 +01:00  INF  Prepare 1000 tags storage
+2024-03-27 22:08:52.710 +01:00  INF  Getting 100 tags from page 1
+2024-03-27 22:08:53.306 +01:00  INF  Now listening on: https://localhost:7175
+2024-03-27 22:08:53.308 +01:00  INF  Now listening on: http://localhost:5072
+2024-03-27 22:08:53.311 +01:00  INF  Application started. Press Ctrl+C to shut down.
+2024-03-27 22:08:53.312 +01:00  INF  Hosting environment: Development
+2024-03-27 22:08:53.313 +01:00  INF  Content root path: C:\Users\athos\source\repos\API-SO-tag-analyzer\API-SO-tag-analyzer
+2024-03-27 22:08:53.576 +01:00  INF  Getting 100 tags from page 2
+2024-03-27 22:08:54.279 +01:00  INF  Getting 100 tags from page 3
+2024-03-27 22:08:54.836 +01:00  INF  Getting 100 tags from page 4
+2024-03-27 22:08:55.408 +01:00  INF  Getting 100 tags from page 5
+2024-03-27 22:08:55.856 +01:00  INF  Request starting HTTP/2 GET https://localhost:7175/swagger/index.html - null null
+2024-03-27 22:08:56.003 +01:00  INF  Getting 100 tags from page 6
+2024-03-27 22:08:56.102 +01:00  INF  Request finished HTTP/2 GET https://localhost:7175/swagger/index.html - 200 null text/html;charset=utf-8 252.514ms
+2024-03-27 22:08:56.223 +01:00  INF  Request starting HTTP/2 GET https://localhost:7175/_framework/aspnetcore-browser-refresh.js - null null
+2024-03-27 22:08:56.223 +01:00  INF  Request starting HTTP/2 GET https://localhost:7175/_vs/browserLink - null null
+2024-03-27 22:08:56.235 +01:00  INF  Request finished HTTP/2 GET https://localhost:7175/_framework/aspnetcore-browser-refresh.js - 200 13774 application/javascript; charset=utf-8 11.4516ms
+2024-03-27 22:08:56.297 +01:00  INF  Request finished HTTP/2 GET https://localhost:7175/_vs/browserLink - 200 null text/javascript; charset=UTF-8 73.8147ms
+2024-03-27 22:08:56.348 +01:00  INF  Request starting HTTP/2 GET https://localhost:7175/swagger/v1/swagger.json - null null
+2024-03-27 22:08:56.445 +01:00  INF  Request finished HTTP/2 GET https://localhost:7175/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 97.196ms
+2024-03-27 22:08:56.740 +01:00  INF  Getting 100 tags from page 7
+2024-03-27 22:08:57.314 +01:00  INF  Getting 100 tags from page 8
+2024-03-27 22:08:57.870 +01:00  INF  Getting 100 tags from page 9
+2024-03-27 22:08:58.486 +01:00  INF  Getting 100 tags from page 10
+2024-03-27 22:08:59.156 +01:00  INF  Starting saving tags to file C:\Users\athos\source\repos\API-SO-tag-analyzer\API-SO-tag-analyzer\so-response.json
