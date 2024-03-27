@@ -1,0 +1,6 @@
+@API_SO_tag_analyzer_HostAddress = http://localhost:5072
+
+GET {{API_SO_tag_analyzer_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
