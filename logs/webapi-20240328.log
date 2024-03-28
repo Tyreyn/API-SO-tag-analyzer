@@ -117,3 +117,73 @@
 2024-03-28 15:06:11.375 +01:00  INF  Getting 100 tags from page 10
 2024-03-28 15:06:11.962 +01:00  INF  Starting saving tags to file C:\Users\athos\source\repos\API-SO-tag-analyzer\API-SO-tag-analyzer\so-response.json
 2024-03-28 15:06:13.537 +01:00  INF  tags to file C:\Users\athos\source\repos\API-SO-tag-analyzer\API-SO-tag-analyzer\so-response.json ended
+2024-03-28 15:55:47.363 +01:00  INF  Starting JsonFileService
+2024-03-28 15:55:47.416 +01:00  INF  Starting TagsController
+2024-03-28 15:55:47.565 +01:00  INF  Prepare 1000 tags storage
+2024-03-28 15:55:48.032 +01:00  INF  Getting 100 tags from page 1
+2024-03-28 15:55:49.150 +01:00  INF  Getting 100 tags from page 2
+2024-03-28 15:55:49.496 +01:00  INF  Now listening on: https://localhost:7175
+2024-03-28 15:55:49.500 +01:00  INF  Now listening on: http://localhost:5072
+2024-03-28 15:55:49.503 +01:00  INF  Application started. Press Ctrl+C to shut down.
+2024-03-28 15:55:49.504 +01:00  INF  Hosting environment: Development
+2024-03-28 15:55:49.506 +01:00  INF  Content root path: C:\Users\athos\source\repos\API-SO-tag-analyzer\API-SO-tag-analyzer
+2024-03-28 15:55:49.686 +01:00  INF  Getting 100 tags from page 3
+2024-03-28 15:55:50.230 +01:00  INF  Getting 100 tags from page 4
+2024-03-28 15:55:50.588 +01:00  INF  Request starting HTTP/2 GET https://localhost:7175/swagger - null null
+2024-03-28 15:55:50.715 +01:00  INF  Request finished HTTP/2 GET https://localhost:7175/swagger - 301 0 null 131.2311ms
+2024-03-28 15:55:50.722 +01:00  INF  Request starting HTTP/2 GET https://localhost:7175/swagger/index.html - null null
+2024-03-28 15:55:50.782 +01:00  INF  Getting 100 tags from page 5
+2024-03-28 15:55:50.830 +01:00  INF  Request finished HTTP/2 GET https://localhost:7175/swagger/index.html - 200 null text/html;charset=utf-8 107.2782ms
+2024-03-28 15:55:50.834 +01:00  INF  Request starting HTTP/2 GET https://localhost:7175/swagger/swagger-ui.css - null null
+2024-03-28 15:55:50.835 +01:00  INF  Request starting HTTP/2 GET https://localhost:7175/swagger/swagger-ui-bundle.js - null null
+2024-03-28 15:55:50.837 +01:00  INF  Request starting HTTP/2 GET https://localhost:7175/swagger/swagger-ui-standalone-preset.js - null null
+2024-03-28 15:55:50.840 +01:00  INF  Request starting HTTP/2 GET https://localhost:7175/_framework/aspnetcore-browser-refresh.js - null null
+2024-03-28 15:55:50.845 +01:00  INF  Request starting HTTP/2 GET https://localhost:7175/_vs/browserLink - null null
+2024-03-28 15:55:50.880 +01:00  INF  Request finished HTTP/2 GET https://localhost:7175/_framework/aspnetcore-browser-refresh.js - 200 13774 application/javascript; charset=utf-8 43.2519ms
+2024-03-28 15:55:50.929 +01:00  INF  Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-03-28 15:55:50.929 +01:00  INF  Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-03-28 15:55:50.936 +01:00  INF  Request finished HTTP/2 GET https://localhost:7175/swagger/swagger-ui.css - 200 143943 text/css 101.8729ms
+2024-03-28 15:55:50.936 +01:00  INF  Request finished HTTP/2 GET https://localhost:7175/swagger/swagger-ui-standalone-preset.js - 200 339486 text/javascript 99.1794ms
+2024-03-28 15:55:50.936 +01:00  INF  Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-03-28 15:55:50.952 +01:00  INF  Request finished HTTP/2 GET https://localhost:7175/swagger/swagger-ui-bundle.js - 200 1096145 text/javascript 117.4864ms
+2024-03-28 15:55:50.994 +01:00  INF  Request finished HTTP/2 GET https://localhost:7175/_vs/browserLink - 200 null text/javascript; charset=UTF-8 148.9049ms
+2024-03-28 15:55:51.182 +01:00  INF  Request starting HTTP/2 GET https://localhost:7175/swagger/v1/swagger.json - null null
+2024-03-28 15:55:51.251 +01:00  INF  Request finished HTTP/2 GET https://localhost:7175/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 70.8598ms
+2024-03-28 15:55:51.261 +01:00  INF  Request starting HTTP/2 GET https://localhost:7175/swagger/favicon-32x32.png - null null
+2024-03-28 15:55:51.265 +01:00  INF  Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2024-03-28 15:55:51.267 +01:00  INF  Request finished HTTP/2 GET https://localhost:7175/swagger/favicon-32x32.png - 200 628 image/png 6.4414ms
+2024-03-28 15:55:51.343 +01:00  INF  Getting 100 tags from page 6
+2024-03-28 15:55:51.890 +01:00  INF  Getting 100 tags from page 7
+2024-03-28 15:55:52.445 +01:00  INF  Getting 100 tags from page 8
+2024-03-28 15:55:53.003 +01:00  INF  Getting 100 tags from page 9
+2024-03-28 15:55:53.586 +01:00  INF  Getting 100 tags from page 10
+2024-03-28 15:55:54.129 +01:00  INF  Starting saving tags to file C:\Users\athos\source\repos\API-SO-tag-analyzer\API-SO-tag-analyzer\so-response.json
+2024-03-28 15:56:06.294 +01:00  INF  tags to file C:\Users\athos\source\repos\API-SO-tag-analyzer\API-SO-tag-analyzer\so-response.json ended
+2024-03-28 19:09:18.442 +01:00  INF  Starting JsonFileService
+2024-03-28 19:09:18.476 +01:00  INF  Starting TagsController
+2024-03-28 19:09:18.497 +01:00  INF  Prepare 1000 tags storage
+2024-03-28 19:09:18.614 +01:00  INF  Getting 100 tags from page 1
+2024-03-28 19:09:19.628 +01:00  INF  Now listening on: https://localhost:7175
+2024-03-28 19:09:19.631 +01:00  INF  Now listening on: http://localhost:5072
+2024-03-28 19:09:19.634 +01:00  INF  Application started. Press Ctrl+C to shut down.
+2024-03-28 19:09:19.635 +01:00  INF  Hosting environment: Development
+2024-03-28 19:09:19.635 +01:00  INF  Content root path: C:\Users\athos\source\repos\API-SO-tag-analyzer\API-SO-tag-analyzer
+2024-03-28 19:09:19.699 +01:00  INF  Getting 100 tags from page 2
+2024-03-28 19:09:20.381 +01:00  INF  Getting 100 tags from page 3
+2024-03-28 19:09:21.105 +01:00  INF  Getting 100 tags from page 4
+2024-03-28 19:09:21.815 +01:00  INF  Getting 100 tags from page 5
+2024-03-28 19:09:22.488 +01:00  INF  Getting 100 tags from page 6
+2024-03-28 19:09:23.167 +01:00  INF  Getting 100 tags from page 7
+2024-03-28 19:09:23.661 +01:00  INF  Request starting HTTP/2 GET https://localhost:7175/swagger/index.html - null null
+2024-03-28 19:09:23.842 +01:00  INF  Request finished HTTP/2 GET https://localhost:7175/swagger/index.html - 200 null text/html;charset=utf-8 188.1893ms
+2024-03-28 19:09:23.854 +01:00  INF  Request starting HTTP/2 GET https://localhost:7175/_framework/aspnetcore-browser-refresh.js - null null
+2024-03-28 19:09:23.854 +01:00  INF  Request starting HTTP/2 GET https://localhost:7175/_vs/browserLink - null null
+2024-03-28 19:09:23.863 +01:00  INF  Request finished HTTP/2 GET https://localhost:7175/_framework/aspnetcore-browser-refresh.js - 200 13774 application/javascript; charset=utf-8 9.6906ms
+2024-03-28 19:09:23.871 +01:00  INF  Getting 100 tags from page 8
+2024-03-28 19:09:24.026 +01:00  INF  Request finished HTTP/2 GET https://localhost:7175/_vs/browserLink - 200 null text/javascript; charset=UTF-8 172.5545ms
+2024-03-28 19:09:24.089 +01:00  INF  Request starting HTTP/2 GET https://localhost:7175/swagger/v1/swagger.json - null null
+2024-03-28 19:09:24.146 +01:00  INF  Request finished HTTP/2 GET https://localhost:7175/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 57.3059ms
+2024-03-28 19:09:24.559 +01:00  INF  Getting 100 tags from page 9
+2024-03-28 19:09:25.236 +01:00  INF  Getting 100 tags from page 10
+2024-03-28 19:09:25.958 +01:00  INF  Starting saving tags to file C:\Users\athos\source\repos\API-SO-tag-analyzer\API-SO-tag-analyzer\so-response.json
+2024-03-28 19:09:26.009 +01:00  INF  tags to file C:\Users\athos\source\repos\API-SO-tag-analyzer\API-SO-tag-analyzer\so-response.json ended
