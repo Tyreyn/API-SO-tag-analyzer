@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("API-SO-tag-analyzer")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e677283feddf3b35586b70fa31c987971a935af0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e2405f4cf857dffe741944c12b9f53ac8149a2e9")]
 [assembly: System.Reflection.AssemblyProductAttribute("API-SO-tag-analyzer")]
 [assembly: System.Reflection.AssemblyTitleAttribute("API-SO-tag-analyzer")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

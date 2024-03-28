@@ -15,10 +15,13 @@ namespace API_SO_tag_analyzer.Services
 
         private JsonFileService jsonFileService { get; set; }
 
-        public StackOverflowApiService(JsonFileService jsonFileService)
+        private readonly Serilog.ILogger logger;
+
+        public StackOverflowApiService(JsonFileService jsonFileService, Serilog.ILogger logger)
         {
             this.jsonFileService = jsonFileService;
-            Log.Information("Starting TagsController");
+            this.logger = logger;
+            this.logger.Information("Starting TagsController");
             this.PrepareTagsStorage();
         }
 
@@ -35,7 +38,7 @@ namespace API_SO_tag_analyzer.Services
             httpClient.BaseAddress = new Uri(SoApiUrl);
             httpClient.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
             var response = await httpClient.GetAsync(
-                string.Format(requestParamUrl, pageNumber),
+                string.Format(requestParamUrl, startingPageNumber),
                 HttpCompletionOption.ResponseContentRead);
 
             if (response.IsSuccessStatusCode)
@@ -49,7 +52,7 @@ namespace API_SO_tag_analyzer.Services
             else
             {
                 string problemMessage = "Problem with connecting to API";
-                Log.Fatal(problemMessage);
+                this.logger.Fatal(problemMessage);
                 throw new Exception(problemMessage);
             }
 
@@ -58,12 +61,12 @@ namespace API_SO_tag_analyzer.Services
 
         public async Task PrepareTagsStorage(int maxItemCount = 1000, int startingPage = 1)
         {
-            Log.Information("Prepare {0} tags storage", maxItemCount);
+            this.logger.Information("Prepare {0} tags storage", maxItemCount);
             int pageNumber = startingPage;
             JObject jsonMergedResponse = JObject.FromObject(new TagStorage());
             while (jsonMergedResponse["items"].Count() < maxItemCount)
             {
-                Log.Information("Getting 100 tags from page {0}", pageNumber);
+                this.logger.Information("Getting 100 tags from page {0}", pageNumber);
                 string response = await this.GetTagsAsync(pageNumber);
                 JObject jsonResponse = JObject.Parse(response);
                 jsonMergedResponse.Merge(jsonResponse);

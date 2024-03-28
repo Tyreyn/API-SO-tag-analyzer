@@ -1,0 +1,119 @@
+2024-03-28 14:16:18.634 +01:00  INF  Starting JsonFileService
+2024-03-28 14:16:27.851 +01:00  INF  Starting TagsController
+2024-03-28 14:16:27.870 +01:00  INF  Prepare 1000 tags storage
+2024-03-28 14:16:27.987 +01:00  INF  Getting 100 tags from page 1
+2024-03-28 14:16:29.024 +01:00  INF  Getting 100 tags from page 2
+2024-03-28 14:16:29.421 +01:00  INF  Now listening on: https://localhost:7175
+2024-03-28 14:16:29.423 +01:00  INF  Now listening on: http://localhost:5072
+2024-03-28 14:16:29.425 +01:00  INF  Application started. Press Ctrl+C to shut down.
+2024-03-28 14:16:29.426 +01:00  INF  Hosting environment: Development
+2024-03-28 14:16:29.427 +01:00  INF  Content root path: C:\Users\athos\source\repos\API-SO-tag-analyzer\API-SO-tag-analyzer
+2024-03-28 14:16:29.611 +01:00  INF  Getting 100 tags from page 3
+2024-03-28 14:16:30.157 +01:00  INF  Getting 100 tags from page 4
+2024-03-28 14:16:30.855 +01:00  INF  Getting 100 tags from page 5
+2024-03-28 14:16:31.403 +01:00  INF  Getting 100 tags from page 6
+2024-03-28 14:16:31.971 +01:00  INF  Getting 100 tags from page 7
+2024-03-28 14:16:32.518 +01:00  INF  Getting 100 tags from page 8
+2024-03-28 14:16:33.089 +01:00  INF  Getting 100 tags from page 9
+2024-03-28 14:16:33.638 +01:00  INF  Getting 100 tags from page 10
+2024-03-28 14:16:34.195 +01:00  INF  Starting saving tags to file C:\Users\athos\source\repos\API-SO-tag-analyzer\API-SO-tag-analyzer\so-response.json
+2024-03-28 14:16:42.302 +01:00  INF  Request starting HTTP/2 GET https://localhost:7175/swagger/index.html - null null
+2024-03-28 14:16:42.554 +01:00  INF  Request finished HTTP/2 GET https://localhost:7175/swagger/index.html - 200 null text/html;charset=utf-8 257.6633ms
+2024-03-28 14:16:42.646 +01:00  INF  Request starting HTTP/2 GET https://localhost:7175/_framework/aspnetcore-browser-refresh.js - null null
+2024-03-28 14:16:42.655 +01:00  INF  Request finished HTTP/2 GET https://localhost:7175/_framework/aspnetcore-browser-refresh.js - 200 13774 application/javascript; charset=utf-8 8.5227ms
+2024-03-28 14:16:42.950 +01:00  INF  Request starting HTTP/2 GET https://localhost:7175/_vs/browserLink - null null
+2024-03-28 14:16:43.891 +01:00  INF  Request finished HTTP/2 GET https://localhost:7175/_vs/browserLink - 200 null text/javascript; charset=UTF-8 940.6473ms
+2024-03-28 14:16:43.930 +01:00  INF  Request starting HTTP/2 GET https://localhost:7175/swagger/v1/swagger.json - null null
+2024-03-28 14:16:43.984 +01:00  INF  Request finished HTTP/2 GET https://localhost:7175/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 54.47ms
+2024-03-28 14:30:03.012 +01:00  INF  Starting JsonFileService
+2024-03-28 14:30:03.147 +01:00  INF  Starting TagsController
+2024-03-28 14:30:03.165 +01:00  INF  Prepare 1000 tags storage
+2024-03-28 14:30:03.288 +01:00  INF  Getting 100 tags from page 1
+2024-03-28 14:30:03.745 +01:00  INF  Now listening on: https://localhost:7175
+2024-03-28 14:30:03.747 +01:00  INF  Now listening on: http://localhost:5072
+2024-03-28 14:30:03.750 +01:00  INF  Application started. Press Ctrl+C to shut down.
+2024-03-28 14:30:03.751 +01:00  INF  Hosting environment: Development
+2024-03-28 14:30:03.751 +01:00  INF  Content root path: C:\Users\athos\source\repos\API-SO-tag-analyzer\API-SO-tag-analyzer
+2024-03-28 14:30:04.062 +01:00  INF  Getting 100 tags from page 2
+2024-03-28 14:30:04.639 +01:00  INF  Getting 100 tags from page 3
+2024-03-28 14:30:05.203 +01:00  INF  Getting 100 tags from page 4
+2024-03-28 14:30:05.773 +01:00  INF  Getting 100 tags from page 5
+2024-03-28 14:30:06.327 +01:00  INF  Getting 100 tags from page 6
+2024-03-28 14:30:06.868 +01:00  INF  Getting 100 tags from page 7
+2024-03-28 14:30:07.416 +01:00  INF  Getting 100 tags from page 8
+2024-03-28 14:30:08.011 +01:00  INF  Getting 100 tags from page 9
+2024-03-28 14:30:08.574 +01:00  INF  Getting 100 tags from page 10
+2024-03-28 14:30:09.180 +01:00  INF  Starting saving tags to file C:\Users\athos\source\repos\API-SO-tag-analyzer\API-SO-tag-analyzer\so-response.json
+2024-03-28 14:30:16.613 +01:00  INF  tags to file C:\Users\athos\source\repos\API-SO-tag-analyzer\API-SO-tag-analyzer\so-response.json ended
+2024-03-28 14:30:25.314 +01:00  INF  Request starting HTTP/2 GET https://localhost:7175/swagger/index.html - null null
+2024-03-28 14:30:25.451 +01:00  INF  Request finished HTTP/2 GET https://localhost:7175/swagger/index.html - 200 null text/html;charset=utf-8 143.3415ms
+2024-03-28 14:30:25.530 +01:00  INF  Request starting HTTP/2 GET https://localhost:7175/_framework/aspnetcore-browser-refresh.js - null null
+2024-03-28 14:30:25.530 +01:00  INF  Request starting HTTP/2 GET https://localhost:7175/_vs/browserLink - null null
+2024-03-28 14:30:25.538 +01:00  INF  Request finished HTTP/2 GET https://localhost:7175/_framework/aspnetcore-browser-refresh.js - 200 13774 application/javascript; charset=utf-8 8.9035ms
+2024-03-28 14:30:25.570 +01:00  INF  Request finished HTTP/2 GET https://localhost:7175/_vs/browserLink - 200 null text/javascript; charset=UTF-8 40.8465ms
+2024-03-28 14:30:26.024 +01:00  INF  Request starting HTTP/2 GET https://localhost:7175/swagger/v1/swagger.json - null null
+2024-03-28 14:30:26.087 +01:00  INF  Request finished HTTP/2 GET https://localhost:7175/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 64.1704ms
+2024-03-28 15:01:53.229 +01:00  INF  Starting JsonFileService
+2024-03-28 15:01:53.364 +01:00  INF  Starting TagsController
+2024-03-28 15:01:53.383 +01:00  INF  Prepare 1000 tags storage
+2024-03-28 15:01:53.496 +01:00  INF  Getting 100 tags from page 1
+2024-03-28 15:01:53.953 +01:00  INF  Now listening on: https://localhost:7175
+2024-03-28 15:01:53.956 +01:00  INF  Now listening on: http://localhost:5072
+2024-03-28 15:01:53.960 +01:00  INF  Application started. Press Ctrl+C to shut down.
+2024-03-28 15:01:53.961 +01:00  INF  Hosting environment: Development
+2024-03-28 15:01:53.963 +01:00  INF  Content root path: C:\Users\athos\source\repos\API-SO-tag-analyzer\API-SO-tag-analyzer
+2024-03-28 15:01:54.279 +01:00  INF  Getting 100 tags from page 2
+2024-03-28 15:01:54.895 +01:00  INF  Getting 100 tags from page 3
+2024-03-28 15:01:55.490 +01:00  INF  Getting 100 tags from page 4
+2024-03-28 15:01:56.074 +01:00  INF  Getting 100 tags from page 5
+2024-03-28 15:01:56.684 +01:00  INF  Getting 100 tags from page 6
+2024-03-28 15:01:57.266 +01:00  INF  Getting 100 tags from page 7
+2024-03-28 15:01:57.814 +01:00  INF  Getting 100 tags from page 8
+2024-03-28 15:01:58.411 +01:00  INF  Getting 100 tags from page 9
+2024-03-28 15:01:58.977 +01:00  INF  Getting 100 tags from page 10
+2024-03-28 15:01:59.734 +01:00  INF  Starting saving tags to file C:\Users\athos\source\repos\API-SO-tag-analyzer\API-SO-tag-analyzer\so-response.json
+2024-03-28 15:02:02.015 +01:00  INF  tags to file C:\Users\athos\source\repos\API-SO-tag-analyzer\API-SO-tag-analyzer\so-response.json ended
+2024-03-28 15:04:43.555 +01:00  INF  Starting JsonFileService
+2024-03-28 15:04:43.709 +01:00  INF  Starting TagsController
+2024-03-28 15:04:43.729 +01:00  INF  Prepare 1000 tags storage
+2024-03-28 15:04:43.855 +01:00  INF  Getting 100 tags from page 1
+2024-03-28 15:04:44.357 +01:00  INF  Now listening on: https://localhost:7175
+2024-03-28 15:04:44.360 +01:00  INF  Now listening on: http://localhost:5072
+2024-03-28 15:04:44.363 +01:00  INF  Application started. Press Ctrl+C to shut down.
+2024-03-28 15:04:44.365 +01:00  INF  Hosting environment: Development
+2024-03-28 15:04:44.366 +01:00  INF  Content root path: C:\Users\athos\source\repos\API-SO-tag-analyzer\API-SO-tag-analyzer
+2024-03-28 15:04:44.695 +01:00  INF  Getting 100 tags from page 2
+2024-03-28 15:04:45.255 +01:00  INF  Getting 100 tags from page 3
+2024-03-28 15:04:45.802 +01:00  INF  Getting 100 tags from page 4
+2024-03-28 15:04:46.361 +01:00  INF  Getting 100 tags from page 5
+2024-03-28 15:04:46.949 +01:00  INF  Getting 100 tags from page 6
+2024-03-28 15:04:47.531 +01:00  INF  Getting 100 tags from page 7
+2024-03-28 15:04:48.072 +01:00  INF  Getting 100 tags from page 8
+2024-03-28 15:04:48.638 +01:00  INF  Getting 100 tags from page 9
+2024-03-28 15:04:49.202 +01:00  INF  Getting 100 tags from page 10
+2024-03-28 15:04:49.822 +01:00  INF  Starting saving tags to file C:\Users\athos\source\repos\API-SO-tag-analyzer\API-SO-tag-analyzer\so-response.json
+2024-03-28 15:04:51.657 +01:00  INF  tags to file C:\Users\athos\source\repos\API-SO-tag-analyzer\API-SO-tag-analyzer\so-response.json ended
+2024-03-28 15:05:35.761 +01:00  INF  Starting JsonFileService
+2024-03-28 15:05:35.913 +01:00  INF  Starting TagsController
+2024-03-28 15:05:35.934 +01:00  INF  Prepare 1000 tags storage
+2024-03-28 15:05:36.067 +01:00  INF  Getting 100 tags from page 1
+2024-03-28 15:06:05.702 +01:00  INF  Starting JsonFileService
+2024-03-28 15:06:05.851 +01:00  INF  Starting TagsController
+2024-03-28 15:06:05.868 +01:00  INF  Prepare 1000 tags storage
+2024-03-28 15:06:05.986 +01:00  INF  Getting 100 tags from page 1
+2024-03-28 15:06:06.444 +01:00  INF  Now listening on: https://localhost:7175
+2024-03-28 15:06:06.447 +01:00  INF  Now listening on: http://localhost:5072
+2024-03-28 15:06:06.449 +01:00  INF  Application started. Press Ctrl+C to shut down.
+2024-03-28 15:06:06.450 +01:00  INF  Hosting environment: Development
+2024-03-28 15:06:06.451 +01:00  INF  Content root path: C:\Users\athos\source\repos\API-SO-tag-analyzer\API-SO-tag-analyzer
+2024-03-28 15:06:06.793 +01:00  INF  Getting 100 tags from page 2
+2024-03-28 15:06:07.368 +01:00  INF  Getting 100 tags from page 3
+2024-03-28 15:06:07.921 +01:00  INF  Getting 100 tags from page 4
+2024-03-28 15:06:08.473 +01:00  INF  Getting 100 tags from page 5
+2024-03-28 15:06:09.046 +01:00  INF  Getting 100 tags from page 6
+2024-03-28 15:06:09.601 +01:00  INF  Getting 100 tags from page 7
+2024-03-28 15:06:10.266 +01:00  INF  Getting 100 tags from page 8
+2024-03-28 15:06:10.829 +01:00  INF  Getting 100 tags from page 9
+2024-03-28 15:06:11.375 +01:00  INF  Getting 100 tags from page 10
+2024-03-28 15:06:11.962 +01:00  INF  Starting saving tags to file C:\Users\athos\source\repos\API-SO-tag-analyzer\API-SO-tag-analyzer\so-response.json
+2024-03-28 15:06:13.537 +01:00  INF  tags to file C:\Users\athos\source\repos\API-SO-tag-analyzer\API-SO-tag-analyzer\so-response.json ended

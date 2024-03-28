@@ -15,18 +15,20 @@ namespace API_SO_tag_analyzer.Controllers
 
         private JsonFileService jsonFileService { get; set; }
 
+        private readonly ILogger<TagsController> logger;
 
-        public TagsController(JsonFileService jsonFileService, StackOverflowApiService stackOverflowApiService)
+        public TagsController(JsonFileService jsonFileService, StackOverflowApiService stackOverflowApiService, ILogger<TagsController> logger)
         {
             this.jsonFileService = jsonFileService;
             this.stackOverflowApiService = stackOverflowApiService;
             Log.Information("Starting TagsController");
+            this.logger = logger;
         }
 
         [HttpGet("fetch")]
         public async Task<IActionResult> GetAndSaveNewTags()
         {
-            Log.Information("Get and save new tags");
+            this.logger.LogInformation("Get and save new tags");
             return Ok();
         }
     }

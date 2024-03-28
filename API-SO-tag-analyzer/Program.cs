@@ -8,6 +8,7 @@ Log.Logger = new LoggerConfiguration()
     .ReadFrom.Configuration(builder.Configuration)
     .Enrich.FromLogContext()
     .MinimumLevel.Information()
+    //.WriteTo.Console()
     .CreateLogger();
 builder.Logging.ClearProviders();
 builder.Host.UseSerilog(Log.Logger);
@@ -15,9 +16,9 @@ builder.Host.UseSerilog(Log.Logger);
 // Add services to the container.
 var currentDirectory = Directory.GetCurrentDirectory();
 var jsonFilePath = Path.Combine(currentDirectory, "so-response.json");
-JsonFileService jsonFileService = new JsonFileService(jsonFilePath);
+JsonFileService jsonFileService = new JsonFileService(jsonFilePath, Log.Logger);
 builder.Services.AddSingleton(jsonFileService);
-builder.Services.AddSingleton(new StackOverflowApiService(jsonFileService));
+builder.Services.AddSingleton(new StackOverflowApiService(jsonFileService, Log.Logger));
 
 builder.Services.AddControllers();
 

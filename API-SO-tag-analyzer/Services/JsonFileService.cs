@@ -1,7 +1,9 @@
-﻿using API_SO_tag_analyzer.Data;
+﻿using API_SO_tag_analyzer.Controllers;
+using API_SO_tag_analyzer.Data;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 using Serilog;
+using ILogger = Serilog.ILogger;
 
 
 namespace API_SO_tag_analyzer.Services
@@ -10,12 +12,12 @@ namespace API_SO_tag_analyzer.Services
     {
         private readonly string filePath;
 
-
-
-        public JsonFileService(string filePath)
+        private readonly ILogger logger;
+        public JsonFileService(string filePath, ILogger logger)
         {
             this.filePath = filePath;
-            Log.Information("Starting JsonFileService");
+            this.logger = logger;
+            this.logger.Information("Starting JsonFileService");
         }
 
         //public async Task<TagStorage> ReadFromFileAsync()
@@ -36,7 +38,7 @@ namespace API_SO_tag_analyzer.Services
 
         public async Task WriteTagsToFileAsync(JObject tagsToSave)
         {
-            Log.Information("Starting saving tags to file {0}", this.filePath);
+            this.logger.Information("Starting saving tags to file {0}", this.filePath);
             JsonSerializer serializer = new JsonSerializer();
             serializer.NullValueHandling = NullValueHandling.Ignore;
 
@@ -44,8 +46,10 @@ namespace API_SO_tag_analyzer.Services
             using (JsonWriter jsonWriter = new JsonTextWriter(streamWriter))
             {
                 jsonWriter.Formatting = Formatting.Indented;
-                await tagsToSave.WriteToAsync(jsonWriter);
+                tagsToSave.WriteToAsync(jsonWriter).GetAwaiter().GetResult();
             }
+
+            this.logger.Information("tags to file {0} ended", this.filePath);
         }
 
         private async Task<T> DeserializeResponse<T>(string httpContent)

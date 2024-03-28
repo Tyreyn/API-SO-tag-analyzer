@@ -21,6 +21,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Folder Include="Logger\" />
     <Folder Include="Repository\" />
   </ItemGroup>
 
