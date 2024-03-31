@@ -44,3 +44,4 @@ C:\Users\athos\source\repos\API-SO-tag-analyzer\API-SO-tag-analyzer\obj\Debug\ne
 C:\Users\athos\source\repos\API-SO-tag-analyzer\API-SO-tag-analyzer\obj\Debug\net8.0\API-SO-tag-analyzer.pdb
 C:\Users\athos\source\repos\API-SO-tag-analyzer\API-SO-tag-analyzer\obj\Debug\net8.0\API-SO-tag-analyzer.genruntimeconfig.cache
 C:\Users\athos\source\repos\API-SO-tag-analyzer\API-SO-tag-analyzer\obj\Debug\net8.0\ref\API-SO-tag-analyzer.dll
+C:\Users\athos\source\repos\API-SO-tag-analyzer\API-SO-tag-analyzer\bin\Debug\net8.0\Swashbuckle.AspNetCore.Annotations.dll

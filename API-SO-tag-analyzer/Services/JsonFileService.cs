@@ -85,6 +85,12 @@
         /// </returns>
         public async Task WriteTagsToFileAsync(JObject tagsToSave)
         {
+            this.logger.Information("Delete {0} if exists", Path.GetFileName(this.filePath));
+            if (File.Exists(this.filePath))
+            {
+                File.Delete(this.filePath);
+            }
+
             this.logger.Information("Starting saving tags to file {0}", this.filePath);
 
             using (StreamWriter streamWriter = new StreamWriter(this.filePath))

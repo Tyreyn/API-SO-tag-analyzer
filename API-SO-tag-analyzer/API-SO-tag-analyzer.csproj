@@ -6,7 +6,20 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <InvariantGlobalization>true</InvariantGlobalization>
     <RootNamespace>API_SO_tag_analyzer</RootNamespace>
+    <GenerateDocumentationFile>False</GenerateDocumentationFile>
+    <DocumentationFile>C:\Users\athos\source\repos\API-SO-tag-analyzer\API-SO-tag-analyzer\Helpers\PathParameters.yaml</DocumentationFile>
   </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Logger\**" />
+    <Compile Remove="Repository\**" />
+    <Content Remove="Logger\**" />
+    <Content Remove="Repository\**" />
+    <EmbeddedResource Remove="Logger\**" />
+    <EmbeddedResource Remove="Repository\**" />
+    <None Remove="Logger\**" />
+    <None Remove="Repository\**" />
+  </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
@@ -19,11 +32,7 @@
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Logger\" />
-    <Folder Include="Repository\" />
+    <PackageReference Include="Swashbuckle.AspNetCore.Annotations" Version="6.5.0" />
   </ItemGroup>
 
 </Project>

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "A94fWTxRXD8lDo0TUKqHUJrl1LtRiqzlvglKm3ioj1QU7nGvJVs4YS9kRAcOmRKKe7nAbHXwrYCKBoZjwtFgwg==",
+  "dgSpecHash": "3+eEeZ45DFZdlD34TnQINsk8f21KKqWfGm+ls7SdL/480A8sncAaGAdFntHpcXoyexo3puUXBSuwBcxJn+8w5g==",
   "success": true,
   "projectFilePath": "C:\\Users\\athos\\source\\repos\\API-SO-tag-analyzer\\API-SO-tag-analyzer.test\\API-SO-tag-analyzer.test.csproj",
   "expectedPackageFiles": [
@@ -59,8 +59,9 @@
     "C:\\Users\\athos\\.nuget\\packages\\serilog.sinks.inmemory\\0.11.0\\serilog.sinks.inmemory.0.11.0.nupkg.sha512",
     "C:\\Users\\athos\\.nuget\\packages\\serilog.sinks.nunit\\1.0.3\\serilog.sinks.nunit.1.0.3.nupkg.sha512",
     "C:\\Users\\athos\\.nuget\\packages\\swashbuckle.aspnetcore\\6.4.0\\swashbuckle.aspnetcore.6.4.0.nupkg.sha512",
-    "C:\\Users\\athos\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.4.0\\swashbuckle.aspnetcore.swagger.6.4.0.nupkg.sha512",
-    "C:\\Users\\athos\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.4.0\\swashbuckle.aspnetcore.swaggergen.6.4.0.nupkg.sha512",
+    "C:\\Users\\athos\\.nuget\\packages\\swashbuckle.aspnetcore.annotations\\6.5.0\\swashbuckle.aspnetcore.annotations.6.5.0.nupkg.sha512",
+    "C:\\Users\\athos\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.5.0\\swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",
+    "C:\\Users\\athos\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.5.0\\swashbuckle.aspnetcore.swaggergen.6.5.0.nupkg.sha512",
     "C:\\Users\\athos\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.4.0\\swashbuckle.aspnetcore.swaggerui.6.4.0.nupkg.sha512",
     "C:\\Users\\athos\\.nuget\\packages\\system.appcontext\\4.3.0\\system.appcontext.4.3.0.nupkg.sha512",
     "C:\\Users\\athos\\.nuget\\packages\\system.buffers\\4.3.0\\system.buffers.4.3.0.nupkg.sha512",

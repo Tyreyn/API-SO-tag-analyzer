@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "pnYCs7v03hf174MOc5QbsMT9rGDF6vOHuT3KyEcQgdDJntT3JPVRgJBlsKBNHyXOIW0/Ds7ucPaNuag+XGHnUw==",
+  "dgSpecHash": "9VeebsC6tAPOhXvwPp2rwk+LWalM7BrLUNLp2aLNbBfQdrFAtat7si+/xWh94HbUth8k8FUvkEVAPplEzfikuQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\athos\\source\\repos\\API-SO-tag-analyzer\\API-SO-tag-analyzer\\API-SO-tag-analyzer.csproj",
   "expectedPackageFiles": [
@@ -31,8 +31,9 @@
     "C:\\Users\\athos\\.nuget\\packages\\serilog.sinks.file\\5.0.0\\serilog.sinks.file.5.0.0.nupkg.sha512",
     "C:\\Users\\athos\\.nuget\\packages\\stylecop.analyzers\\1.1.118\\stylecop.analyzers.1.1.118.nupkg.sha512",
     "C:\\Users\\athos\\.nuget\\packages\\swashbuckle.aspnetcore\\6.4.0\\swashbuckle.aspnetcore.6.4.0.nupkg.sha512",
-    "C:\\Users\\athos\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.4.0\\swashbuckle.aspnetcore.swagger.6.4.0.nupkg.sha512",
-    "C:\\Users\\athos\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.4.0\\swashbuckle.aspnetcore.swaggergen.6.4.0.nupkg.sha512",
+    "C:\\Users\\athos\\.nuget\\packages\\swashbuckle.aspnetcore.annotations\\6.5.0\\swashbuckle.aspnetcore.annotations.6.5.0.nupkg.sha512",
+    "C:\\Users\\athos\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.5.0\\swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",
+    "C:\\Users\\athos\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.5.0\\swashbuckle.aspnetcore.swaggergen.6.5.0.nupkg.sha512",
     "C:\\Users\\athos\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.4.0\\swashbuckle.aspnetcore.swaggerui.6.4.0.nupkg.sha512",
     "C:\\Users\\athos\\.nuget\\packages\\system.diagnostics.diagnosticsource\\8.0.0\\system.diagnostics.diagnosticsource.8.0.0.nupkg.sha512",
     "C:\\Users\\athos\\.nuget\\packages\\system.text.encodings.web\\8.0.0\\system.text.encodings.web.8.0.0.nupkg.sha512",

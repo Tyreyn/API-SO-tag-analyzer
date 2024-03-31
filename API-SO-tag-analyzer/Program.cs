@@ -1,3 +1,4 @@
+using API_SO_tag_analyzer.Data.Model;
 using API_SO_tag_analyzer.Services;
 using Serilog;
 
@@ -18,10 +19,9 @@ var currentDirectory = Directory.GetCurrentDirectory();
 var jsonFilePath = Path.Combine(currentDirectory, "so-response.json");
 JsonFileService jsonFileService = new JsonFileService(jsonFilePath, Log.Logger);
 builder.Services.AddSingleton(jsonFileService);
+builder.Services.AddSingleton(new TagOperationService(jsonFileService, Log.Logger));
 builder.Services.AddSingleton(new StackOverflowApiService(jsonFileService, Log.Logger));
-
 builder.Services.AddControllers();
-
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
