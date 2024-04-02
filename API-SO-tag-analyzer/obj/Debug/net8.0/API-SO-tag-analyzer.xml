@@ -1,0 +1,306 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>API-SO-tag-analyzer</name>
+    </assembly>
+    <members>
+        <member name="T:API_SO_tag_analyzer.Controllers.TagsController">
+            <summary>
+            Tags API Controller.
+            </summary>
+        </member>
+        <member name="F:API_SO_tag_analyzer.Controllers.TagsController.logger">
+            <summary>
+            The logger object.
+            </summary>
+        </member>
+        <member name="M:API_SO_tag_analyzer.Controllers.TagsController.#ctor(API_SO_tag_analyzer.Services.JsonFileService,API_SO_tag_analyzer.Services.StackOverflowApiService,Serilog.ILogger,API_SO_tag_analyzer.Services.TagOperationService)">
+            <summary>
+            Initializes a new instance of the <see cref="T:API_SO_tag_analyzer.Controllers.TagsController"/> class.
+            </summary>
+            <param name="jsonFileService">
+            Json file service.
+            </param>
+            <param name="stackOverflowApiService">
+            Stack Overflow API service.
+            </param>
+            <param name="logger">
+            The logger object.
+            </param>
+        </member>
+        <member name="P:API_SO_tag_analyzer.Controllers.TagsController.StackOverflowApiService">
+            <summary>
+            Gets or sets Stack Overflow API service.
+            </summary>
+        </member>
+        <member name="P:API_SO_tag_analyzer.Controllers.TagsController.JsonFileService">
+            <summary>
+            Gets or sets json file service.
+            </summary>
+        </member>
+        <member name="M:API_SO_tag_analyzer.Controllers.TagsController.GetAndSaveNewTags(System.Int32,System.Int32,API_SO_tag_analyzer.Helpers.Enums.OrderEnum,API_SO_tag_analyzer.Helpers.Enums.SortEnum)">
+            <summary>
+            Download and save tags to file.
+            </summary>
+            <param name="maxItems">sasas</param>
+            <param name="startingPage"></param>
+            <param name="order"></param>
+            <param name="sort"></param>
+            <returns></returns>
+        </member>
+        <member name="T:API_SO_tag_analyzer.Data.Collective">
+            <summary>
+            Collective model.
+            </summary>
+        </member>
+        <member name="P:API_SO_tag_analyzer.Data.Collective.Tags">
+            <summary>
+            Gets or sets tags model array.
+            </summary>
+        </member>
+        <member name="P:API_SO_tag_analyzer.Data.Collective.ExternalLinks">
+            <summary>
+            Gets or sets external links model array.
+            </summary>
+        </member>
+        <member name="P:API_SO_tag_analyzer.Data.Collective.Description">
+            <summary>
+            Gets or sets description variable.
+            </summary>
+        </member>
+        <member name="P:API_SO_tag_analyzer.Data.Collective.Link">
+            <summary>
+            Gets or sets link variable.
+            </summary>
+        </member>
+        <member name="P:API_SO_tag_analyzer.Data.Collective.Name">
+            <summary>
+            Gets or sets name variable.
+            </summary>
+        </member>
+        <member name="P:API_SO_tag_analyzer.Data.Collective.Slug">
+            <summary>
+            Gets or sets slug variable.
+            </summary>
+        </member>
+        <member name="T:API_SO_tag_analyzer.Data.ExternalLink">
+            <summary>
+            External link model.
+            </summary>
+        </member>
+        <member name="P:API_SO_tag_analyzer.Data.ExternalLink.Type">
+            <summary>
+            Gets or sets type variable.
+            </summary>
+        </member>
+        <member name="P:API_SO_tag_analyzer.Data.ExternalLink.Link">
+            <summary>
+            Gets or sets link variable.
+            </summary>
+        </member>
+        <member name="T:API_SO_tag_analyzer.Data.TagItem">
+            <summary>
+            Tag item model.
+            </summary>
+        </member>
+        <member name="P:API_SO_tag_analyzer.Data.TagItem.HasSynonyms">
+            <summary>
+            Gets or sets has synonyms variable.
+            </summary>
+        </member>
+        <member name="P:API_SO_tag_analyzer.Data.TagItem.IsModeratorOnly">
+            <summary>
+            Gets or sets is moderator only variable.
+            </summary>
+        </member>
+        <member name="P:API_SO_tag_analyzer.Data.TagItem.IsRequired">
+            <summary>
+            Gets or sets is required variable.
+            </summary>
+        </member>
+        <member name="P:API_SO_tag_analyzer.Data.TagItem.Count">
+            <summary>
+            Gets or sets count variable.
+            </summary>
+        </member>
+        <member name="P:API_SO_tag_analyzer.Data.TagItem.Name">
+            <summary>
+            Gets or sets name variable.
+            </summary>
+        </member>
+        <member name="P:API_SO_tag_analyzer.Data.TagItem.Collectives">
+            <summary>
+            Gets or sets collectives array.
+            </summary>
+        </member>
+        <member name="T:API_SO_tag_analyzer.Data.TagStorage">
+            <summary>
+            Tag storage model.
+            </summary>
+        </member>
+        <member name="P:API_SO_tag_analyzer.Data.TagStorage.Items">
+            <summary>
+            Gets or sets items model array.
+            </summary>
+        </member>
+        <member name="P:API_SO_tag_analyzer.Data.TagStorage.HasMore">
+            <summary>
+            Gets or sets has more variable.
+            </summary>
+        </member>
+        <member name="P:API_SO_tag_analyzer.Data.TagStorage.QuotaMax">
+            <summary>
+            Gets or sets quota max variable.
+            </summary>
+        </member>
+        <member name="P:API_SO_tag_analyzer.Data.TagStorage.QuotaRemaining">
+            <summary>
+            Gets or sets quota remaining variable.
+            </summary>
+        </member>
+        <member name="F:API_SO_tag_analyzer.Helpers.Enums.OrderEnum.Desc">
+            <summary>
+            Descending.
+            </summary>
+        </member>
+        <member name="T:API_SO_tag_analyzer.Services.JsonFileService">
+            <summary>
+            Provides saving and reading json string from file.
+            </summary>
+        </member>
+        <member name="F:API_SO_tag_analyzer.Services.JsonFileService.filePath">
+            <summary>
+            The path to data storing file.
+            </summary>
+        </member>
+        <member name="F:API_SO_tag_analyzer.Services.JsonFileService.logger">
+            <summary>
+            The logger object.
+            </summary>
+        </member>
+        <member name="M:API_SO_tag_analyzer.Services.JsonFileService.#ctor(System.String,Serilog.ILogger)">
+            <summary>
+            Initializes a new instance of the <see cref="T:API_SO_tag_analyzer.Services.JsonFileService"/> class.
+            </summary>
+            <param name="filePath">
+            The path to data storing file.
+            </param>
+            <param name="logger">
+            The logger object.
+            </param>
+        </member>
+        <member name="M:API_SO_tag_analyzer.Services.JsonFileService.ReadFromFileAsync``1">
+            <summary>
+            Read from file object.
+            </summary>
+            <typeparam name="T">
+            Object type to be read.
+            </typeparam>
+            <returns>
+            Loaded object.
+            </returns>
+            <exception cref="T:System.IO.FileLoadException">
+            Throws when there is problem with loading file.
+            </exception>
+            <exception cref="T:System.IO.FileNotFoundException">
+            Throws when file is not found.
+            </exception>
+        </member>
+        <member name="M:API_SO_tag_analyzer.Services.JsonFileService.WriteTagsToFileAsync(Newtonsoft.Json.Linq.JObject)">
+            <summary>
+            Write JObject to data storage file.
+            </summary>
+            <param name="tagsToSave">
+            JObject tag to save.
+            </param>
+            <returns>
+            Always returns true.
+            </returns>
+        </member>
+        <member name="T:API_SO_tag_analyzer.Services.StackOverflowApiService">
+            <summary>
+            Provides sending requests to API.
+            </summary>
+        </member>
+        <member name="F:API_SO_tag_analyzer.Services.StackOverflowApiService.SoApiUrl">
+            <summary>
+            Base URL to Stack Overflow API.
+            </summary>
+        </member>
+        <member name="F:API_SO_tag_analyzer.Services.StackOverflowApiService.logger">
+            <summary>
+            The logger object.
+            </summary>
+        </member>
+        <member name="M:API_SO_tag_analyzer.Services.StackOverflowApiService.#ctor(API_SO_tag_analyzer.Services.JsonFileService,Serilog.ILogger)">
+            <summary>
+            Initializes a new instance of the <see cref="T:API_SO_tag_analyzer.Services.StackOverflowApiService"/> class.
+            </summary>
+            <param name="jsonFileService">
+            Json file service.
+            </param>
+            <param name="logger">
+            The logger object.
+            </param>
+        </member>
+        <member name="P:API_SO_tag_analyzer.Services.StackOverflowApiService.JsonFileService">
+            <summary>
+            Gets or setsjJson file service.
+            </summary>
+        </member>
+        <member name="M:API_SO_tag_analyzer.Services.StackOverflowApiService.GetTagsAsync(System.String)">
+            <summary>
+            Request tags from api.
+            </summary>
+            <param name="requestParamUrl">
+            Request parameters url.
+            </param>
+            <returns>
+            Response string.
+            </returns>
+            <exception cref="T:System.Exception">
+            Throws when there is problem with connecting to API.
+            </exception>
+        </member>
+        <member name="M:API_SO_tag_analyzer.Services.StackOverflowApiService.PrepareTagsStorage(API_SO_tag_analyzer.Data.Model.NewTagParamsModel)">
+            <summary>
+            Request and save json api response to file.
+            </summary>
+            <param name="maxItemCount">
+            Item count to be downloaded.
+            </param>
+            <param name="startingPage">
+            Starting page from which start to download.
+            </param>
+            <returns>
+            Always true.
+            </returns>
+        </member>
+        <member name="T:API_SO_tag_analyzer.Services.TagOperationService">
+            <summary>
+            Provides calculation methods over tags.
+            </summary>
+        </member>
+        <member name="F:API_SO_tag_analyzer.Services.TagOperationService.jsonFileService">
+            <summary>
+            Json file service.
+            </summary>
+        </member>
+        <member name="F:API_SO_tag_analyzer.Services.TagOperationService.logger">
+            <summary>
+            The logger object.
+            </summary>
+        </member>
+        <member name="M:API_SO_tag_analyzer.Services.TagOperationService.#ctor(API_SO_tag_analyzer.Services.JsonFileService,Serilog.ILogger)">
+            <summary>
+            Initializes a new instance of the <see cref="T:API_SO_tag_analyzer.Services.TagOperationService"/> class.
+            </summary>
+            <param name="jsonFileService">
+            Json file service.
+            </param>
+            <param name="logger">
+            The logger object.
+            </param>
+        </member>
+    </members>
+</doc>

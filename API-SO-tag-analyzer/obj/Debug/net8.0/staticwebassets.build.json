@@ -1,11 +1,19 @@
 {
   "Version": 1,
-  "Hash": "GN5F8tXAj6GeIDKtDW1/UYkACNbg72OHj2SdUK4Y0uo=",
+  "Hash": "+LecbssZqd1HPZ6SxDoGzf0xKJxhr1hroBvZm3InbVM=",
   "Source": "API-SO-tag-analyzer",
   "BasePath": "_content/API-SO-tag-analyzer",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "API-SO-tag-analyzer\\wwwroot",
+      "Source": "API-SO-tag-analyzer",
+      "ContentRoot": "C:\\Users\\athos\\source\\repos\\API-SO-tag-analyzer\\API-SO-tag-analyzer\\wwwroot\\",
+      "BasePath": "_content/API-SO-tag-analyzer",
+      "Pattern": "**"
+    }
+  ],
   "Assets": []
 }

@@ -1,0 +1,17 @@
+name: dockercompose8948163494567054417
+services:
+  api-so-tag-analyzer:
+    build:
+      context: C:\Users\athos\source\repos\API-SO-tag-analyzer\API-SO-tag-analyzer
+      dockerfile: ..\API-SO-tag-analyzer\Dockerfile
+    image: apisotaganalyzer
+    networks:
+      tagapianalyzer: null
+    ports:
+      - mode: ingress
+        target: 8080
+        published: "5440"
+        protocol: tcp
+networks:
+  tagapianalyzer:
+    name: dockercompose8948163494567054417_tagapianalyzer

@@ -1,0 +1,105 @@
+name: dockercompose8948163494567054417
+services:
+  api-so-tag-analyzer:
+    build:
+      context: C:\Users\athos\source\repos\API-SO-tag-analyzer\API-SO-tag-analyzer
+      dockerfile: ..\API-SO-tag-analyzer\Dockerfile
+      args:
+        BUILD_CONFIGURATION: Debug
+      labels:
+        com.microsoft.created-by: visual-studio
+        com.microsoft.visual-studio.project-name: API-SO-tag-analyzer
+      target: base
+    container_name: API-SO-tag-analyzer
+    entrypoint:
+      - C:\remote_debugger\x64\msvsmon.exe
+      - /noauth
+      - /anyuser
+      - /silent
+      - /nostatus
+      - /noclrwarn
+      - /nosecuritywarn
+      - /nofirewallwarn
+      - /nowowwarn
+      - /timeout:2147483646
+      - /LogDebuggeeOutputToStdOut
+    environment:
+      ASPNETCORE_LOGGING__CONSOLE__DISABLECOLORS: "true"
+      DOTNET_USE_POLLING_FILE_WATCHER: "1"
+      NUGET_FALLBACK_PACKAGES: c:\.nuget\fallbackpackages
+      NUGET_PACKAGES: C:\.nuget\packages
+    image: apisotaganalyzer:dev
+    labels:
+      com.microsoft.visualstudio.debuggee.arguments: ' --additionalProbingPath c:\.nuget\packages --additionalProbingPath c:\.nuget\fallbackpackages  ""'
+      com.microsoft.visualstudio.debuggee.killprogram: C:\remote_debugger\x64\utils\KillProcess.exe dotnet.exe
+      com.microsoft.visualstudio.debuggee.program: '"C:\Program Files\dotnet\dotnet.exe"'
+      com.microsoft.visualstudio.debuggee.workingdirectory: C:\app
+    networks:
+      tagapianalyzer: null
+    ports:
+      - mode: ingress
+        target: 7175
+        published: "7175"
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: C:\Users\athos\source\repos\API-SO-tag-analyzer\API-SO-tag-analyzer
+        target: C:\app
+        bind:
+          create_host_path: true
+      - type: bind
+        source: C:\Users\athos\source\repos\API-SO-tag-analyzer\API-SO-tag-analyzer
+        target: C:\src
+        bind:
+          create_host_path: true
+      - type: bind
+        source: C:\Users\athos\onecoremsvsmon\17.8.11012.3416
+        target: C:\remote_debugger
+        read_only: true
+        bind:
+          create_host_path: true
+      - type: bind
+        source: C:\Users\athos\.nuget\packages\
+        target: c:\.nuget\packages
+        read_only: true
+        bind:
+          create_host_path: true
+      - type: bind
+        source: C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages
+        target: c:\.nuget\fallbackpackages
+        read_only: true
+        bind:
+          create_host_path: true
+      - type: bind
+        source: C:\Users\athos\AppData\Roaming/ASP.NET/Https
+        target: C:\Users\ContainerUser\AppData\Roaming\ASP.NET\Https
+        read_only: true
+        bind:
+          create_host_path: true
+      - type: bind
+        source: C:\Users\athos\AppData\Roaming/Microsoft/UserSecrets
+        target: C:\Users\ContainerUser\AppData\Roaming\Microsoft\UserSecrets
+        read_only: true
+        bind:
+          create_host_path: true
+      - type: bind
+        source: C:\Program Files\Microsoft Visual Studio\2022\Enterprise\MSBuild\Sdks\Microsoft.Docker.Sdk\tools\TokenService.Proxy\win10-x64\net6.0
+        target: C:\TokenService.Proxy
+        read_only: true
+        bind:
+          create_host_path: true
+      - type: bind
+        source: C:\Program Files\Microsoft Visual Studio\2022\Enterprise\MSBuild\Sdks\Microsoft.Docker.Sdk\tools\HotReloadProxy\win10-x64\net6.0
+        target: C:\HotReloadProxy
+        read_only: true
+        bind:
+          create_host_path: true
+      - type: bind
+        source: C:\Program Files\Microsoft Visual Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\HotReload
+        target: C:\HotReloadAgent
+        read_only: true
+        bind:
+          create_host_path: true
+networks:
+  tagapianalyzer:
+    name: dockercompose8948163494567054417_tagapianalyzer

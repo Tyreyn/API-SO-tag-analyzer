@@ -1,0 +1,771 @@
+2024-04-02 14:45:20.861 +02:00  INF  Starting JsonFileService
+2024-04-02 14:45:21.068 +02:00  INF  Starting TagsController
+2024-04-02 14:45:21.159 +02:00  INF  Prepare 1000 tags storage
+2024-04-02 14:45:22.459 +02:00  INF  Now listening on: https://localhost:7175
+2024-04-02 14:45:22.461 +02:00  INF  Now listening on: http://localhost:5072
+2024-04-02 14:45:22.463 +02:00  INF  Application started. Press Ctrl+C to shut down.
+2024-04-02 14:45:22.463 +02:00  INF  Hosting environment: Development
+2024-04-02 14:45:22.464 +02:00  INF  Content root path: C:\Users\athos\source\repos\API-SO-tag-analyzer\API-SO-tag-analyzer
+2024-04-02 14:45:23.071 +02:00  INF  Request starting HTTP/2 GET https://localhost:7175/swagger/index.html - null null
+2024-04-02 14:45:23.306 +02:00  INF  Request finished HTTP/2 GET https://localhost:7175/swagger/index.html - 200 null text/html;charset=utf-8 239.1087ms
+2024-04-02 14:45:23.356 +02:00  INF  Request starting HTTP/2 GET https://localhost:7175/_framework/aspnetcore-browser-refresh.js - null null
+2024-04-02 14:45:23.364 +02:00  INF  Request finished HTTP/2 GET https://localhost:7175/_framework/aspnetcore-browser-refresh.js - 200 13774 application/javascript; charset=utf-8 7.5338ms
+2024-04-02 14:45:23.598 +02:00  INF  Request starting HTTP/2 GET https://localhost:7175/_vs/browserLink - null null
+2024-04-02 14:45:23.656 +02:00  INF  Request finished HTTP/2 GET https://localhost:7175/_vs/browserLink - 200 null text/javascript; charset=UTF-8 58.789ms
+2024-04-02 14:45:23.831 +02:00  INF  Request starting HTTP/2 GET https://localhost:7175/swagger/v1/swagger.json - null null
+2024-04-02 14:45:23.883 +02:00  INF  Request finished HTTP/2 GET https://localhost:7175/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 51.3093ms
+2024-04-02 17:22:58.077 +02:00  INF  Starting JsonFileService
+2024-04-02 17:22:58.228 +02:00  INF  Starting TagOperationService
+2024-04-02 17:22:58.229 +02:00  INF  Starting StackOverflowApiService
+2024-04-02 17:22:58.243 +02:00  INF  Prepare 1000 tags storage
+2024-04-02 17:22:58.299 +02:00  INF  Calling https://api.stackexchange.com/2.3tags?page=1&pagesize=100&order=desc&sort=popular&site=stackoverflow
+2024-04-02 17:22:58.843 +02:00  INF  Now listening on: http://localhost:5072
+2024-04-02 17:22:58.846 +02:00  INF  Application started. Press Ctrl+C to shut down.
+2024-04-02 17:22:58.847 +02:00  INF  Hosting environment: Development
+2024-04-02 17:22:58.848 +02:00  INF  Content root path: C:\Users\athos\source\repos\API-SO-tag-analyzer\API-SO-tag-analyzer
+2024-04-02 17:22:59.281 +02:00  INF  Calling https://api.stackexchange.com/2.3tags?page=2&pagesize=100&order=desc&sort=popular&site=stackoverflow
+2024-04-02 17:22:59.879 +02:00  INF  Calling https://api.stackexchange.com/2.3tags?page=3&pagesize=100&order=desc&sort=popular&site=stackoverflow
+2024-04-02 17:23:00.584 +02:00  INF  Calling https://api.stackexchange.com/2.3tags?page=4&pagesize=100&order=desc&sort=popular&site=stackoverflow
+2024-04-02 17:23:01.182 +02:00  INF  Calling https://api.stackexchange.com/2.3tags?page=5&pagesize=100&order=desc&sort=popular&site=stackoverflow
+2024-04-02 17:23:01.763 +02:00  INF  Calling https://api.stackexchange.com/2.3tags?page=6&pagesize=100&order=desc&sort=popular&site=stackoverflow
+2024-04-02 17:23:02.332 +02:00  INF  Calling https://api.stackexchange.com/2.3tags?page=7&pagesize=100&order=desc&sort=popular&site=stackoverflow
+2024-04-02 17:23:02.916 +02:00  INF  Calling https://api.stackexchange.com/2.3tags?page=8&pagesize=100&order=desc&sort=popular&site=stackoverflow
+2024-04-02 17:23:03.665 +02:00  INF  Calling https://api.stackexchange.com/2.3tags?page=9&pagesize=100&order=desc&sort=popular&site=stackoverflow
+2024-04-02 17:23:04.271 +02:00  INF  Calling https://api.stackexchange.com/2.3tags?page=10&pagesize=100&order=desc&sort=popular&site=stackoverflow
+2024-04-02 17:23:04.839 +02:00  INF  Delete so-response.json if exists
+2024-04-02 17:23:04.841 +02:00  INF  Starting saving tags to file C:\Users\athos\source\repos\API-SO-tag-analyzer\API-SO-tag-analyzer\so-response.json
+2024-04-02 17:23:04.942 +02:00  INF  tags to file C:\Users\athos\source\repos\API-SO-tag-analyzer\API-SO-tag-analyzer\so-response.json ended
+2024-04-02 17:23:22.388 +02:00  INF  Request starting HTTP/1.1 GET http://localhost:5072/swagger - null null
+2024-04-02 17:23:22.559 +02:00  INF  Request finished HTTP/1.1 GET http://localhost:5072/swagger - 301 0 null 178.0419ms
+2024-04-02 17:23:22.576 +02:00  INF  Request starting HTTP/1.1 GET http://localhost:5072/swagger/index.html - null null
+2024-04-02 17:23:22.673 +02:00  INF  Request finished HTTP/1.1 GET http://localhost:5072/swagger/index.html - 200 null text/html;charset=utf-8 96.4111ms
+2024-04-02 17:23:22.717 +02:00  INF  Request starting HTTP/1.1 GET http://localhost:5072/swagger/swagger-ui.css - null null
+2024-04-02 17:23:22.719 +02:00  INF  Request starting HTTP/1.1 GET http://localhost:5072/swagger/swagger-ui-bundle.js - null null
+2024-04-02 17:23:22.719 +02:00  INF  Request starting HTTP/1.1 GET http://localhost:5072/swagger/swagger-ui-standalone-preset.js - null null
+2024-04-02 17:23:22.720 +02:00  INF  Request starting HTTP/1.1 GET http://localhost:5072/_framework/aspnetcore-browser-refresh.js - null null
+2024-04-02 17:23:22.732 +02:00  INF  Request finished HTTP/1.1 GET http://localhost:5072/_framework/aspnetcore-browser-refresh.js - 200 13774 application/javascript; charset=utf-8 12.2297ms
+2024-04-02 17:23:22.763 +02:00  INF  Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-04-02 17:23:22.763 +02:00  INF  Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-04-02 17:23:22.763 +02:00  INF  Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-04-02 17:23:22.765 +02:00  INF  Request finished HTTP/1.1 GET http://localhost:5072/swagger/swagger-ui-bundle.js - 200 1096145 text/javascript 46.0656ms
+2024-04-02 17:23:22.765 +02:00  INF  Request finished HTTP/1.1 GET http://localhost:5072/swagger/swagger-ui-standalone-preset.js - 200 339486 text/javascript 46.101ms
+2024-04-02 17:23:22.766 +02:00  INF  Request finished HTTP/1.1 GET http://localhost:5072/swagger/swagger-ui.css - 200 143943 text/css 49.2228ms
+2024-04-02 17:23:22.993 +02:00  INF  Request starting HTTP/1.1 GET http://localhost:5072/_vs/browserLink - null null
+2024-04-02 17:23:23.119 +02:00  INF  Request finished HTTP/1.1 GET http://localhost:5072/_vs/browserLink - 200 null text/javascript; charset=UTF-8 125.6936ms
+2024-04-02 17:23:23.257 +02:00  INF  Request starting HTTP/1.1 GET http://localhost:5072/swagger/v1/swagger.json - null null
+2024-04-02 17:23:23.326 +02:00  INF  Request starting HTTP/1.1 GET http://localhost:5072/swagger/favicon-32x32.png - null null
+2024-04-02 17:23:23.359 +02:00  INF  Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2024-04-02 17:23:23.361 +02:00  INF  Request finished HTTP/1.1 GET http://localhost:5072/swagger/favicon-32x32.png - 200 628 image/png 34.6161ms
+2024-04-02 17:23:23.455 +02:00  INF  Request finished HTTP/1.1 GET http://localhost:5072/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 198.6256ms
+2024-04-02 17:23:27.238 +02:00  INF  Request starting HTTP/1.1 GET http://localhost:5072/Tags/1000/1/desc/popular - null null
+2024-04-02 17:23:27.248 +02:00  WRN  Failed to determine the https port for redirect.
+2024-04-02 17:23:27.262 +02:00  INF  Executing endpoint 'API_SO_tag_analyzer.Controllers.TagsController.GetAndSaveNewTags (API-SO-tag-analyzer)'
+2024-04-02 17:23:27.282 +02:00  INF  Route matched with {action = "GetAndSaveNewTags", controller = "Tags"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAndSaveNewTags(Int32, Int32, System.String, System.String) on controller API_SO_tag_analyzer.Controllers.TagsController (API-SO-tag-analyzer).
+2024-04-02 17:23:27.285 +02:00  INF  Starting TagsController
+2024-04-02 17:23:27.386 +02:00  INF  Executing action method API_SO_tag_analyzer.Controllers.TagsController.GetAndSaveNewTags (API-SO-tag-analyzer) - Validation state: "Valid"
+2024-04-02 17:23:27.388 +02:00  INF  Prepare 1000 tags storage
+2024-04-02 17:23:27.388 +02:00  INF  Calling https://api.stackexchange.com/2.3tags?page=1&pagesize=100&order=desc&sort=popular&site=stackoverflow
+2024-04-02 17:23:27.983 +02:00  INF  Calling https://api.stackexchange.com/2.3tags?page=2&pagesize=100&order=desc&sort=popular&site=stackoverflow
+2024-04-02 17:23:28.596 +02:00  INF  Calling https://api.stackexchange.com/2.3tags?page=3&pagesize=100&order=desc&sort=popular&site=stackoverflow
+2024-04-02 17:23:29.139 +02:00  INF  Calling https://api.stackexchange.com/2.3tags?page=4&pagesize=100&order=desc&sort=popular&site=stackoverflow
+2024-04-02 17:23:29.685 +02:00  INF  Calling https://api.stackexchange.com/2.3tags?page=5&pagesize=100&order=desc&sort=popular&site=stackoverflow
+2024-04-02 17:23:30.228 +02:00  INF  Calling https://api.stackexchange.com/2.3tags?page=6&pagesize=100&order=desc&sort=popular&site=stackoverflow
+2024-04-02 17:23:30.769 +02:00  INF  Calling https://api.stackexchange.com/2.3tags?page=7&pagesize=100&order=desc&sort=popular&site=stackoverflow
+2024-04-02 17:23:31.307 +02:00  INF  Calling https://api.stackexchange.com/2.3tags?page=8&pagesize=100&order=desc&sort=popular&site=stackoverflow
+2024-04-02 17:23:31.871 +02:00  INF  Calling https://api.stackexchange.com/2.3tags?page=9&pagesize=100&order=desc&sort=popular&site=stackoverflow
+2024-04-02 17:23:32.406 +02:00  INF  Calling https://api.stackexchange.com/2.3tags?page=10&pagesize=100&order=desc&sort=popular&site=stackoverflow
+2024-04-02 17:23:32.961 +02:00  INF  Delete so-response.json if exists
+2024-04-02 17:23:32.962 +02:00  INF  Starting saving tags to file C:\Users\athos\source\repos\API-SO-tag-analyzer\API-SO-tag-analyzer\so-response.json
+2024-04-02 17:23:33.044 +02:00  INF  tags to file C:\Users\athos\source\repos\API-SO-tag-analyzer\API-SO-tag-analyzer\so-response.json ended
+2024-04-02 17:23:33.049 +02:00  INF  Executed action method API_SO_tag_analyzer.Controllers.TagsController.GetAndSaveNewTags (API-SO-tag-analyzer), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 5659.6749ms.
+2024-04-02 17:23:33.056 +02:00  INF  Executing OkObjectResult, writing value of type 'System.String'.
+2024-04-02 17:23:33.061 +02:00  INF  Executed action API_SO_tag_analyzer.Controllers.TagsController.GetAndSaveNewTags (API-SO-tag-analyzer) in 5774.1982ms
+2024-04-02 17:23:33.063 +02:00  INF  Executed endpoint 'API_SO_tag_analyzer.Controllers.TagsController.GetAndSaveNewTags (API-SO-tag-analyzer)'
+2024-04-02 17:23:33.066 +02:00  INF  HTTP GET /Tags/1000/1/desc/popular responded 200 in 5817.9603 ms
+2024-04-02 17:23:33.068 +02:00  INF  Request finished HTTP/1.1 GET http://localhost:5072/Tags/1000/1/desc/popular - 200 null text/plain; charset=utf-8 5830.3268ms
+2024-04-02 17:26:21.211 +02:00  INF  Request starting HTTP/1.1 GET http://localhost:5072/Tags/ - null null
+2024-04-02 17:26:21.247 +02:00  INF  HTTP GET /Tags/ responded 404 in 1.4890 ms
+2024-04-02 17:26:21.249 +02:00  INF  Request finished HTTP/1.1 GET http://localhost:5072/Tags/ - 404 0 null 37.4728ms
+2024-04-02 17:26:21.252 +02:00  INF  Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5072/Tags/, Response status code: 404
+2024-04-02 17:27:45.056 +02:00  INF  Request starting HTTP/1.1 GET http://localhost:5072/Tags/1000/1/desc/popular - null null
+2024-04-02 17:27:45.081 +02:00  INF  Executing endpoint 'API_SO_tag_analyzer.Controllers.TagsController.GetAndSaveNewTags (API-SO-tag-analyzer)'
+2024-04-02 17:27:45.082 +02:00  INF  Route matched with {action = "GetAndSaveNewTags", controller = "Tags"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAndSaveNewTags(Int32, Int32, System.String, System.String) on controller API_SO_tag_analyzer.Controllers.TagsController (API-SO-tag-analyzer).
+2024-04-02 17:27:45.084 +02:00  INF  Starting TagsController
+2024-04-02 17:27:45.104 +02:00  INF  Executing action method API_SO_tag_analyzer.Controllers.TagsController.GetAndSaveNewTags (API-SO-tag-analyzer) - Validation state: "Valid"
+2024-04-02 17:27:45.105 +02:00  INF  Prepare 1000 tags storage
+2024-04-02 17:27:45.106 +02:00  INF  Calling https://api.stackexchange.com/2.3tags?page=1&pagesize=100&order=desc&sort=popular&site=stackoverflow
+2024-04-02 17:27:45.675 +02:00  INF  Calling https://api.stackexchange.com/2.3tags?page=2&pagesize=100&order=desc&sort=popular&site=stackoverflow
+2024-04-02 17:27:46.247 +02:00  INF  Calling https://api.stackexchange.com/2.3tags?page=3&pagesize=100&order=desc&sort=popular&site=stackoverflow
+2024-04-02 17:27:46.793 +02:00  INF  Calling https://api.stackexchange.com/2.3tags?page=4&pagesize=100&order=desc&sort=popular&site=stackoverflow
+2024-04-02 17:27:47.336 +02:00  INF  Calling https://api.stackexchange.com/2.3tags?page=5&pagesize=100&order=desc&sort=popular&site=stackoverflow
+2024-04-02 17:27:47.886 +02:00  INF  Calling https://api.stackexchange.com/2.3tags?page=6&pagesize=100&order=desc&sort=popular&site=stackoverflow
+2024-04-02 17:27:48.484 +02:00  INF  Calling https://api.stackexchange.com/2.3tags?page=7&pagesize=100&order=desc&sort=popular&site=stackoverflow
+2024-04-02 17:27:49.017 +02:00  INF  Calling https://api.stackexchange.com/2.3tags?page=8&pagesize=100&order=desc&sort=popular&site=stackoverflow
+2024-04-02 17:27:49.553 +02:00  INF  Calling https://api.stackexchange.com/2.3tags?page=9&pagesize=100&order=desc&sort=popular&site=stackoverflow
+2024-04-02 17:27:50.178 +02:00  INF  Calling https://api.stackexchange.com/2.3tags?page=10&pagesize=100&order=desc&sort=popular&site=stackoverflow
+2024-04-02 17:27:50.713 +02:00  INF  Delete so-response.json if exists
+2024-04-02 17:27:50.714 +02:00  INF  Starting saving tags to file C:\Users\athos\source\repos\API-SO-tag-analyzer\API-SO-tag-analyzer\so-response.json
+2024-04-02 17:27:50.779 +02:00  INF  tags to file C:\Users\athos\source\repos\API-SO-tag-analyzer\API-SO-tag-analyzer\so-response.json ended
+2024-04-02 17:27:50.780 +02:00  INF  Executed action method API_SO_tag_analyzer.Controllers.TagsController.GetAndSaveNewTags (API-SO-tag-analyzer), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 5675.4886ms.
+2024-04-02 17:27:50.782 +02:00  INF  Executing OkObjectResult, writing value of type 'System.String'.
+2024-04-02 17:27:50.784 +02:00  INF  Executed action API_SO_tag_analyzer.Controllers.TagsController.GetAndSaveNewTags (API-SO-tag-analyzer) in 5699.9281ms
+2024-04-02 17:27:50.785 +02:00  INF  Executed endpoint 'API_SO_tag_analyzer.Controllers.TagsController.GetAndSaveNewTags (API-SO-tag-analyzer)'
+2024-04-02 17:27:50.786 +02:00  INF  HTTP GET /Tags/1000/1/desc/popular responded 200 in 5705.2522 ms
+2024-04-02 17:27:50.787 +02:00  INF  Request finished HTTP/1.1 GET http://localhost:5072/Tags/1000/1/desc/popular - 200 null text/plain; charset=utf-8 5731.6326ms
+2024-04-02 17:57:57.562 +02:00  INF  Starting JsonFileService
+2024-04-02 17:57:57.700 +02:00  INF  Starting TagOperationService
+2024-04-02 17:57:57.701 +02:00  INF  Starting StackOverflowApiService
+2024-04-02 17:57:57.713 +02:00  INF  Prepare 1000 tags storage
+2024-04-02 17:57:57.731 +02:00  INF  Calling https://api.stackexchange.com/2.3tags?page=1&pagesize=100&order=desc&sort=popular&site=stackoverflow
+2024-04-02 17:57:58.013 +02:00  INF  Now listening on: http://localhost:5072
+2024-04-02 17:57:58.016 +02:00  INF  Application started. Press Ctrl+C to shut down.
+2024-04-02 17:57:58.017 +02:00  INF  Hosting environment: Development
+2024-04-02 17:57:58.017 +02:00  INF  Content root path: C:\Users\athos\source\repos\API-SO-tag-analyzer\API-SO-tag-analyzer
+2024-04-02 17:57:58.439 +02:00  FTL  Problem with connecting to API
+2024-04-02 17:58:20.263 +02:00  INF  Request starting HTTP/1.1 GET http://localhost:5072/swagger/index.html - null null
+2024-04-02 17:58:20.414 +02:00  INF  Request finished HTTP/1.1 GET http://localhost:5072/swagger/index.html - 200 null text/html;charset=utf-8 156.2714ms
+2024-04-02 17:58:20.509 +02:00  INF  Request starting HTTP/1.1 GET http://localhost:5072/_framework/aspnetcore-browser-refresh.js - null null
+2024-04-02 17:58:20.514 +02:00  INF  Request finished HTTP/1.1 GET http://localhost:5072/_framework/aspnetcore-browser-refresh.js - 200 13774 application/javascript; charset=utf-8 5.1554ms
+2024-04-02 17:58:20.653 +02:00  INF  Request starting HTTP/1.1 GET http://localhost:5072/_vs/browserLink - null null
+2024-04-02 17:58:20.690 +02:00  INF  Request finished HTTP/1.1 GET http://localhost:5072/_vs/browserLink - 200 null text/javascript; charset=UTF-8 37.4127ms
+2024-04-02 17:58:20.855 +02:00  INF  Request starting HTTP/1.1 GET http://localhost:5072/swagger/v1/swagger.json - null null
+2024-04-02 17:58:20.929 +02:00  INF  Request finished HTTP/1.1 GET http://localhost:5072/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 74.4127ms
+2024-04-02 17:59:45.455 +02:00  INF  Starting JsonFileService
+2024-04-02 17:59:45.601 +02:00  INF  Starting TagOperationService
+2024-04-02 17:59:45.601 +02:00  INF  Starting StackOverflowApiService
+2024-04-02 17:59:45.615 +02:00  INF  Prepare 1000 tags storage
+2024-04-02 17:59:45.635 +02:00  INF  Calling https://api.stackexchange.com/2.3tags?page=1&pagesize=100&order=desc&sort=popular&site=stackoverflow
+2024-04-02 17:59:45.960 +02:00  INF  Now listening on: http://localhost:5072
+2024-04-02 17:59:45.963 +02:00  INF  Application started. Press Ctrl+C to shut down.
+2024-04-02 17:59:45.964 +02:00  INF  Hosting environment: Development
+2024-04-02 17:59:45.965 +02:00  INF  Content root path: C:\Users\athos\source\repos\API-SO-tag-analyzer\API-SO-tag-analyzer
+2024-04-02 17:59:46.328 +02:00  FTL  Problem with connecting to API
+2024-04-02 17:59:58.040 +02:00  INF  Request starting HTTP/1.1 GET http://localhost:5072/swagger/index.html - null null
+2024-04-02 17:59:58.150 +02:00  INF  Request finished HTTP/1.1 GET http://localhost:5072/swagger/index.html - 200 null text/html;charset=utf-8 113.3644ms
+2024-04-02 17:59:58.197 +02:00  INF  Request starting HTTP/1.1 GET http://localhost:5072/_framework/aspnetcore-browser-refresh.js - null null
+2024-04-02 17:59:58.197 +02:00  INF  Request starting HTTP/1.1 GET http://localhost:5072/_vs/browserLink - null null
+2024-04-02 17:59:58.201 +02:00  INF  Request finished HTTP/1.1 GET http://localhost:5072/_framework/aspnetcore-browser-refresh.js - 200 13774 application/javascript; charset=utf-8 4.4667ms
+2024-04-02 17:59:58.229 +02:00  INF  Request finished HTTP/1.1 GET http://localhost:5072/_vs/browserLink - 200 null text/javascript; charset=UTF-8 31.6637ms
+2024-04-02 17:59:58.490 +02:00  INF  Request starting HTTP/1.1 GET http://localhost:5072/swagger/v1/swagger.json - null null
+2024-04-02 17:59:58.514 +02:00  INF  Request starting HTTP/1.1 GET http://localhost:5072/swagger/favicon-32x32.png - null null
+2024-04-02 17:59:58.527 +02:00  INF  Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2024-04-02 17:59:58.530 +02:00  INF  Request finished HTTP/1.1 GET http://localhost:5072/swagger/favicon-32x32.png - 200 628 image/png 15.7589ms
+2024-04-02 17:59:58.561 +02:00  INF  Request finished HTTP/1.1 GET http://localhost:5072/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 71.3534ms
+2024-04-02 18:00:06.648 +02:00  INF  Request starting HTTP/1.1 GET http://localhost:5072/swagger/index.html - null null
+2024-04-02 18:00:06.670 +02:00  INF  Request finished HTTP/1.1 GET http://localhost:5072/swagger/index.html - 200 null text/html;charset=utf-8 22.305ms
+2024-04-02 18:00:06.737 +02:00  INF  Request starting HTTP/1.1 GET http://localhost:5072/_vs/browserLink - null null
+2024-04-02 18:00:06.740 +02:00  INF  Request starting HTTP/1.1 GET http://localhost:5072/_framework/aspnetcore-browser-refresh.js - null null
+2024-04-02 18:00:06.748 +02:00  INF  Request finished HTTP/1.1 GET http://localhost:5072/_framework/aspnetcore-browser-refresh.js - 200 13774 application/javascript; charset=utf-8 7.9101ms
+2024-04-02 18:00:06.758 +02:00  INF  Request finished HTTP/1.1 GET http://localhost:5072/_vs/browserLink - 200 null text/javascript; charset=UTF-8 21.3579ms
+2024-04-02 18:00:06.794 +02:00  INF  Request starting HTTP/1.1 GET http://localhost:5072/swagger/v1/swagger.json - null null
+2024-04-02 18:00:06.800 +02:00  INF  Request finished HTTP/1.1 GET http://localhost:5072/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 5.3547ms
+2024-04-02 18:05:18.674 +02:00  INF  Starting JsonFileService
+2024-04-02 18:05:18.827 +02:00  INF  Starting TagOperationService
+2024-04-02 18:05:18.828 +02:00  INF  Starting StackOverflowApiService
+2024-04-02 18:05:18.843 +02:00  INF  Prepare 1000 tags storage
+2024-04-02 18:05:18.865 +02:00  INF  Calling https://api.stackexchange.com/2.3tags?page=1&pagesize=100&order=desc&sort=popular&site=stackoverflow
+2024-04-02 18:05:19.166 +02:00  INF  Now listening on: http://localhost:5072
+2024-04-02 18:05:19.169 +02:00  INF  Application started. Press Ctrl+C to shut down.
+2024-04-02 18:05:19.170 +02:00  INF  Hosting environment: Development
+2024-04-02 18:05:19.170 +02:00  INF  Content root path: C:\Users\athos\source\repos\API-SO-tag-analyzer\API-SO-tag-analyzer
+2024-04-02 18:05:19.594 +02:00  FTL  Problem with connecting to API
+2024-04-02 18:05:50.098 +02:00  INF  Request starting HTTP/1.1 GET http://localhost:5072/swagger/index.html - null null
+2024-04-02 18:05:57.276 +02:00  ERR  An unhandled exception has occurred while executing the request.System.IO.FileNotFoundException: Could not find file 'C:\Users\athos\source\repos\API-SO-tag-analyzer\API-SO-tag-analyzer\bin\Debug\net8.0\API-SO-tag-analyzer.xml'.
+File name: 'C:\Users\athos\source\repos\API-SO-tag-analyzer\API-SO-tag-analyzer\bin\Debug\net8.0\API-SO-tag-analyzer.xml'
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategyCore(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   at System.Xml.XmlDownloadManager.GetStream(Uri uri, ICredentials credentials, IWebProxy proxy)
+   at System.Xml.XmlTextReaderImpl.OpenUrl()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.XPath.XPathDocument.LoadFromReader(XmlReader reader, XmlSpace space)
+   at System.Xml.XPath.XPathDocument..ctor(String uri, XmlSpace space)
+   at Microsoft.Extensions.DependencyInjection.SwaggerGenOptionsExtensions.<>c__DisplayClass32_0.<IncludeXmlComments>b__0()
+   at Microsoft.Extensions.DependencyInjection.SwaggerGenOptionsExtensions.IncludeXmlComments(SwaggerGenOptions swaggerGenOptions, Func`1 xmlDocFactory, Boolean includeControllerXmlComments)
+   at Microsoft.Extensions.DependencyInjection.SwaggerGenOptionsExtensions.IncludeXmlComments(SwaggerGenOptions swaggerGenOptions, String filePath, Boolean includeControllerXmlComments)
+   at Program.<>c.<<Main>$>b__0_0(SwaggerGenOptions options) in C:\Users\athos\source\repos\API-SO-tag-analyzer\API-SO-tag-analyzer\Program.cs:line 31
+   at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
+   at Microsoft.Extensions.Options.UnnamedOptionsManager`1.get_Value()
+   at Swashbuckle.AspNetCore.SwaggerGen.ConfigureSwaggerGeneratorOptions..ctor(IOptions`1 swaggerGenOptionsAccessor, IServiceProvider serviceProvider, IWebHostEnvironment hostingEnv)
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+   at System.Reflection.MethodBaseInvoker.InvokeDirectByRefWithFewArgs(Object obj, Span`1 copyOfArgs, BindingFlags invokeAttr)
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeConstructorInfo.Invoke(BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitDisposeCache(ServiceCallSite transientCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitIEnumerable(IEnumerableCallSite enumerableCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitDisposeCache(ServiceCallSite transientCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitRootCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.CreateServiceAccessor(ServiceIdentifier serviceIdentifier)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(ServiceIdentifier serviceIdentifier, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService[T](IServiceProvider provider)
+   at Microsoft.Extensions.DependencyInjection.SwaggerGenServiceCollectionExtensions.<>c.<AddSwaggerGen>b__0_1(IServiceProvider s)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitDisposeCache(ServiceCallSite transientCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitDisposeCache(ServiceCallSite transientCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass2_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(ServiceIdentifier serviceIdentifier, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at lambda_method1(Closure, Object, HttpContext, IServiceProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+
+2024-04-02 18:05:57.351 +02:00  INF  Request finished HTTP/1.1 GET http://localhost:5072/swagger/index.html - 500 null text/html; charset=utf-8 7256.5806ms
+2024-04-02 18:05:57.351 +02:00  INF  Request starting HTTP/1.1 GET http://localhost:5072/swagger/index.html - null null
+2024-04-02 18:05:58.189 +02:00  INF  Request starting HTTP/1.1 GET http://localhost:5072/_framework/aspnetcore-browser-refresh.js - null null
+2024-04-02 18:05:58.189 +02:00  INF  Request starting HTTP/1.1 GET http://localhost:5072/_vs/browserLink - null null
+2024-04-02 18:05:58.189 +02:00  ERR  An unhandled exception has occurred while executing the request.System.IO.FileNotFoundException: Could not find file 'C:\Users\athos\source\repos\API-SO-tag-analyzer\API-SO-tag-analyzer\bin\Debug\net8.0\API-SO-tag-analyzer.xml'.
+File name: 'C:\Users\athos\source\repos\API-SO-tag-analyzer\API-SO-tag-analyzer\bin\Debug\net8.0\API-SO-tag-analyzer.xml'
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategyCore(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   at System.Xml.XmlDownloadManager.GetStream(Uri uri, ICredentials credentials, IWebProxy proxy)
+   at System.Xml.XmlTextReaderImpl.OpenUrl()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.XPath.XPathDocument.LoadFromReader(XmlReader reader, XmlSpace space)
+   at System.Xml.XPath.XPathDocument..ctor(String uri, XmlSpace space)
+   at Microsoft.Extensions.DependencyInjection.SwaggerGenOptionsExtensions.<>c__DisplayClass32_0.<IncludeXmlComments>b__0()
+   at Microsoft.Extensions.DependencyInjection.SwaggerGenOptionsExtensions.IncludeXmlComments(SwaggerGenOptions swaggerGenOptions, Func`1 xmlDocFactory, Boolean includeControllerXmlComments)
+   at Microsoft.Extensions.DependencyInjection.SwaggerGenOptionsExtensions.IncludeXmlComments(SwaggerGenOptions swaggerGenOptions, String filePath, Boolean includeControllerXmlComments)
+   at Program.<>c.<<Main>$>b__0_0(SwaggerGenOptions options) in C:\Users\athos\source\repos\API-SO-tag-analyzer\API-SO-tag-analyzer\Program.cs:line 31
+   at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
+   at Microsoft.Extensions.Options.UnnamedOptionsManager`1.get_Value()
+   at Swashbuckle.AspNetCore.SwaggerGen.ConfigureSwaggerGeneratorOptions..ctor(IOptions`1 swaggerGenOptionsAccessor, IServiceProvider serviceProvider, IWebHostEnvironment hostingEnv)
+   at InvokeStub_ConfigureSwaggerGeneratorOptions..ctor(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeConstructorInfo.Invoke(BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitDisposeCache(ServiceCallSite transientCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitIEnumerable(IEnumerableCallSite enumerableCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitDisposeCache(ServiceCallSite transientCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitRootCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.CreateServiceAccessor(ServiceIdentifier serviceIdentifier)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(ServiceIdentifier serviceIdentifier, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService[T](IServiceProvider provider)
+   at Microsoft.Extensions.DependencyInjection.SwaggerGenServiceCollectionExtensions.<>c.<AddSwaggerGen>b__0_1(IServiceProvider s)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitDisposeCache(ServiceCallSite transientCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitDisposeCache(ServiceCallSite transientCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass2_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(ServiceIdentifier serviceIdentifier, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at lambda_method1(Closure, Object, HttpContext, IServiceProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+
+2024-04-02 18:05:58.219 +02:00  INF  Request finished HTTP/1.1 GET http://localhost:5072/_framework/aspnetcore-browser-refresh.js - 200 13774 application/javascript; charset=utf-8 30.2809ms
+2024-04-02 18:05:58.238 +02:00  INF  Request finished HTTP/1.1 GET http://localhost:5072/swagger/index.html - 500 null text/html; charset=utf-8 887.2775ms
+2024-04-02 18:05:58.244 +02:00  INF  Request finished HTTP/1.1 GET http://localhost:5072/_vs/browserLink - 200 null text/javascript; charset=UTF-8 55.6835ms
+2024-04-02 18:05:58.290 +02:00  INF  Request starting HTTP/1.1 GET http://localhost:5072/_vs/browserLink - null null
+2024-04-02 18:05:58.308 +02:00  INF  Request finished HTTP/1.1 GET http://localhost:5072/_vs/browserLink - 200 null text/javascript; charset=UTF-8 18.5677ms
+2024-04-02 18:05:58.313 +02:00  INF  Request starting HTTP/1.1 GET http://localhost:5072/_framework/aspnetcore-browser-refresh.js - null null
+2024-04-02 18:05:58.316 +02:00  INF  Request finished HTTP/1.1 GET http://localhost:5072/_framework/aspnetcore-browser-refresh.js - 200 13774 application/javascript; charset=utf-8 3.1755ms
+2024-04-02 18:05:58.451 +02:00  INF  Request starting HTTP/1.1 GET http://localhost:5072/favicon.ico - null null
+2024-04-02 18:06:23.760 +02:00  INF  Starting JsonFileService
+2024-04-02 18:06:23.990 +02:00  INF  Starting TagOperationService
+2024-04-02 18:06:23.991 +02:00  INF  Starting StackOverflowApiService
+2024-04-02 18:06:24.008 +02:00  INF  Prepare 1000 tags storage
+2024-04-02 18:06:24.032 +02:00  INF  Calling https://api.stackexchange.com/2.3tags?page=1&pagesize=100&order=desc&sort=popular&site=stackoverflow
+2024-04-02 18:06:24.361 +02:00  INF  Now listening on: http://localhost:5072
+2024-04-02 18:06:24.364 +02:00  INF  Application started. Press Ctrl+C to shut down.
+2024-04-02 18:06:24.365 +02:00  INF  Hosting environment: Development
+2024-04-02 18:06:24.366 +02:00  INF  Content root path: C:\Users\athos\source\repos\API-SO-tag-analyzer\API-SO-tag-analyzer
+2024-04-02 18:06:24.746 +02:00  FTL  Problem with connecting to API
+2024-04-02 18:06:53.026 +02:00  INF  Request starting HTTP/1.1 GET http://localhost:5072/swagger/index.html - null null
+2024-04-02 18:08:13.375 +02:00  INF  Starting JsonFileService
+2024-04-02 18:08:13.525 +02:00  INF  Starting TagOperationService
+2024-04-02 18:08:13.526 +02:00  INF  Starting StackOverflowApiService
+2024-04-02 18:08:13.540 +02:00  INF  Prepare 1000 tags storage
+2024-04-02 18:08:13.561 +02:00  INF  Calling https://api.stackexchange.com/2.3tags?page=1&pagesize=100&order=desc&sort=popular&site=stackoverflow
+2024-04-02 18:08:13.905 +02:00  INF  Now listening on: http://localhost:5072
+2024-04-02 18:08:13.908 +02:00  INF  Application started. Press Ctrl+C to shut down.
+2024-04-02 18:08:13.909 +02:00  INF  Hosting environment: Development
+2024-04-02 18:08:13.910 +02:00  INF  Content root path: C:\Users\athos\source\repos\API-SO-tag-analyzer\API-SO-tag-analyzer
+2024-04-02 18:08:14.268 +02:00  FTL  Problem with connecting to API
+2024-04-02 18:08:20.429 +02:00  INF  Request starting HTTP/1.1 GET http://localhost:5072/swagger/index.html - null null
+2024-04-02 18:08:24.299 +02:00  ERR  An unhandled exception has occurred while executing the request.System.IO.FileNotFoundException: Could not find file 'C:\Users\athos\source\repos\API-SO-tag-analyzer\API-SO-tag-analyzer\bin\Debug\net8.0\API-SO-tag-analyzer.xml'.
+File name: 'C:\Users\athos\source\repos\API-SO-tag-analyzer\API-SO-tag-analyzer\bin\Debug\net8.0\API-SO-tag-analyzer.xml'
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategyCore(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   at System.Xml.XmlDownloadManager.GetStream(Uri uri, ICredentials credentials, IWebProxy proxy)
+   at System.Xml.XmlTextReaderImpl.OpenUrl()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.XPath.XPathDocument.LoadFromReader(XmlReader reader, XmlSpace space)
+   at System.Xml.XPath.XPathDocument..ctor(String uri, XmlSpace space)
+   at Microsoft.Extensions.DependencyInjection.SwaggerGenOptionsExtensions.<>c__DisplayClass32_0.<IncludeXmlComments>b__0()
+   at Microsoft.Extensions.DependencyInjection.SwaggerGenOptionsExtensions.IncludeXmlComments(SwaggerGenOptions swaggerGenOptions, Func`1 xmlDocFactory, Boolean includeControllerXmlComments)
+   at Microsoft.Extensions.DependencyInjection.SwaggerGenOptionsExtensions.IncludeXmlComments(SwaggerGenOptions swaggerGenOptions, String filePath, Boolean includeControllerXmlComments)
+   at Program.<>c.<<Main>$>b__0_0(SwaggerGenOptions options) in C:\Users\athos\source\repos\API-SO-tag-analyzer\API-SO-tag-analyzer\Program.cs:line 50
+   at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
+   at Microsoft.Extensions.Options.UnnamedOptionsManager`1.get_Value()
+   at Swashbuckle.AspNetCore.SwaggerGen.ConfigureSwaggerGeneratorOptions..ctor(IOptions`1 swaggerGenOptionsAccessor, IServiceProvider serviceProvider, IWebHostEnvironment hostingEnv)
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+   at System.Reflection.MethodBaseInvoker.InvokeDirectByRefWithFewArgs(Object obj, Span`1 copyOfArgs, BindingFlags invokeAttr)
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeConstructorInfo.Invoke(BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitDisposeCache(ServiceCallSite transientCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitIEnumerable(IEnumerableCallSite enumerableCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitDisposeCache(ServiceCallSite transientCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitRootCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.CreateServiceAccessor(ServiceIdentifier serviceIdentifier)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(ServiceIdentifier serviceIdentifier, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService[T](IServiceProvider provider)
+   at Microsoft.Extensions.DependencyInjection.SwaggerGenServiceCollectionExtensions.<>c.<AddSwaggerGen>b__0_1(IServiceProvider s)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitDisposeCache(ServiceCallSite transientCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitDisposeCache(ServiceCallSite transientCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass2_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(ServiceIdentifier serviceIdentifier, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at lambda_method1(Closure, Object, HttpContext, IServiceProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+
+2024-04-02 18:08:24.347 +02:00  INF  Request finished HTTP/1.1 GET http://localhost:5072/swagger/index.html - 500 null text/html; charset=utf-8 3922.7525ms
+2024-04-02 18:08:24.422 +02:00  INF  Request starting HTTP/1.1 GET http://localhost:5072/_vs/browserLink - null null
+2024-04-02 18:08:24.424 +02:00  INF  Request starting HTTP/1.1 GET http://localhost:5072/_framework/aspnetcore-browser-refresh.js - null null
+2024-04-02 18:08:24.434 +02:00  INF  Request finished HTTP/1.1 GET http://localhost:5072/_framework/aspnetcore-browser-refresh.js - 200 13774 application/javascript; charset=utf-8 9.7048ms
+2024-04-02 18:08:24.454 +02:00  INF  Request finished HTTP/1.1 GET http://localhost:5072/_vs/browserLink - 200 null text/javascript; charset=UTF-8 31.7007ms
+2024-04-02 18:08:24.690 +02:00  INF  Request starting HTTP/1.1 GET http://localhost:5072/favicon.ico - null null
+2024-04-02 18:09:18.915 +02:00  INF  Starting JsonFileService
+2024-04-02 18:09:19.073 +02:00  INF  Starting TagOperationService
+2024-04-02 18:09:19.074 +02:00  INF  Starting StackOverflowApiService
+2024-04-02 18:09:19.088 +02:00  INF  Prepare 1000 tags storage
+2024-04-02 18:09:19.108 +02:00  INF  Calling https://api.stackexchange.com/2.3tags?page=1&pagesize=100&order=desc&sort=popular&site=stackoverflow
+2024-04-02 18:09:19.449 +02:00  INF  Now listening on: http://localhost:5072
+2024-04-02 18:09:19.452 +02:00  INF  Application started. Press Ctrl+C to shut down.
+2024-04-02 18:09:19.453 +02:00  INF  Hosting environment: Development
+2024-04-02 18:09:19.454 +02:00  INF  Content root path: C:\Users\athos\source\repos\API-SO-tag-analyzer\API-SO-tag-analyzer
+2024-04-02 18:09:19.873 +02:00  FTL  Problem with connecting to API
+2024-04-02 18:09:40.725 +02:00  INF  Request starting HTTP/1.1 GET http://localhost:5072/swagger/index.html - null null
+2024-04-02 18:09:40.930 +02:00  INF  Request finished HTTP/1.1 GET http://localhost:5072/swagger/index.html - 200 null text/html;charset=utf-8 210.6871ms
+2024-04-02 18:09:41.037 +02:00  INF  Request starting HTTP/1.1 GET http://localhost:5072/_framework/aspnetcore-browser-refresh.js - null null
+2024-04-02 18:09:41.041 +02:00  INF  Request starting HTTP/1.1 GET http://localhost:5072/_vs/browserLink - null null
+2024-04-02 18:09:41.043 +02:00  INF  Request finished HTTP/1.1 GET http://localhost:5072/_framework/aspnetcore-browser-refresh.js - 200 13774 application/javascript; charset=utf-8 5.6288ms
+2024-04-02 18:09:41.078 +02:00  INF  Request finished HTTP/1.1 GET http://localhost:5072/_vs/browserLink - 200 null text/javascript; charset=UTF-8 36.9466ms
+2024-04-02 18:09:41.234 +02:00  INF  Request starting HTTP/1.1 GET http://localhost:5072/swagger/v1/swagger.json - null null
+2024-04-02 18:09:41.321 +02:00  INF  Request finished HTTP/1.1 GET http://localhost:5072/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 87.3644ms
+2024-04-02 18:15:43.594 +02:00  INF  Starting JsonFileService
+2024-04-02 18:15:43.899 +02:00  INF  Starting TagOperationService
+2024-04-02 18:15:43.900 +02:00  INF  Starting StackOverflowApiService
+2024-04-02 18:15:43.923 +02:00  INF  Prepare 1000 tags storage
+2024-04-02 18:15:43.968 +02:00  INF  Calling https://api.stackexchange.com/2.3tags?page=1&pagesize=100&order=desc&sort=popular&site=stackoverflow
+2024-04-02 18:15:44.507 +02:00  INF  Now listening on: http://localhost:5072
+2024-04-02 18:15:44.510 +02:00  INF  Application started. Press Ctrl+C to shut down.
+2024-04-02 18:15:44.511 +02:00  INF  Hosting environment: Development
+2024-04-02 18:15:44.511 +02:00  INF  Content root path: C:\Users\athos\source\repos\API-SO-tag-analyzer\API-SO-tag-analyzer
+2024-04-02 18:15:44.788 +02:00  FTL  Problem with connecting to API
+2024-04-02 18:16:10.019 +02:00  INF  Request starting HTTP/1.1 GET http://localhost:5072/swagger/index.html - null null
+2024-04-02 18:16:10.199 +02:00  INF  Request finished HTTP/1.1 GET http://localhost:5072/swagger/index.html - 200 null text/html;charset=utf-8 185.5858ms
+2024-04-02 18:16:10.262 +02:00  INF  Request starting HTTP/1.1 GET http://localhost:5072/_framework/aspnetcore-browser-refresh.js - null null
+2024-04-02 18:16:10.266 +02:00  INF  Request finished HTTP/1.1 GET http://localhost:5072/_framework/aspnetcore-browser-refresh.js - 200 13774 application/javascript; charset=utf-8 4.5676ms
+2024-04-02 18:16:10.489 +02:00  INF  Request starting HTTP/1.1 GET http://localhost:5072/_vs/browserLink - null null
+2024-04-02 18:16:10.526 +02:00  INF  Request finished HTTP/1.1 GET http://localhost:5072/_vs/browserLink - 200 null text/javascript; charset=UTF-8 37.5109ms
+2024-04-02 18:16:10.600 +02:00  INF  Request starting HTTP/1.1 GET http://localhost:5072/swagger/v1/swagger.json - null null
+2024-04-02 18:16:10.685 +02:00  INF  Request finished HTTP/1.1 GET http://localhost:5072/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 84.4894ms
+2024-04-02 18:20:25.879 +02:00  INF  Starting JsonFileService
+2024-04-02 18:20:26.045 +02:00  INF  Starting TagOperationService
+2024-04-02 18:20:26.046 +02:00  INF  Starting StackOverflowApiService
+2024-04-02 18:20:26.061 +02:00  INF  Prepare 1000 tags storage
+2024-04-02 18:20:26.080 +02:00  INF  Calling https://api.stackexchange.com/2.3tags?page=1&pagesize=100&order=desc&sort=popular&site=stackoverflow
+2024-04-02 18:20:26.455 +02:00  INF  Now listening on: http://localhost:5072
+2024-04-02 18:20:26.458 +02:00  INF  Application started. Press Ctrl+C to shut down.
+2024-04-02 18:20:26.460 +02:00  INF  Hosting environment: Development
+2024-04-02 18:20:26.461 +02:00  INF  Content root path: C:\Users\athos\source\repos\API-SO-tag-analyzer\API-SO-tag-analyzer
+2024-04-02 18:20:26.830 +02:00  FTL  Problem with connecting to API
+2024-04-02 18:20:44.309 +02:00  INF  Request starting HTTP/1.1 GET http://localhost:5072/swagger/index.html - null null
+2024-04-02 18:20:44.467 +02:00  INF  Request finished HTTP/1.1 GET http://localhost:5072/swagger/index.html - 200 null text/html;charset=utf-8 162.7292ms
+2024-04-02 18:20:44.535 +02:00  INF  Request starting HTTP/1.1 GET http://localhost:5072/_framework/aspnetcore-browser-refresh.js - null null
+2024-04-02 18:20:44.540 +02:00  INF  Request finished HTTP/1.1 GET http://localhost:5072/_framework/aspnetcore-browser-refresh.js - 200 13774 application/javascript; charset=utf-8 5.069ms
+2024-04-02 18:20:44.744 +02:00  INF  Request starting HTTP/1.1 GET http://localhost:5072/_vs/browserLink - null null
+2024-04-02 18:20:44.826 +02:00  INF  Request finished HTTP/1.1 GET http://localhost:5072/_vs/browserLink - 200 null text/javascript; charset=UTF-8 81.3206ms
+2024-04-02 18:20:44.887 +02:00  INF  Request starting HTTP/1.1 GET http://localhost:5072/swagger/v1/swagger.json - null null
+2024-04-02 18:20:45.010 +02:00  INF  Request finished HTTP/1.1 GET http://localhost:5072/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 122.2959ms
+2024-04-02 18:24:14.164 +02:00  INF  Starting JsonFileService
+2024-04-02 18:24:14.412 +02:00  INF  Starting TagOperationService
+2024-04-02 18:24:14.413 +02:00  INF  Starting StackOverflowApiService
+2024-04-02 18:24:14.433 +02:00  INF  Prepare 1000 tags storage
+2024-04-02 18:24:14.457 +02:00  INF  Calling https://api.stackexchange.com/2.3tags?page=1&pagesize=100&order=desc&sort=popular&site=stackoverflow
+2024-04-02 18:24:14.795 +02:00  INF  Now listening on: http://localhost:5072
+2024-04-02 18:24:14.797 +02:00  INF  Application started. Press Ctrl+C to shut down.
+2024-04-02 18:24:14.798 +02:00  INF  Hosting environment: Development
+2024-04-02 18:24:14.799 +02:00  INF  Content root path: C:\Users\athos\source\repos\API-SO-tag-analyzer\API-SO-tag-analyzer
+2024-04-02 18:24:15.181 +02:00  FTL  Problem with connecting to API
+2024-04-02 18:24:25.283 +02:00  INF  Request starting HTTP/1.1 GET http://localhost:5072/swagger/index.html - null null
+2024-04-02 18:24:25.431 +02:00  INF  Request finished HTTP/1.1 GET http://localhost:5072/swagger/index.html - 200 null text/html;charset=utf-8 151.2607ms
+2024-04-02 18:24:25.494 +02:00  INF  Request starting HTTP/1.1 GET http://localhost:5072/_vs/browserLink - null null
+2024-04-02 18:24:25.497 +02:00  INF  Request starting HTTP/1.1 GET http://localhost:5072/_framework/aspnetcore-browser-refresh.js - null null
+2024-04-02 18:24:25.502 +02:00  INF  Request finished HTTP/1.1 GET http://localhost:5072/_framework/aspnetcore-browser-refresh.js - 200 13774 application/javascript; charset=utf-8 5.2212ms
+2024-04-02 18:24:25.523 +02:00  INF  Request finished HTTP/1.1 GET http://localhost:5072/_vs/browserLink - 200 null text/javascript; charset=UTF-8 28.5466ms
+2024-04-02 18:24:25.762 +02:00  INF  Request starting HTTP/1.1 GET http://localhost:5072/swagger/v1/swagger.json - null null
+2024-04-02 18:24:25.893 +02:00  INF  Request finished HTTP/1.1 GET http://localhost:5072/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 130.8621ms
+2024-04-02 18:24:40.945 +02:00  INF  Request starting HTTP/1.1 GET http://localhost:5072/swagger/index.html - null null
+2024-04-02 18:24:40.973 +02:00  INF  Request finished HTTP/1.1 GET http://localhost:5072/swagger/index.html - 200 null text/html;charset=utf-8 27.7516ms
+2024-04-02 18:24:41.087 +02:00  INF  Request starting HTTP/1.1 GET http://localhost:5072/_vs/browserLink - null null
+2024-04-02 18:24:41.096 +02:00  INF  Request starting HTTP/1.1 GET http://localhost:5072/_framework/aspnetcore-browser-refresh.js - null null
+2024-04-02 18:24:41.100 +02:00  INF  Request finished HTTP/1.1 GET http://localhost:5072/_framework/aspnetcore-browser-refresh.js - 200 13774 application/javascript; charset=utf-8 3.9465ms
+2024-04-02 18:24:41.105 +02:00  INF  Request finished HTTP/1.1 GET http://localhost:5072/_vs/browserLink - 200 null text/javascript; charset=UTF-8 18.3739ms
+2024-04-02 18:24:41.217 +02:00  INF  Request starting HTTP/1.1 GET http://localhost:5072/swagger/v1/swagger.json - null null
+2024-04-02 18:24:41.226 +02:00  INF  Request finished HTTP/1.1 GET http://localhost:5072/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 9.2268ms
+2024-04-02 18:24:48.004 +02:00  INF  Request starting HTTP/1.1 GET http://localhost:5072/Tags/1000/1/1/popular - null null
+2024-04-02 18:24:48.010 +02:00  WRN  Failed to determine the https port for redirect.
+2024-04-02 18:24:48.013 +02:00  INF  HTTP GET /Tags/1000/1/1/popular responded 404 in 3.2522 ms
+2024-04-02 18:24:48.015 +02:00  INF  Request finished HTTP/1.1 GET http://localhost:5072/Tags/1000/1/1/popular - 404 0 null 11.5273ms
+2024-04-02 18:24:48.020 +02:00  INF  Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5072/Tags/1000/1/1/popular, Response status code: 404
+2024-04-02 18:24:55.793 +02:00  INF  Request starting HTTP/1.1 GET http://localhost:5072/Tags/1000/1/0/popular - null null
+2024-04-02 18:24:55.796 +02:00  INF  HTTP GET /Tags/1000/1/0/popular responded 404 in 0.0547 ms
+2024-04-02 18:24:55.798 +02:00  INF  Request finished HTTP/1.1 GET http://localhost:5072/Tags/1000/1/0/popular - 404 0 null 4.8608ms
+2024-04-02 18:24:55.801 +02:00  INF  Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5072/Tags/1000/1/0/popular, Response status code: 404
+2024-04-02 18:28:05.936 +02:00  INF  Starting JsonFileService
+2024-04-02 18:28:06.166 +02:00  INF  Starting TagOperationService
+2024-04-02 18:28:06.167 +02:00  INF  Starting StackOverflowApiService
+2024-04-02 18:28:06.183 +02:00  INF  Prepare 1000 tags storage
+2024-04-02 18:28:06.206 +02:00  INF  Calling https://api.stackexchange.com/2.3tags?page=1&pagesize=100&order=desc&sort=popular&site=stackoverflow
+2024-04-02 18:28:06.552 +02:00  INF  Now listening on: http://localhost:5072
+2024-04-02 18:28:06.554 +02:00  INF  Application started. Press Ctrl+C to shut down.
+2024-04-02 18:28:06.555 +02:00  INF  Hosting environment: Development
+2024-04-02 18:28:06.556 +02:00  INF  Content root path: C:\Users\athos\source\repos\API-SO-tag-analyzer\API-SO-tag-analyzer
+2024-04-02 18:28:06.942 +02:00  FTL  Problem with connecting to API
+2024-04-02 18:28:31.237 +02:00  INF  Request starting HTTP/1.1 GET http://localhost:5072/swagger/index.html - null null
+2024-04-02 18:28:31.450 +02:00  INF  Request finished HTTP/1.1 GET http://localhost:5072/swagger/index.html - 200 null text/html;charset=utf-8 219.0179ms
+2024-04-02 18:28:31.545 +02:00  INF  Request starting HTTP/1.1 GET http://localhost:5072/_framework/aspnetcore-browser-refresh.js - null null
+2024-04-02 18:28:31.552 +02:00  INF  Request finished HTTP/1.1 GET http://localhost:5072/_framework/aspnetcore-browser-refresh.js - 200 13774 application/javascript; charset=utf-8 7.4082ms
+2024-04-02 18:28:31.791 +02:00  INF  Request starting HTTP/1.1 GET http://localhost:5072/_vs/browserLink - null null
+2024-04-02 18:28:31.830 +02:00  INF  Request finished HTTP/1.1 GET http://localhost:5072/_vs/browserLink - 200 null text/javascript; charset=UTF-8 39.0578ms
+2024-04-02 18:28:31.880 +02:00  INF  Request starting HTTP/1.1 GET http://localhost:5072/swagger/v1/swagger.json - null null
+2024-04-02 18:28:32.020 +02:00  INF  Request finished HTTP/1.1 GET http://localhost:5072/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 139.2225ms
+2024-04-02 18:29:49.508 +02:00  INF  Request starting HTTP/1.1 GET http://localhost:5072/swagger/v1/swagger.json - null null
+2024-04-02 18:29:49.540 +02:00  INF  Request finished HTTP/1.1 GET http://localhost:5072/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 32.1283ms
+2024-04-02 18:29:49.882 +02:00  INF  Request starting HTTP/1.1 GET http://localhost:5072/favicon.ico - null null
+2024-04-02 18:29:49.888 +02:00  WRN  Failed to determine the https port for redirect.
+2024-04-02 18:29:49.891 +02:00  INF  HTTP GET /favicon.ico responded 404 in 3.5290 ms
+2024-04-02 18:29:49.893 +02:00  INF  Request finished HTTP/1.1 GET http://localhost:5072/favicon.ico - 404 0 null 10.9121ms
+2024-04-02 18:29:49.898 +02:00  INF  Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5072/favicon.ico, Response status code: 404
+2024-04-02 18:30:44.595 +02:00  INF  Starting JsonFileService
+2024-04-02 18:30:44.823 +02:00  INF  Starting TagOperationService
+2024-04-02 18:30:44.824 +02:00  INF  Starting StackOverflowApiService
+2024-04-02 18:30:44.841 +02:00  INF  Prepare 1000 tags storage
+2024-04-02 18:30:44.868 +02:00  INF  Calling https://api.stackexchange.com/2.3tags?page=1&pagesize=100&order=desc&sort=popular&site=stackoverflow
+2024-04-02 18:30:45.187 +02:00  INF  Now listening on: http://localhost:5072
+2024-04-02 18:30:45.189 +02:00  INF  Application started. Press Ctrl+C to shut down.
+2024-04-02 18:30:45.190 +02:00  INF  Hosting environment: Development
+2024-04-02 18:30:45.191 +02:00  INF  Content root path: C:\Users\athos\source\repos\API-SO-tag-analyzer\API-SO-tag-analyzer
+2024-04-02 18:30:45.599 +02:00  FTL  Problem with connecting to API
+2024-04-02 18:31:13.938 +02:00  INF  Request starting HTTP/1.1 GET http://localhost:5072/ - null null
+2024-04-02 18:31:14.042 +02:00  INF  Request finished HTTP/1.1 GET http://localhost:5072/ - 302 0 null 106.5507ms
+2024-04-02 18:31:14.046 +02:00  INF  Request starting HTTP/1.1 GET http://localhost:5072/swagger/index.html - null null
+2024-04-02 18:31:14.120 +02:00  INF  Request finished HTTP/1.1 GET http://localhost:5072/swagger/index.html - 200 null text/html;charset=utf-8 74.171ms
+2024-04-02 18:31:14.209 +02:00  INF  Request starting HTTP/1.1 GET http://localhost:5072/_framework/aspnetcore-browser-refresh.js - null null
+2024-04-02 18:31:14.212 +02:00  INF  Request starting HTTP/1.1 GET http://localhost:5072/_vs/browserLink - null null
+2024-04-02 18:31:14.214 +02:00  INF  Request finished HTTP/1.1 GET http://localhost:5072/_framework/aspnetcore-browser-refresh.js - 200 13774 application/javascript; charset=utf-8 4.9336ms
+2024-04-02 18:31:14.243 +02:00  INF  Request finished HTTP/1.1 GET http://localhost:5072/_vs/browserLink - 200 null text/javascript; charset=UTF-8 31.218ms
+2024-04-02 18:31:14.288 +02:00  INF  Request starting HTTP/1.1 GET http://localhost:5072/swagger/v1/swagger.json - null null
+2024-04-02 18:31:14.404 +02:00  INF  Request finished HTTP/1.1 GET http://localhost:5072/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 115.9372ms
+2024-04-02 18:31:29.350 +02:00  INF  Starting JsonFileService
+2024-04-02 18:31:29.528 +02:00  INF  Starting TagOperationService
+2024-04-02 18:31:29.529 +02:00  INF  Starting StackOverflowApiService
+2024-04-02 18:31:29.556 +02:00  INF  Prepare 1000 tags storage
+2024-04-02 18:31:29.595 +02:00  INF  Calling https://api.stackexchange.com/2.3tags?page=1&pagesize=100&order=desc&sort=popular&site=stackoverflow
+2024-04-02 18:31:30.002 +02:00  INF  Now listening on: http://localhost:5072
+2024-04-02 18:31:30.006 +02:00  INF  Application started. Press Ctrl+C to shut down.
+2024-04-02 18:31:30.009 +02:00  INF  Hosting environment: Development
+2024-04-02 18:31:30.010 +02:00  INF  Content root path: C:\Users\athos\source\repos\API-SO-tag-analyzer\API-SO-tag-analyzer
+2024-04-02 18:31:30.348 +02:00  FTL  Problem with connecting to API
+2024-04-02 18:31:32.915 +02:00  INF  Request starting HTTP/1.1 GET http://localhost:5072/swagger/index.html - null null
+2024-04-02 18:31:33.075 +02:00  INF  Request finished HTTP/1.1 GET http://localhost:5072/swagger/index.html - 200 null text/html;charset=utf-8 163.7875ms
+2024-04-02 18:31:33.152 +02:00  INF  Request starting HTTP/1.1 GET http://localhost:5072/_vs/browserLink - null null
+2024-04-02 18:31:33.152 +02:00  INF  Request starting HTTP/1.1 GET http://localhost:5072/_framework/aspnetcore-browser-refresh.js - null null
+2024-04-02 18:31:33.162 +02:00  INF  Request finished HTTP/1.1 GET http://localhost:5072/_framework/aspnetcore-browser-refresh.js - 200 13774 application/javascript; charset=utf-8 9.0941ms
+2024-04-02 18:31:33.185 +02:00  INF  Request finished HTTP/1.1 GET http://localhost:5072/_vs/browserLink - 200 null text/javascript; charset=UTF-8 32.6211ms
+2024-04-02 18:31:33.341 +02:00  INF  Request starting HTTP/1.1 GET http://localhost:5072/swagger/v1/swagger.json - null null
+2024-04-02 18:31:33.478 +02:00  INF  Request finished HTTP/1.1 GET http://localhost:5072/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 136.5269ms
+2024-04-02 18:33:56.668 +02:00  INF  Starting JsonFileService
+2024-04-02 18:33:56.822 +02:00  INF  Starting TagOperationService
+2024-04-02 18:33:56.823 +02:00  INF  Starting StackOverflowApiService
+2024-04-02 18:33:56.838 +02:00  INF  Prepare 1000 tags storage
+2024-04-02 18:33:56.864 +02:00  INF  Calling https://api.stackexchange.com/2.3tags?page=1&pagesize=100&order=desc&sort=popular&site=stackoverflow
+2024-04-02 18:33:57.279 +02:00  INF  Now listening on: http://localhost:5072
+2024-04-02 18:33:57.281 +02:00  INF  Application started. Press Ctrl+C to shut down.
+2024-04-02 18:33:57.282 +02:00  INF  Hosting environment: Development
+2024-04-02 18:33:57.283 +02:00  INF  Content root path: C:\Users\athos\source\repos\API-SO-tag-analyzer\API-SO-tag-analyzer
+2024-04-02 18:33:57.594 +02:00  FTL  Problem with connecting to API
+2024-04-02 18:34:22.650 +02:00  INF  Request starting HTTP/1.1 GET http://localhost:5072/swagger/index.html - null null
+2024-04-02 18:34:22.807 +02:00  INF  Request finished HTTP/1.1 GET http://localhost:5072/swagger/index.html - 200 null text/html;charset=utf-8 162.4434ms
+2024-04-02 18:34:22.873 +02:00  INF  Request starting HTTP/1.1 GET http://localhost:5072/_framework/aspnetcore-browser-refresh.js - null null
+2024-04-02 18:34:22.878 +02:00  INF  Request finished HTTP/1.1 GET http://localhost:5072/_framework/aspnetcore-browser-refresh.js - 200 13774 application/javascript; charset=utf-8 5.1268ms
+2024-04-02 18:34:23.065 +02:00  INF  Request starting HTTP/1.1 GET http://localhost:5072/_vs/browserLink - null null
+2024-04-02 18:34:23.095 +02:00  INF  Request finished HTTP/1.1 GET http://localhost:5072/_vs/browserLink - 200 null text/javascript; charset=UTF-8 29.6339ms
+2024-04-02 18:34:23.158 +02:00  INF  Request starting HTTP/1.1 GET http://localhost:5072/swagger/v1/swagger.json - null null
+2024-04-02 18:34:23.290 +02:00  INF  Request finished HTTP/1.1 GET http://localhost:5072/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 131.4788ms
+2024-04-02 18:40:04.800 +02:00  INF  Starting JsonFileService
+2024-04-02 18:40:04.952 +02:00  INF  Starting TagOperationService
+2024-04-02 18:40:04.953 +02:00  INF  Starting StackOverflowApiService
+2024-04-02 18:40:04.968 +02:00  INF  Prepare 1000 tags storage
+2024-04-02 18:40:04.991 +02:00  INF  Calling https://api.stackexchange.com/2.3tags?page=1&pagesize=100&order=desc&sort=popular&site=stackoverflow
+2024-04-02 18:40:05.347 +02:00  INF  Now listening on: http://localhost:5072
+2024-04-02 18:40:05.351 +02:00  INF  Application started. Press Ctrl+C to shut down.
+2024-04-02 18:40:05.353 +02:00  INF  Hosting environment: Development
+2024-04-02 18:40:05.354 +02:00  INF  Content root path: C:\Users\athos\source\repos\API-SO-tag-analyzer\API-SO-tag-analyzer
+2024-04-02 18:40:05.864 +02:00  FTL  Problem with connecting to API
+2024-04-02 18:40:14.489 +02:00  INF  Request starting HTTP/1.1 GET http://localhost:5072/swagger/index.html - null null
+2024-04-02 18:40:14.633 +02:00  INF  Request finished HTTP/1.1 GET http://localhost:5072/swagger/index.html - 200 null text/html;charset=utf-8 147.1052ms
+2024-04-02 18:40:14.706 +02:00  INF  Request starting HTTP/1.1 GET http://localhost:5072/_vs/browserLink - null null
+2024-04-02 18:40:14.709 +02:00  INF  Request starting HTTP/1.1 GET http://localhost:5072/_framework/aspnetcore-browser-refresh.js - null null
+2024-04-02 18:40:14.714 +02:00  INF  Request finished HTTP/1.1 GET http://localhost:5072/_framework/aspnetcore-browser-refresh.js - 200 13774 application/javascript; charset=utf-8 5.1625ms
+2024-04-02 18:40:14.738 +02:00  INF  Request finished HTTP/1.1 GET http://localhost:5072/_vs/browserLink - 200 null text/javascript; charset=UTF-8 32.6332ms
+2024-04-02 18:40:14.984 +02:00  INF  Request starting HTTP/1.1 GET http://localhost:5072/swagger/v1/swagger.json - null null
+2024-04-02 18:40:15.101 +02:00  INF  Request finished HTTP/1.1 GET http://localhost:5072/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 117.3873ms
+2024-04-02 18:40:46.969 +02:00  INF  Request starting HTTP/1.1 GET http://localhost:5072/swagger/index.html - null null
+2024-04-02 18:40:47.003 +02:00  INF  Request finished HTTP/1.1 GET http://localhost:5072/swagger/index.html - 200 null text/html;charset=utf-8 33.8427ms
+2024-04-02 18:40:47.082 +02:00  INF  Request starting HTTP/1.1 GET http://localhost:5072/_vs/browserLink - null null
+2024-04-02 18:40:47.092 +02:00  INF  Request starting HTTP/1.1 GET http://localhost:5072/_framework/aspnetcore-browser-refresh.js - null null
+2024-04-02 18:40:47.102 +02:00  INF  Request finished HTTP/1.1 GET http://localhost:5072/_framework/aspnetcore-browser-refresh.js - 200 13774 application/javascript; charset=utf-8 9.9105ms
+2024-04-02 18:40:47.112 +02:00  INF  Request finished HTTP/1.1 GET http://localhost:5072/_vs/browserLink - 200 null text/javascript; charset=UTF-8 29.8804ms
+2024-04-02 18:40:47.148 +02:00  INF  Request starting HTTP/1.1 GET http://localhost:5072/swagger/v1/swagger.json - null null
+2024-04-02 18:40:47.154 +02:00  INF  Request finished HTTP/1.1 GET http://localhost:5072/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 6.0246ms
+2024-04-02 18:41:15.683 +02:00  INF  Starting JsonFileService
+2024-04-02 18:41:15.847 +02:00  INF  Starting TagOperationService
+2024-04-02 18:41:15.848 +02:00  INF  Starting StackOverflowApiService
+2024-04-02 18:41:15.862 +02:00  INF  Prepare 1000 tags storage
+2024-04-02 18:41:15.883 +02:00  INF  Calling https://api.stackexchange.com/2.3tags?page=1&pagesize=100&order=desc&sort=popular&site=stackoverflow
+2024-04-02 18:41:16.278 +02:00  INF  Now listening on: http://localhost:5072
+2024-04-02 18:41:16.280 +02:00  INF  Application started. Press Ctrl+C to shut down.
+2024-04-02 18:41:16.281 +02:00  INF  Hosting environment: Development
+2024-04-02 18:41:16.282 +02:00  INF  Content root path: C:\Users\athos\source\repos\API-SO-tag-analyzer\API-SO-tag-analyzer
+2024-04-02 18:41:16.632 +02:00  FTL  Problem with connecting to API
+2024-04-02 18:41:39.096 +02:00  INF  Request starting HTTP/1.1 GET http://localhost:5072/swagger/index.html - null null
+2024-04-02 18:41:39.352 +02:00  INF  Request finished HTTP/1.1 GET http://localhost:5072/swagger/index.html - 200 null text/html;charset=utf-8 243.4746ms
+2024-04-02 18:41:39.749 +02:00  INF  Request starting HTTP/1.1 GET http://localhost:5072/_vs/browserLink - null null
+2024-04-02 18:41:39.909 +02:00  INF  Request starting HTTP/1.1 GET http://localhost:5072/_framework/aspnetcore-browser-refresh.js - null null
+2024-04-02 18:41:39.969 +02:00  INF  Request finished HTTP/1.1 GET http://localhost:5072/_framework/aspnetcore-browser-refresh.js - 200 13774 application/javascript; charset=utf-8 60.0588ms
+2024-04-02 18:41:39.993 +02:00  INF  Request finished HTTP/1.1 GET http://localhost:5072/_vs/browserLink - 200 null text/javascript; charset=UTF-8 244.6038ms
+2024-04-02 18:41:40.058 +02:00  INF  Request starting HTTP/1.1 GET http://localhost:5072/swagger/v1/swagger.json - null null
+2024-04-02 18:41:40.275 +02:00  INF  Request finished HTTP/1.1 GET http://localhost:5072/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 217.0268ms
+2024-04-02 18:43:49.421 +02:00  INF  Request starting HTTP/1.1 GET http://localhost:5072/swagger/index.html - null null
+2024-04-02 18:43:49.461 +02:00  INF  Request finished HTTP/1.1 GET http://localhost:5072/swagger/index.html - 200 null text/html;charset=utf-8 40.8997ms
+2024-04-02 18:43:49.557 +02:00  INF  Request starting HTTP/1.1 GET http://localhost:5072/_vs/browserLink - null null
+2024-04-02 18:43:49.560 +02:00  INF  Request starting HTTP/1.1 GET http://localhost:5072/_framework/aspnetcore-browser-refresh.js - null null
+2024-04-02 18:43:49.580 +02:00  INF  Request finished HTTP/1.1 GET http://localhost:5072/_framework/aspnetcore-browser-refresh.js - 200 13774 application/javascript; charset=utf-8 20.5795ms
+2024-04-02 18:43:49.593 +02:00  INF  Request finished HTTP/1.1 GET http://localhost:5072/_vs/browserLink - 200 null text/javascript; charset=UTF-8 35.1614ms
+2024-04-02 18:43:49.919 +02:00  INF  Request starting HTTP/1.1 GET http://localhost:5072/swagger/v1/swagger.json - null null
+2024-04-02 18:43:49.926 +02:00  INF  Request finished HTTP/1.1 GET http://localhost:5072/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 7.1627ms
+2024-04-02 18:44:21.265 +02:00  INF  Starting JsonFileService
+2024-04-02 18:44:21.551 +02:00  INF  Starting TagOperationService
+2024-04-02 18:44:21.553 +02:00  INF  Starting StackOverflowApiService
+2024-04-02 18:44:21.574 +02:00  INF  Prepare 1000 tags storage
+2024-04-02 18:44:21.606 +02:00  INF  Calling https://api.stackexchange.com/2.3tags?page=1&pagesize=100&order=desc&sort=popular&site=stackoverflow
+2024-04-02 18:44:22.076 +02:00  INF  Now listening on: http://localhost:5072
+2024-04-02 18:44:22.081 +02:00  INF  Application started. Press Ctrl+C to shut down.
+2024-04-02 18:44:22.082 +02:00  INF  Hosting environment: Development
+2024-04-02 18:44:22.083 +02:00  INF  Content root path: C:\Users\athos\source\repos\API-SO-tag-analyzer\API-SO-tag-analyzer
+2024-04-02 18:44:22.515 +02:00  FTL  Problem with connecting to API
+2024-04-02 18:44:56.050 +02:00  INF  Request starting HTTP/1.1 GET http://localhost:5072/swagger/index.html - null null
+2024-04-02 18:44:56.342 +02:00  INF  Request finished HTTP/1.1 GET http://localhost:5072/swagger/index.html - 200 null text/html;charset=utf-8 298.0776ms
+2024-04-02 18:44:56.487 +02:00  INF  Request starting HTTP/1.1 GET http://localhost:5072/_framework/aspnetcore-browser-refresh.js - null null
+2024-04-02 18:44:56.493 +02:00  INF  Request finished HTTP/1.1 GET http://localhost:5072/_framework/aspnetcore-browser-refresh.js - 200 13774 application/javascript; charset=utf-8 6.0803ms
+2024-04-02 18:44:56.768 +02:00  INF  Request starting HTTP/1.1 GET http://localhost:5072/_vs/browserLink - null null
+2024-04-02 18:44:56.810 +02:00  INF  Request finished HTTP/1.1 GET http://localhost:5072/_vs/browserLink - 200 null text/javascript; charset=UTF-8 41.7356ms
+2024-04-02 18:44:56.894 +02:00  INF  Request starting HTTP/1.1 GET http://localhost:5072/swagger/v1/swagger.json - null null
+2024-04-02 18:44:57.071 +02:00  INF  Request finished HTTP/1.1 GET http://localhost:5072/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 177.2372ms
+2024-04-02 18:46:04.662 +02:00  INF  Starting JsonFileService
+2024-04-02 18:46:04.961 +02:00  INF  Starting TagOperationService
+2024-04-02 18:46:04.963 +02:00  INF  Starting StackOverflowApiService
+2024-04-02 18:46:04.984 +02:00  INF  Prepare 1000 tags storage
+2024-04-02 18:46:05.014 +02:00  INF  Calling https://api.stackexchange.com/2.3tags?page=1&pagesize=100&order=desc&sort=popular&site=stackoverflow
+2024-04-02 18:46:05.449 +02:00  INF  Now listening on: http://localhost:5072
+2024-04-02 18:46:05.459 +02:00  INF  Application started. Press Ctrl+C to shut down.
+2024-04-02 18:46:05.461 +02:00  INF  Hosting environment: Development
+2024-04-02 18:46:05.461 +02:00  INF  Content root path: C:\Users\athos\source\repos\API-SO-tag-analyzer\API-SO-tag-analyzer
+2024-04-02 18:46:05.756 +02:00  FTL  Problem with connecting to API
+2024-04-02 18:46:29.707 +02:00  INF  Request starting HTTP/1.1 GET http://localhost:5072/ - null null
+2024-04-02 18:46:29.850 +02:00  INF  Request finished HTTP/1.1 GET http://localhost:5072/ - 302 0 null 148.3946ms
+2024-04-02 18:46:29.856 +02:00  INF  Request starting HTTP/1.1 GET http://localhost:5072/swagger/index.html - null null
+2024-04-02 18:46:29.945 +02:00  INF  Request finished HTTP/1.1 GET http://localhost:5072/swagger/index.html - 200 null text/html;charset=utf-8 89.3653ms
+2024-04-02 18:46:30.105 +02:00  INF  Request starting HTTP/1.1 GET http://localhost:5072/_framework/aspnetcore-browser-refresh.js - null null
+2024-04-02 18:46:30.112 +02:00  INF  Request finished HTTP/1.1 GET http://localhost:5072/_framework/aspnetcore-browser-refresh.js - 200 13774 application/javascript; charset=utf-8 7.0784ms
+2024-04-02 18:46:30.291 +02:00  INF  Request starting HTTP/1.1 GET http://localhost:5072/_vs/browserLink - null null
+2024-04-02 18:46:30.335 +02:00  INF  Request finished HTTP/1.1 GET http://localhost:5072/_vs/browserLink - 200 null text/javascript; charset=UTF-8 44.6168ms
+2024-04-02 18:46:30.391 +02:00  INF  Request starting HTTP/1.1 GET http://localhost:5072/swagger/v1/swagger.json - null null
+2024-04-02 18:46:30.557 +02:00  INF  Request finished HTTP/1.1 GET http://localhost:5072/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 165.6254ms
+2024-04-02 18:46:32.369 +02:00  INF  Request starting HTTP/1.1 GET http://localhost:5072/swagger/index.html - null null
+2024-04-02 18:46:32.403 +02:00  INF  Request finished HTTP/1.1 GET http://localhost:5072/swagger/index.html - 200 null text/html;charset=utf-8 34.7334ms
+2024-04-02 18:46:32.546 +02:00  INF  Request starting HTTP/1.1 GET http://localhost:5072/_vs/browserLink - null null
+2024-04-02 18:46:32.549 +02:00  INF  Request starting HTTP/1.1 GET http://localhost:5072/_framework/aspnetcore-browser-refresh.js - null null
+2024-04-02 18:46:32.559 +02:00  INF  Request finished HTTP/1.1 GET http://localhost:5072/_framework/aspnetcore-browser-refresh.js - 200 13774 application/javascript; charset=utf-8 9.2137ms
+2024-04-02 18:46:32.574 +02:00  INF  Request finished HTTP/1.1 GET http://localhost:5072/_vs/browserLink - 200 null text/javascript; charset=UTF-8 28.0996ms
+2024-04-02 18:46:32.619 +02:00  INF  Request starting HTTP/1.1 GET http://localhost:5072/swagger/v1/swagger.json - null null
+2024-04-02 18:46:32.626 +02:00  INF  Request finished HTTP/1.1 GET http://localhost:5072/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 7.1928ms
+2024-04-02 18:47:42.155 +02:00  INF  Request starting HTTP/1.1 GET http://localhost:5072/ - null null
+2024-04-02 18:47:42.192 +02:00  INF  Request finished HTTP/1.1 GET http://localhost:5072/ - 302 0 null 37.4511ms
+2024-04-02 18:47:42.197 +02:00  INF  Request starting HTTP/1.1 GET http://localhost:5072/swagger/index.html - null null
+2024-04-02 18:47:42.219 +02:00  INF  Request finished HTTP/1.1 GET http://localhost:5072/swagger/index.html - 200 null text/html;charset=utf-8 22.7442ms
+2024-04-02 18:47:42.395 +02:00  INF  Request starting HTTP/1.1 GET http://localhost:5072/_framework/aspnetcore-browser-refresh.js - null null
+2024-04-02 18:47:42.398 +02:00  INF  Request finished HTTP/1.1 GET http://localhost:5072/_framework/aspnetcore-browser-refresh.js - 200 13774 application/javascript; charset=utf-8 2.9152ms
+2024-04-02 18:47:42.578 +02:00  INF  Request starting HTTP/1.1 GET http://localhost:5072/_vs/browserLink - null null
+2024-04-02 18:47:42.594 +02:00  INF  Request finished HTTP/1.1 GET http://localhost:5072/_vs/browserLink - 200 null text/javascript; charset=UTF-8 16.2436ms
+2024-04-02 18:47:42.667 +02:00  INF  Request starting HTTP/1.1 GET http://localhost:5072/swagger/v1/swagger.json - null null
+2024-04-02 18:47:42.674 +02:00  INF  Request finished HTTP/1.1 GET http://localhost:5072/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 6.4815ms
+2024-04-02 18:48:37.855 +02:00  INF  Starting JsonFileService
+2024-04-02 18:48:38.080 +02:00  INF  Starting TagOperationService
+2024-04-02 18:48:38.081 +02:00  INF  Starting StackOverflowApiService
+2024-04-02 18:48:38.104 +02:00  INF  Prepare 1000 tags storage
+2024-04-02 18:48:38.136 +02:00  INF  Calling https://api.stackexchange.com/2.3tags?page=1&pagesize=100&order=desc&sort=popular&site=stackoverflow
+2024-04-02 18:48:38.587 +02:00  INF  Now listening on: http://localhost:5072
+2024-04-02 18:48:38.592 +02:00  INF  Application started. Press Ctrl+C to shut down.
+2024-04-02 18:48:38.593 +02:00  INF  Hosting environment: Development
+2024-04-02 18:48:38.594 +02:00  INF  Content root path: C:\Users\athos\source\repos\API-SO-tag-analyzer\API-SO-tag-analyzer
+2024-04-02 18:48:38.917 +02:00  FTL  Problem with connecting to API
+2024-04-02 18:49:02.649 +02:00  INF  Request starting HTTP/1.1 GET http://localhost:5072/swagger/index.html - null null
+2024-04-02 18:49:02.958 +02:00  INF  Request finished HTTP/1.1 GET http://localhost:5072/swagger/index.html - 200 null text/html;charset=utf-8 314.6231ms
+2024-04-02 18:49:03.079 +02:00  INF  Request starting HTTP/1.1 GET http://localhost:5072/_vs/browserLink - null null
+2024-04-02 18:49:03.083 +02:00  INF  Request starting HTTP/1.1 GET http://localhost:5072/_framework/aspnetcore-browser-refresh.js - null null
+2024-04-02 18:49:03.101 +02:00  INF  Request finished HTTP/1.1 GET http://localhost:5072/_framework/aspnetcore-browser-refresh.js - 200 13774 application/javascript; charset=utf-8 16.4627ms
+2024-04-02 18:49:03.167 +02:00  INF  Request finished HTTP/1.1 GET http://localhost:5072/_vs/browserLink - 200 null text/javascript; charset=UTF-8 88.0941ms
+2024-04-02 18:49:03.444 +02:00  INF  Request starting HTTP/1.1 GET http://localhost:5072/swagger/v1/swagger.json - null null
+2024-04-02 18:49:03.668 +02:00  INF  Request finished HTTP/1.1 GET http://localhost:5072/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 224.5745ms
+2024-04-02 18:49:30.456 +02:00  INF  Request starting HTTP/1.1 GET http://localhost:5072/swagger/index.html - null null
+2024-04-02 18:49:30.504 +02:00  INF  Request finished HTTP/1.1 GET http://localhost:5072/swagger/index.html - 200 null text/html;charset=utf-8 48.4275ms
+2024-04-02 18:49:31.002 +02:00  INF  Request starting HTTP/1.1 GET http://localhost:5072/_framework/aspnetcore-browser-refresh.js - null null
+2024-04-02 18:49:31.008 +02:00  INF  Request starting HTTP/1.1 GET http://localhost:5072/_vs/browserLink - null null
+2024-04-02 18:49:31.025 +02:00  INF  Request finished HTTP/1.1 GET http://localhost:5072/_framework/aspnetcore-browser-refresh.js - 200 13774 application/javascript; charset=utf-8 22.8162ms
+2024-04-02 18:49:31.085 +02:00  INF  Request finished HTTP/1.1 GET http://localhost:5072/_vs/browserLink - 200 null text/javascript; charset=UTF-8 76.165ms
+2024-04-02 18:49:31.154 +02:00  INF  Request starting HTTP/1.1 GET http://localhost:5072/swagger/v1/swagger.json - null null
+2024-04-02 18:49:31.163 +02:00  INF  Request finished HTTP/1.1 GET http://localhost:5072/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 8.8735ms
+2024-04-02 18:51:25.795 +02:00  INF  Starting JsonFileService
+2024-04-02 18:51:26.020 +02:00  INF  Starting TagOperationService
+2024-04-02 18:51:26.021 +02:00  INF  Starting StackOverflowApiService
+2024-04-02 18:51:26.041 +02:00  INF  Prepare 1000 tags storage
+2024-04-02 18:51:26.070 +02:00  INF  Calling https://api.stackexchange.com/2.3tags?page=1&pagesize=100&order=desc&sort=popular&site=stackoverflow
+2024-04-02 18:51:26.532 +02:00  INF  Now listening on: http://localhost:5072
+2024-04-02 18:51:26.536 +02:00  INF  Application started. Press Ctrl+C to shut down.
+2024-04-02 18:51:26.538 +02:00  INF  Hosting environment: Development
+2024-04-02 18:51:26.539 +02:00  INF  Content root path: C:\Users\athos\source\repos\API-SO-tag-analyzer\API-SO-tag-analyzer
+2024-04-02 18:51:26.892 +02:00  FTL  Problem with connecting to API
+2024-04-02 18:51:52.370 +02:00  INF  Request starting HTTP/1.1 GET http://localhost:5072/swagger/index.html - null null
+2024-04-02 18:51:52.601 +02:00  INF  Request finished HTTP/1.1 GET http://localhost:5072/swagger/index.html - 200 null text/html;charset=utf-8 236.8053ms
+2024-04-02 18:51:52.712 +02:00  INF  Request starting HTTP/1.1 GET http://localhost:5072/_framework/aspnetcore-browser-refresh.js - null null
+2024-04-02 18:51:52.718 +02:00  INF  Request finished HTTP/1.1 GET http://localhost:5072/_framework/aspnetcore-browser-refresh.js - 200 13774 application/javascript; charset=utf-8 6.7645ms
+2024-04-02 18:51:52.963 +02:00  INF  Request starting HTTP/1.1 GET http://localhost:5072/_vs/browserLink - null null
+2024-04-02 18:51:52.997 +02:00  INF  Request finished HTTP/1.1 GET http://localhost:5072/_vs/browserLink - 200 null text/javascript; charset=UTF-8 33.3163ms
+2024-04-02 18:51:53.085 +02:00  INF  Request starting HTTP/1.1 GET http://localhost:5072/swagger/v1/swagger.json - null null
+2024-04-02 18:51:53.272 +02:00  INF  Request finished HTTP/1.1 GET http://localhost:5072/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 186.9396ms
+2024-04-02 18:52:41.819 +02:00  INF  Starting JsonFileService
+2024-04-02 18:52:42.046 +02:00  INF  Starting TagOperationService
+2024-04-02 18:52:42.047 +02:00  INF  Starting StackOverflowApiService
+2024-04-02 18:52:42.112 +02:00  INF  Prepare 1000 tags storage
+2024-04-02 18:52:42.162 +02:00  INF  Calling https://api.stackexchange.com/2.3tags?page=1&pagesize=100&order=desc&sort=popular&site=stackoverflow
+2024-04-02 18:52:42.714 +02:00  INF  Now listening on: http://localhost:5072
+2024-04-02 18:52:42.724 +02:00  INF  Application started. Press Ctrl+C to shut down.
+2024-04-02 18:52:42.725 +02:00  INF  Hosting environment: Development
+2024-04-02 18:52:42.725 +02:00  INF  Content root path: C:\Users\athos\source\repos\API-SO-tag-analyzer\API-SO-tag-analyzer
+2024-04-02 18:52:42.982 +02:00  FTL  Problem with connecting to API
+2024-04-02 18:53:12.112 +02:00  INF  Request starting HTTP/1.1 GET http://localhost:5072/ - null null
+2024-04-02 18:53:12.255 +02:00  INF  Request finished HTTP/1.1 GET http://localhost:5072/ - 302 0 null 147.2088ms
+2024-04-02 18:53:12.261 +02:00  INF  Request starting HTTP/1.1 GET http://localhost:5072/swagger/index.html - null null
+2024-04-02 18:53:12.354 +02:00  INF  Request finished HTTP/1.1 GET http://localhost:5072/swagger/index.html - 200 null text/html;charset=utf-8 93.1535ms
+2024-04-02 18:53:12.517 +02:00  INF  Request starting HTTP/1.1 GET http://localhost:5072/_framework/aspnetcore-browser-refresh.js - null null
+2024-04-02 18:53:12.522 +02:00  INF  Request finished HTTP/1.1 GET http://localhost:5072/_framework/aspnetcore-browser-refresh.js - 200 13774 application/javascript; charset=utf-8 5.1068ms
+2024-04-02 18:53:12.707 +02:00  INF  Request starting HTTP/1.1 GET http://localhost:5072/_vs/browserLink - null null
+2024-04-02 18:53:12.745 +02:00  INF  Request finished HTTP/1.1 GET http://localhost:5072/_vs/browserLink - 200 null text/javascript; charset=UTF-8 37.8293ms
+2024-04-02 18:53:12.809 +02:00  INF  Request starting HTTP/1.1 GET http://localhost:5072/swagger/v1/swagger.json - null null
+2024-04-02 18:53:12.970 +02:00  INF  Request finished HTTP/1.1 GET http://localhost:5072/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 161.1696ms
+2024-04-02 18:53:17.137 +02:00  INF  Request starting HTTP/1.1 GET http://localhost:5072/Tags/Name/Asc - null null
+2024-04-02 18:53:17.146 +02:00  WRN  Failed to determine the https port for redirect.
+2024-04-02 18:53:17.151 +02:00  INF  Executing endpoint 'API_SO_tag_analyzer.Controllers.TagsController.GetPercentageOfTagOccurences (API-SO-tag-analyzer)'
+2024-04-02 18:53:17.178 +02:00  INF  Route matched with {action = "GetPercentageOfTagOccurences", controller = "Tags"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetPercentageOfTagOccurences(API_SO_tag_analyzer.Helpers.Enums.OrderByEnum, API_SO_tag_analyzer.Helpers.Enums.OrderEnum) on controller API_SO_tag_analyzer.Controllers.TagsController (API-SO-tag-analyzer).
+2024-04-02 18:53:17.181 +02:00  INF  Starting TagsController
+2024-04-02 18:53:17.241 +02:00  INF  Executing action method API_SO_tag_analyzer.Controllers.TagsController.GetPercentageOfTagOccurences (API-SO-tag-analyzer) - Validation state: "Valid"
+2024-04-02 18:53:17.244 +02:00  INF  Loading TagStorage from file
+2024-04-02 18:53:17.351 +02:00  INF  Summation of the number of occurrences
+2024-04-02 18:53:17.360 +02:00  INF  Executed action method API_SO_tag_analyzer.Controllers.TagsController.GetPercentageOfTagOccurences (API-SO-tag-analyzer), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 115.7295ms.
+2024-04-02 18:53:17.368 +02:00  INF  Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[System.Collections.Generic.KeyValuePair`2[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Double, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-04-02 18:53:17.411 +02:00  INF  Executed action API_SO_tag_analyzer.Controllers.TagsController.GetPercentageOfTagOccurences (API-SO-tag-analyzer) in 227.2579ms
+2024-04-02 18:53:17.413 +02:00  INF  Executed endpoint 'API_SO_tag_analyzer.Controllers.TagsController.GetPercentageOfTagOccurences (API-SO-tag-analyzer)'
+2024-04-02 18:53:17.417 +02:00  INF  HTTP GET /Tags/Name/Asc responded 200 in 272.3450 ms
+2024-04-02 18:53:17.423 +02:00  INF  Request finished HTTP/1.1 GET http://localhost:5072/Tags/Name/Asc - 200 36847 application/json; charset=utf-8 285.6925ms
+2024-04-02 18:53:20.775 +02:00  INF  Request starting HTTP/1.1 GET http://localhost:5072/Tags/Name/Desc - null null
+2024-04-02 18:53:20.779 +02:00  INF  Executing endpoint 'API_SO_tag_analyzer.Controllers.TagsController.GetPercentageOfTagOccurences (API-SO-tag-analyzer)'
+2024-04-02 18:53:20.780 +02:00  INF  Route matched with {action = "GetPercentageOfTagOccurences", controller = "Tags"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetPercentageOfTagOccurences(API_SO_tag_analyzer.Helpers.Enums.OrderByEnum, API_SO_tag_analyzer.Helpers.Enums.OrderEnum) on controller API_SO_tag_analyzer.Controllers.TagsController (API-SO-tag-analyzer).
+2024-04-02 18:53:20.783 +02:00  INF  Starting TagsController
+2024-04-02 18:53:20.800 +02:00  INF  Executing action method API_SO_tag_analyzer.Controllers.TagsController.GetPercentageOfTagOccurences (API-SO-tag-analyzer) - Validation state: "Valid"
+2024-04-02 18:53:20.802 +02:00  INF  Loading TagStorage from file
+2024-04-02 18:53:20.835 +02:00  INF  Summation of the number of occurrences
+2024-04-02 18:53:20.839 +02:00  INF  Executed action method API_SO_tag_analyzer.Controllers.TagsController.GetPercentageOfTagOccurences (API-SO-tag-analyzer), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 36.7204ms.
+2024-04-02 18:53:20.841 +02:00  INF  Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[System.Collections.Generic.KeyValuePair`2[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Double, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-04-02 18:53:20.850 +02:00  INF  Executed action API_SO_tag_analyzer.Controllers.TagsController.GetPercentageOfTagOccurences (API-SO-tag-analyzer) in 67.008ms
+2024-04-02 18:53:20.851 +02:00  INF  Executed endpoint 'API_SO_tag_analyzer.Controllers.TagsController.GetPercentageOfTagOccurences (API-SO-tag-analyzer)'
+2024-04-02 18:53:20.853 +02:00  INF  HTTP GET /Tags/Name/Desc responded 200 in 74.0786 ms
+2024-04-02 18:53:20.855 +02:00  INF  Request finished HTTP/1.1 GET http://localhost:5072/Tags/Name/Desc - 200 36847 application/json; charset=utf-8 79.7058ms
+2024-04-02 18:53:48.711 +02:00  INF  Request starting HTTP/1.1 GET http://localhost:5072/swagger/index.html - null null
+2024-04-02 18:53:48.752 +02:00  INF  Request finished HTTP/1.1 GET http://localhost:5072/swagger/index.html - 200 null text/html;charset=utf-8 40.8578ms
+2024-04-02 18:53:48.857 +02:00  INF  Request starting HTTP/1.1 GET http://localhost:5072/_vs/browserLink - null null
+2024-04-02 18:53:48.858 +02:00  INF  Request starting HTTP/1.1 GET http://localhost:5072/_framework/aspnetcore-browser-refresh.js - null null
+2024-04-02 18:53:48.871 +02:00  INF  Request finished HTTP/1.1 GET http://localhost:5072/_framework/aspnetcore-browser-refresh.js - 200 13774 application/javascript; charset=utf-8 13.5343ms
+2024-04-02 18:53:48.885 +02:00  INF  Request finished HTTP/1.1 GET http://localhost:5072/_vs/browserLink - 200 null text/javascript; charset=UTF-8 27.7473ms
+2024-04-02 18:53:49.177 +02:00  INF  Request starting HTTP/1.1 GET http://localhost:5072/swagger/v1/swagger.json - null null
+2024-04-02 18:53:49.183 +02:00  INF  Request finished HTTP/1.1 GET http://localhost:5072/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 5.7937ms

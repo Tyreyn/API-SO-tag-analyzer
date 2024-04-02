@@ -1,0 +1,14 @@
+version: '3.4'
+
+networks:
+    tagapianalyzer:
+
+services:
+  API-SO-tag-analyzer:
+    image: "apisotaganalyzer"
+    working_dir: /app
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+        - "8000:8080"

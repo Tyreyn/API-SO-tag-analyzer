@@ -11,10 +11,11 @@
 using System;
 using System.Reflection;
 
+[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("851320a3-60f3-46e9-9e13-7afee22ec075")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("API-SO-tag-analyzer")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+84e1c95dba69a225343b235c2192171e7b125f40")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ff4134834b1401d959c14017fc290873e3dae138")]
 [assembly: System.Reflection.AssemblyProductAttribute("API-SO-tag-analyzer")]
 [assembly: System.Reflection.AssemblyTitleAttribute("API-SO-tag-analyzer")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

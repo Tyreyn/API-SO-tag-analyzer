@@ -1,0 +1,7761 @@
+{
+  "items": [
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 147,
+      "name": ".a"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 162,
+      "name": ".app"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 64,
+      "name": ".aspxauth"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 284,
+      "name": ".class-file"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 6,
+      "name": ".cod-file"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 3,
+      "name": ".csproj.in"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 2,
+      "name": ".ctf"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 161,
+      "name": ".d.ts"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 4,
+      "name": ".data"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 154,
+      "name": ".doc"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 64,
+      "name": ".emf"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 189,
+      "name": ".env"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 39,
+      "name": ".git-folder"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 6,
+      "name": ".git-info-grafts"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 2,
+      "name": ".gz"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 9,
+      "name": ".hgtags"
+    },
+    {
+      "has_synonyms": true,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 73122,
+      "name": ".htaccess"
+    },
+    {
+      "has_synonyms": true,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 532,
+      "name": ".htpasswd"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 1,
+      "name": ".http-files"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 31,
+      "name": ".ico"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 132,
+      "name": ".lib"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 5,
+      "name": ".lrc"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 2,
+      "name": ".mobi"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 54,
+      "name": ".mov"
+    },
+    {
+      "has_synonyms": true,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 337883,
+      "name": ".net"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 28,
+      "name": ".net-1.0"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 371,
+      "name": ".net-1.1"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 2576,
+      "name": ".net-2.0"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 113,
+      "name": ".net-3.0"
+    },
+    {
+      "has_synonyms": true,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 5937,
+      "name": ".net-3.5"
+    },
+    {
+      "has_synonyms": true,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 8822,
+      "name": ".net-4.0"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 17,
+      "name": ".net-4.0-beta-2"
+    },
+    {
+      "has_synonyms": true,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 3785,
+      "name": ".net-4.5"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 139,
+      "name": ".net-4.5.2"
+    },
+    {
+      "has_synonyms": true,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 443,
+      "name": ".net-4.6"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 278,
+      "name": ".net-4.6.1"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 161,
+      "name": ".net-4.6.2"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 112,
+      "name": ".net-4.7"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 60,
+      "name": ".net-4.7.1"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 327,
+      "name": ".net-4.7.2"
+    },
+    {
+      "has_synonyms": true,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 1143,
+      "name": ".net-4.8"
+    },
+    {
+      "has_synonyms": true,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 3048,
+      "name": ".net-5"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 5894,
+      "name": ".net-6.0"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 1504,
+      "name": ".net-7.0"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 1018,
+      "name": ".net-8.0"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 3361,
+      "name": ".net-assembly"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 32,
+      "name": ".net-attributes"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 3,
+      "name": ".net-bcl"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 147,
+      "name": ".net-cf-3.5"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 74,
+      "name": ".net-client-profile"
+    },
+    {
+      "has_synonyms": true,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 45007,
+      "name": ".net-core"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 30,
+      "name": ".net-core-1.1"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 342,
+      "name": ".net-core-2.0"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 177,
+      "name": ".net-core-2.1"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 224,
+      "name": ".net-core-2.2"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 631,
+      "name": ".net-core-3.0"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 981,
+      "name": ".net-core-3.1"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 2,
+      "name": ".net-core-5-preview-2"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 9,
+      "name": ".net-core-angular"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 17,
+      "name": ".net-core-authorization"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 3,
+      "name": ".net-core-class-library"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 29,
+      "name": ".net-core-configuration"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 23,
+      "name": ".net-core-logging"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 32,
+      "name": ".net-core-publishsinglefile"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 11,
+      "name": ".net-core-rc1"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 170,
+      "name": ".net-core-rc2"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 14,
+      "name": ".net-core-sdk"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 9,
+      "name": ".net-core-service-worker"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 7,
+      "name": ".net-datasourcecontrol"
+    },
+    {
+      "has_synonyms": true,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 15,
+      "name": ".net-fiddle"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 3,
+      "name": ".net-framework-4.8"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 1112,
+      "name": ".net-framework-version"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 24,
+      "name": ".net-gadgeteer"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 19,
+      "name": ".net-generic-math"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 13,
+      "name": ".net-interactive"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 11,
+      "name": ".net-internals"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 4,
+      "name": ".net-ios"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 11,
+      "name": ".net-mac"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 534,
+      "name": ".net-maui"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 100,
+      "name": ".net-maui.shell"
+    },
+    {
+      "has_synonyms": true,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 235,
+      "name": ".net-micro-framework"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 149,
+      "name": ".net-native"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 4,
+      "name": ".net-ngif"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 53,
+      "name": ".netrc"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 81,
+      "name": ".net-reflector"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 281,
+      "name": ".net-remoting"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 2,
+      "name": ".net-rtf-writer"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 39,
+      "name": ".net-runtime"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 22,
+      "name": ".net-sdk"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 48,
+      "name": ".net-security"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 19,
+      "name": ".net-services"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 24,
+      "name": ".net-spark"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 1623,
+      "name": ".net-standard"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 23,
+      "name": ".net-standard-1.4"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 29,
+      "name": ".net-standard-1.5"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 13,
+      "name": ".net-standard-1.6"
+    },
+    {
+      "has_synonyms": true,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 784,
+      "name": ".net-standard-2.0"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 74,
+      "name": ".net-standard-2.1"
+    },
+    {
+      "has_synonyms": true,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 58,
+      "name": ".nettiers"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 4,
+      "name": ".net-trace"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 20,
+      "name": ".net-traceprocessing"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 63,
+      "name": ".npmrc"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 339,
+      "name": ".obj"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 273,
+      "name": ".post"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 95,
+      "name": ".profile"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 2,
+      "name": ".railsrc"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 17,
+      "name": ".refresh"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 3,
+      "name": ".sbr"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 10,
+      "name": ".searchable"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 363,
+      "name": ".so"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 3,
+      "name": ".vhdx"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 175,
+      "name": ".when"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 13,
+      "name": ".x"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 10,
+      "name": ".xproj"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 2,
+      "name": "05ab1e"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 4,
+      "name": "100mslive"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 5,
+      "name": "1010data"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 11,
+      "name": "10gen-csharp-driver"
+    },
+    {
+      "has_synonyms": true,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 87,
+      "name": "128-bit"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 95,
+      "name": "12factor"
+    },
+    {
+      "has_synonyms": true,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 418,
+      "name": "16-bit"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 11,
+      "name": "1c"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 28,
+      "name": "1password"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 32,
+      "name": "1wire"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 36,
+      "name": "2.5d"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 1,
+      "name": "2009scape"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 64,
+      "name": "2048"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 5,
+      "name": "21cfr11"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 34,
+      "name": "2-3-4-tree"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 11,
+      "name": "23andme-api"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 21,
+      "name": "2-3-tree"
+    },
+    {
+      "has_synonyms": true,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 64,
+      "name": "24-bit"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 30,
+      "name": "256color"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 120,
+      "name": "2captcha"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 165,
+      "name": "2checkout"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 7551,
+      "name": "2d"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 28,
+      "name": "2d-3d-conversion"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 25,
+      "name": "2d-context-api"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 6,
+      "name": "2d-engine"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 1123,
+      "name": "2d-games"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 39,
+      "name": "2-digit-year"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 70,
+      "name": "2dsphere"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 146,
+      "name": "2d-vector"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 47,
+      "name": "2-legged"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 70,
+      "name": "2phase-commit"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 21,
+      "name": "2-satisfiability"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 612,
+      "name": "2sxc"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 13,
+      "name": "2-tier"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 335,
+      "name": "2-way-object-databinding"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 38,
+      "name": "3270"
+    },
+    {
+      "has_synonyms": true,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 1401,
+      "name": "32-bit"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 2633,
+      "name": "32bit-64bit"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 154,
+      "name": "32feet"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 2,
+      "name": "34grid"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 197,
+      "name": "360-degrees"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 2,
+      "name": "360entsecgroup-skylar-excelize"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 152,
+      "name": "360-panorama"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 40,
+      "name": "360-panorama-viewer"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 10,
+      "name": "360-video"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 179,
+      "name": "360-virtual-reality"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 22,
+      "name": "37-signals"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 1,
+      "name": "389ds"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 30,
+      "name": "3cx"
+    },
+    {
+      "has_synonyms": true,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 17215,
+      "name": "3d"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 38,
+      "name": "3d.io"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 33,
+      "name": "3dcamera"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 20,
+      "name": "3d-convolution"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 66,
+      "name": "3d-engine"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 359,
+      "name": "3des"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 21,
+      "name": "3d-mapping"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 355,
+      "name": "3d-model"
+    },
+    {
+      "has_synonyms": true,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 326,
+      "name": "3d-modelling"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 39,
+      "name": "3d-printing"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 14,
+      "name": "3dr"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 369,
+      "name": "3d-reconstruction"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 79,
+      "name": "3d-rendering"
+    },
+    {
+      "has_synonyms": true,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 141,
+      "name": "3ds"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 145,
+      "name": "3d-secure"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 593,
+      "name": "3dsmax"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 38,
+      "name": "3d-texture"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 361,
+      "name": "3dtouch"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 535,
+      "name": "3g"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 56,
+      "name": "3g-network"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 102,
+      "name": "3gp"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 204,
+      "name": "3nf"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 32,
+      "name": "3scale"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 371,
+      "name": "3-tier"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 25,
+      "name": "3-way-merge"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 64,
+      "name": "400-bad-request"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 145,
+      "name": "4d"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 116,
+      "name": "4d-database"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 166,
+      "name": "4g"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 175,
+      "name": "4gl"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 1,
+      "name": "4js"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 19,
+      "name": "4store"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 9,
+      "name": "500px"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 58,
+      "name": "51degrees"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 44,
+      "name": "5g"
+    },
+    {
+      "has_synonyms": true,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 6100,
+      "name": "64-bit"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 240,
+      "name": "6502"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 20,
+      "name": "6510"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 8,
+      "name": "65816"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 8,
+      "name": "6800"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 240,
+      "name": "68000"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 1,
+      "name": "68hc"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 2,
+      "name": "68hc08"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 40,
+      "name": "68hc11"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 50,
+      "name": "68hc12"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 10,
+      "name": "6lowpan"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 10,
+      "name": "6nf"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 30,
+      "name": "777"
+    },
+    {
+      "has_synonyms": true,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 37,
+      "name": "7-bit"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 11,
+      "name": "7digital"
+    },
+    {
+      "has_synonyms": true,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 1451,
+      "name": "7zip"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 2,
+      "name": "80186"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 21,
+      "name": "802.11p"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 5,
+      "name": "80286"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 486,
+      "name": "8051"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 115,
+      "name": "8085"
+    },
+    {
+      "has_synonyms": true,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 218,
+      "name": "8-bit"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 3,
+      "name": "8th"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 46,
+      "name": "8thwall-web"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 62,
+      "name": "8thwall-xr"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 296,
+      "name": "960.gs"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 11,
+      "name": "9-bit-serial"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 4,
+      "name": "a0poster"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 134,
+      "name": "a2dp"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 2,
+      "name": "a2enmod"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 11,
+      "name": "a2hs"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 50,
+      "name": "a2lix-translation"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 6,
+      "name": "a2x"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 3,
+      "name": "a4swift"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 13,
+      "name": "a86"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 2,
+      "name": "aaacertificateservices"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 23,
+      "name": "aaa-security-protocol"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 132,
+      "name": "aabb"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 610,
+      "name": "aac"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 11,
+      "name": "aac+"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 124,
+      "name": "aad-b2c"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 27,
+      "name": "aadhaar"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 6,
+      "name": "aadhttpclient"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 16,
+      "name": "aad-pod-identity"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 6,
+      "name": "aaos"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 476,
+      "name": "aapt"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 147,
+      "name": "aapt2"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 1009,
+      "name": "aar"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 24,
+      "name": "aasa"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 131,
+      "name": "aasm"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 3,
+      "name": "aatl"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 12,
+      "name": "aba"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 288,
+      "name": "abac"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 812,
+      "name": "abaddressbook"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 19,
+      "name": "abaddressbooksource"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 13,
+      "name": "abandoned-memory"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 5,
+      "name": "abandonedmutexexception"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 3369,
+      "name": "abap"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 29,
+      "name": "abap-adt"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 19,
+      "name": "abap-st"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 631,
+      "name": "abaqus"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 14,
+      "name": "abaqus-odb"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 18,
+      "name": "abas"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 2,
+      "name": "abb-control-systems"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 2,
+      "name": "abbot"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 35,
+      "name": "abbr"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 11,
+      "name": "abbrevia"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 209,
+      "name": "abbreviation"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 120,
+      "name": "abbyy"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 5,
+      "name": "abbyy-cloud-ocr"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 266,
+      "name": "abc"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 9,
+      "name": "abcjs"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 16,
+      "name": "abcl"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 1,
+      "name": "abc-notation"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 342,
+      "name": "abcpdf"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 31,
+      "name": "abcpdf9"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 7,
+      "name": "abcustomuinavcontroller"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 915,
+      "name": "abi"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 35,
+      "name": "abide"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 99,
+      "name": "ab-initio"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 8,
+      "name": "abiword"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 10,
+      "name": "ablecommerce"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 64,
+      "name": "ableton-live"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 24,
+      "name": "abline"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 3,
+      "name": "ablog"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 59,
+      "name": "ably-realtime"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 14,
+      "name": "abmultivalue"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 38,
+      "name": "abnf"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 663,
+      "name": "abort"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 7,
+      "name": "abortbroadcast"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 46,
+      "name": "abortcontroller"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 6,
+      "name": "abot"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 46,
+      "name": "about-box"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 862,
+      "name": "abp"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 18,
+      "name": "abp.io"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 131,
+      "name": "abpeoplepickerview"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 38,
+      "name": "abperson"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 82,
+      "name": "abpersonviewcontroller"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 10,
+      "name": "abp-framework"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 47,
+      "name": "abrecord"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 7,
+      "name": "abrecordcopyvalue"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 33,
+      "name": "abrecordref"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 4,
+      "name": "abrt"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 58,
+      "name": "abseil"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 84,
+      "name": "absinthe"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 3,
+      "name": "absinthe-subscription"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 14,
+      "name": "absl-py"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 1353,
+      "name": "absolute"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 7,
+      "name": "absolute-db"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 169,
+      "name": "absolutelayout"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 845,
+      "name": "absolute-path"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 226,
+      "name": "absolute-value"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 2536,
+      "name": "abstract"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 25,
+      "name": "abstract-action"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 42,
+      "name": "abstract-algebra"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 121,
+      "name": "abstract-base-class"
+    },
+    {
+      "has_synonyms": true,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 5322,
+      "name": "abstract-class"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 476,
+      "name": "abstract-data-type"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 2,
+      "name": "abstractexcelview"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 255,
+      "name": "abstract-factory"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 7,
+      "name": "abstract-function"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 11,
+      "name": "abstract-interpretation"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 1133,
+      "name": "abstraction"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 11,
+      "name": "abstraction-layer"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 12,
+      "name": "abstract-machine"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 22,
+      "name": "abstractmethoderror"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 187,
+      "name": "abstract-methods"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 3,
+      "name": "abstractset"
+    },
+    {
+      "has_synonyms": true,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 2984,
+      "name": "abstract-syntax-tree"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 294,
+      "name": "abstracttablemodel"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 102,
+      "name": "abstract-type"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 32,
+      "name": "abstractuser"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 4,
+      "name": "abstractverticle"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 69,
+      "name": "abtest"
+    },
+    {
+      "has_synonyms": true,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 442,
+      "name": "ab-testing"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 10,
+      "name": "abyss"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 78,
+      "name": "acaccount"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 57,
+      "name": "acaccountstore"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 20,
+      "name": "academic-graph"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 45,
+      "name": "acc"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 154,
+      "name": "acceleo"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 90,
+      "name": "accelerate"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 17,
+      "name": "accelerated-c++"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 134,
+      "name": "accelerated-mobile-page"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 315,
+      "name": "accelerate-framework"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 20,
+      "name": "accelerate-haskell"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 179,
+      "name": "acceleration"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 120,
+      "name": "accelerator"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 34,
+      "name": "acceleratorkey"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 2585,
+      "name": "accelerometer"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 14,
+      "name": "accent-color"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 1,
+      "name": "accentedcolor"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 65,
+      "name": "accent-insensitive"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 48,
+      "name": "accent-sensitive"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 26,
+      "name": "accept.js"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 38,
+      "name": "acceptance"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 592,
+      "name": "acceptance-testing"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 35,
+      "name": "acceptbutton"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 3,
+      "name": "accept-ranges"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 73,
+      "name": "accepts-nested-attributes"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 7,
+      "name": "accepts-nested-attributes-for"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 9,
+      "name": "acceptverbs"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 1381,
+      "name": "access-control"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 130,
+      "name": "accesscontrolexception"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 5,
+      "name": "access-control-list"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 35,
+      "name": "accesscontrolservice"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 13,
+      "name": "access-database-engine"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 15,
+      "name": "access-data-project"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 10,
+      "name": "accessdatasource"
+    },
+    {
+      "has_synonyms": true,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 1048,
+      "name": "access-denied"
+    },
+    {
+      "has_synonyms": true,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 8031,
+      "name": "accessibility"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 123,
+      "name": "accessibility-api"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 34,
+      "name": "accessibility-insights"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 18,
+      "name": "accessibility-inspector"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 552,
+      "name": "accessibilityservice"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 70,
+      "name": "accessible"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 119,
+      "name": "access-keys"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 84,
+      "name": "access-levels"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 241,
+      "name": "access-log"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 1048,
+      "name": "access-modifiers"
+    },
+    {
+      "has_synonyms": true,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 867,
+      "name": "accessor"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 2,
+      "name": "accessorizer"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 128,
+      "name": "accessory"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 39,
+      "name": "accessorytype"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 139,
+      "name": "accessoryview"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 181,
+      "name": "access-point"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 10,
+      "name": "access-point-name"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 10,
+      "name": "access-protection"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 271,
+      "name": "access-rights"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 37,
+      "name": "access-rules"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 243,
+      "name": "access-specifier"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 4,
+      "name": "access-synchronization"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 4127,
+      "name": "access-token"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 2,
+      "name": "accesstrail"
+    },
+    {
+      "has_synonyms": true,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 1574,
+      "name": "access-violation"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 294,
+      "name": "accord.net"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 4155,
+      "name": "accordion"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 26,
+      "name": "accordionpane"
+    },
+    {
+      "has_synonyms": true,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 1302,
+      "name": "account"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 362,
+      "name": "accounting"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 9,
+      "name": "accounting.js"
+    },
+    {
+      "has_synonyms": true,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 151,
+      "name": "account-kit"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 48,
+      "name": "account-linking"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 117,
+      "name": "account-management"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 516,
+      "name": "accountmanager"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 20,
+      "name": "accountpicker"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 205,
+      "name": "accounts"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 3,
+      "name": "accounts-framework"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 1,
+      "name": "accountsservice"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 1,
+      "name": "accountview"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 21,
+      "name": "accpac"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 66,
+      "name": "accumarray"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 332,
+      "name": "accumulate"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 272,
+      "name": "accumulator"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 269,
+      "name": "accumulo"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 5,
+      "name": "accuracerdb"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 205,
+      "name": "accurev"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 206,
+      "name": "ace"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 8,
+      "name": "ace-datatable"
+    },
+    {
+      "has_synonyms": true,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 1210,
+      "name": "ace-editor"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 48,
+      "name": "aceoledb"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 7,
+      "name": "ace-plugin"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 2,
+      "name": "aceshop"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 13,
+      "name": "ace-tao"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 18,
+      "name": "acf-gutenberg"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 347,
+      "name": "acfpro"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 1215,
+      "name": "achartengine"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 232,
+      "name": "achievements"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 332,
+      "name": "acid"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 3,
+      "name": "acid3"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 23,
+      "name": "acid-state"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 16,
+      "name": "acitree"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 259,
+      "name": "ack"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 56,
+      "name": "ackermann"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 7,
+      "name": "acknowledgepurchase"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 2793,
+      "name": "acl"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 38,
+      "name": "acl2"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 20,
+      "name": "acl9"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 8,
+      "name": "acm.graphics"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 79,
+      "name": "acme"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 17,
+      "name": "acme.sh"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 3,
+      "name": "acme-deepmind"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 114,
+      "name": "acm-java-libraries"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 19,
+      "name": "acorn"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 79,
+      "name": "acoustics"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 3,
+      "name": "acoustic-telemetry"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 181,
+      "name": "acpi"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 1,
+      "name": "acpica"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 80,
+      "name": "acquia"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 5,
+      "name": "acquiretokensilent"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 25,
+      "name": "acquisition"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 112,
+      "name": "acr"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 126,
+      "name": "acr122"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 14,
+      "name": "acr1252"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 277,
+      "name": "acra"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 15,
+      "name": "acralyzer"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 23,
+      "name": "acrcloud"
+    },
+    {
+      "has_synonyms": true,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 1603,
+      "name": "acrobat"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 129,
+      "name": "acrobat-sdk"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 123,
+      "name": "acrofields"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 108,
+      "name": "acronym"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 3,
+      "name": "acropolis"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 263,
+      "name": "across"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 19,
+      "name": "acrylic-material"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 421,
+      "name": "acs"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 40,
+      "name": "acsl"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 3,
+      "name": "acs-serviceidentity"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 42,
+      "name": "act"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 5,
+      "name": "actas"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 8,
+      "name": "act-as-taggable-on"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 15,
+      "name": "actframework"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 29,
+      "name": "actian"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 5,
+      "name": "actinic"
+    },
+    {
+      "has_synonyms": true,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 4954,
+      "name": "action"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 21,
+      "name": "actionable-notification"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 60,
+      "name": "actionbardrawertoggle"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 1,
+      "name": "action-bar-navigation"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 3279,
+      "name": "actionbarsherlock"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 30,
+      "name": "actionbarsherlock-map"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 18,
+      "name": "actionbuilder"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 166,
+      "name": "action-button"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 859,
+      "name": "actioncable"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 19,
+      "name": "action-caching"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 67,
+      "name": "actioncontext"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 427,
+      "name": "actioncontroller"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 84,
+      "name": "actiondispatch"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 2,
+      "name": "action-drawer"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 307,
+      "name": "actionevent"
+    },
+    {
+      "has_synonyms": true,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 623,
+      "name": "action-filter"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 247,
+      "name": "actionfilterattribute"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 46,
+      "name": "actionform"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 19,
+      "name": "actionhero"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 22,
+      "name": "action-hook"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 7,
+      "name": "action-interface"
+    },
+    {
+      "has_synonyms": true,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 604,
+      "name": "actionlink"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 9,
+      "name": "actionlist"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 3500,
+      "name": "actionlistener"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 18,
+      "name": "action-mailbox"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 2384,
+      "name": "actionmailer"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 18,
+      "name": "actionmailer.net"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 3,
+      "name": "actionmailerpreview"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 95,
+      "name": "action-mapping"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 28,
+      "name": "action-menu"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 5,
+      "name": "actionmenuview"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 135,
+      "name": "actionmethod"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 58,
+      "name": "actionmode"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 10,
+      "name": "action-open-document-tree"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 74,
+      "name": "actionpack"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 2,
+      "name": "action-process-text"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 459,
+      "name": "actionresult"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 77,
+      "name": "actions-builder"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 11,
+      "name": "action-scheduler"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 9116,
+      "name": "actionscript"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 12,
+      "name": "actionscript-1"
+    },
+    {
+      "has_synonyms": true,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 1956,
+      "name": "actionscript-2"
+    },
+    {
+      "has_synonyms": true,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 41170,
+      "name": "actionscript-3"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 4,
+      "name": "action-send"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 46,
+      "name": "actionsheet"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 19,
+      "name": "actionsheetpicker"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 3389,
+      "name": "actions-on-google"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 161,
+      "name": "actiontext"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 494,
+      "name": "actionview"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 86,
+      "name": "actionviewhelper"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 4,
+      "name": "actionwebservice"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 373,
+      "name": "activation"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 23,
+      "name": "activation-codes"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 30,
+      "name": "activation-context-api"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 340,
+      "name": "activation-function"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 21,
+      "name": "activation-record"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 278,
+      "name": "activator"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 3617,
+      "name": "activeadmin"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 5,
+      "name": "active-admin-import"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 231,
+      "name": "activeandroid"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 12,
+      "name": "active-attr"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 10,
+      "name": "activebatch"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 52,
+      "name": "activecampaign"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 150,
+      "name": "activecollab"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 6,
+      "name": "active-deploy"
+    },
+    {
+      "has_synonyms": true,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 16281,
+      "name": "active-directory"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 351,
+      "name": "active-directory-group"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 101,
+      "name": "activedirectorymembership"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 3,
+      "name": "active-enum"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 183,
+      "name": "active-form"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 35,
+      "name": "active-hdl"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 216,
+      "name": "activejdbc"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 8,
+      "name": "active-learning"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 2,
+      "name": "activeloop"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 3,
+      "name": "active-memory"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 309,
+      "name": "activemerchant"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 10,
+      "name": "activemessaging"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 704,
+      "name": "activemodel"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 736,
+      "name": "active-model-serializers"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 1532,
+      "name": "activemq-artemis"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 5724,
+      "name": "activemq-classic"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 87,
+      "name": "activemq-cpp"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 42,
+      "name": "active-objects"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 11,
+      "name": "active-passive"
+    },
+    {
+      "has_synonyms": true,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 41,
+      "name": "active-pattern"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 156,
+      "name": "activeperl"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 79,
+      "name": "activepivot"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 56,
+      "name": "activepython"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 33,
+      "name": "activeqt"
+    },
+    {
+      "has_synonyms": true,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 28660,
+      "name": "activerecord"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 5,
+      "name": "activerecord-calculations"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 3,
+      "name": "activerecord-fb-adapter"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 45,
+      "name": "activerecord-import"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 15,
+      "name": "activerecord-jdbc"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 4,
+      "name": "activerecordlinq"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 96,
+      "name": "active-record-query"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 29,
+      "name": "activerecord-relation"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 69,
+      "name": "active-relation"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 382,
+      "name": "activereports"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 354,
+      "name": "activeresource"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 8,
+      "name": "active-rest-client"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 142,
+      "name": "activescaffold"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 7,
+      "name": "active-script"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 121,
+      "name": "activestate"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 581,
+      "name": "activesupport"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 149,
+      "name": "activesupport-concern"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 229,
+      "name": "activesync"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 36,
+      "name": "activetcl"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 22,
+      "name": "active-users"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 32,
+      "name": "activeview"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 49,
+      "name": "activeweb"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 54,
+      "name": "active-window"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 2,
+      "name": "activeworlds"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 3835,
+      "name": "activex"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 14,
+      "name": "activex-documents"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 30,
+      "name": "activex-exe"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 435,
+      "name": "activexobject"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 1284,
+      "name": "activiti"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 2,
+      "name": "activiti-cloud"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 24,
+      "name": "activitydesigner"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 252,
+      "name": "activity-diagram"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 338,
+      "name": "activity-finish"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 190,
+      "name": "activitygroup"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 213,
+      "name": "activity-indicator"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 35,
+      "name": "activitykit"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 707,
+      "name": "activity-lifecycle"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 56,
+      "name": "activitylog"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 134,
+      "name": "activity-manager"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 50,
+      "name": "activity-monitor"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 98,
+      "name": "activitynotfoundexception"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 11,
+      "name": "activity-oncreateview"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 14,
+      "name": "activitypub"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 203,
+      "name": "activity-recognition"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 26,
+      "name": "activity-result-api"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 25,
+      "name": "activityresultcontracts"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 2,
+      "name": "activity-scenario"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 138,
+      "name": "activity-stack"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 26,
+      "name": "activity-state"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 36,
+      "name": "activity-streams"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 7,
+      "name": "activity-tracing"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 102,
+      "name": "activity-transition"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 7,
+      "name": "activitytransitionapi"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 26,
+      "name": "activityunittestcase"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 510,
+      "name": "actix-web"
+    },
+    {
+      "has_synonyms": true,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 2071,
+      "name": "actor"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 8,
+      "name": "actor-critics"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 69,
+      "name": "actor-model"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 3,
+      "name": "actor-platform"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 17,
+      "name": "actorsystem"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 60,
+      "name": "acts-as-audited"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 56,
+      "name": "acts-as-commentable"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 24,
+      "name": "acts-as-ferret"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 16,
+      "name": "acts-as-follower"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 74,
+      "name": "acts-as-list"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 11,
+      "name": "acts-as-nested-set"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 49,
+      "name": "acts-as-paranoid"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 3,
+      "name": "acts-as-shopping-cart"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 12,
+      "name": "acts-as-state-machine"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 60,
+      "name": "acts-as-taggable"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 521,
+      "name": "acts-as-taggable-on"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 7,
+      "name": "acts-as-taggable-on-ster"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 37,
+      "name": "acts-as-tenant"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 52,
+      "name": "acts-as-tree"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 7,
+      "name": "acts-as-versioned"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 80,
+      "name": "acts-as-votable"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 46,
+      "name": "actualheight"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 90,
+      "name": "actualwidth"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 21,
+      "name": "actuate"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 19,
+      "name": "actuator"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 5,
+      "name": "acucobol-gt"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 3547,
+      "name": "acumatica"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 344,
+      "name": "acumatica-kb"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 50,
+      "name": "acumos"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 4,
+      "name": "acymailing"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 2399,
+      "name": "ada"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 41,
+      "name": "ada2012"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 17,
+      "name": "ada95"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 7,
+      "name": "adabas"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 7,
+      "name": "adabas-natural"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 253,
+      "name": "adaboost"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 1,
+      "name": "ada-embedding"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 374,
+      "name": "adafruit"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 168,
+      "name": "adafruit-circuitpython"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 7,
+      "name": "adafruit-circuitpython-neopixel"
+    },
+    {
+      "collectives": [
+        {
+          "tags": [
+            "azure-servicebus-topics",
+            "azure-vm-scale-set",
+            "azure-static-website-routing",
+            "azure-sdk-for-ruby",
+            "azure-iot-hub",
+            "azure-anomaly-detection",
+            "azure-data-lake-gen2",
+            "azure-function-queue",
+            "azure-dns",
+            "azure-lab-services",
+            "azure-keyvault",
+            "azure-application-insights-profiler",
+            "passport-azure-ad",
+            "azure-blueprints",
+            "azure-application-proxy",
+            "azure-data-lake",
+            "azure-acr",
+            "azure-oauth",
+            "azure-functions-proxies",
+            "azure-bicep",
+            "azure-metrics-advisor",
+            "azure-pipelines-release-pipeline",
+            "azure-managed-database",
+            "azure-function-http",
+            "azure-maps",
+            "azure-stack",
+            "azure-databoxfamily",
+            "azure-log-analytics-workspace",
+            "azure-clouddrive",
+            "azure-data-share",
+            "azure-vm",
+            "azure-managed-grafana",
+            "azure-sdk-python",
+            "fhir-server-for-azure",
+            "azure-storage-queues",
+            "azure-iot-hub-device-management",
+            "azure-cloud-shell",
+            "azure-agent",
+            "azure-elastic-scale",
+            "azure-managed-identity",
+            "azure-traffic-manager",
+            "azure-automation",
+            "azure-policy",
+            "azure-xplat-cli",
+            "azure-analytics",
+            "azure-container-instances",
+            "azure-dev-spaces",
+            "azure-search-.net-sdk",
+            "azure-service-hooks",
+            "azure-sdk-js",
+            "spring-cloud-azure",
+            "azureservicebus",
+            "azure-management-api",
+            "azure-dsvm",
+            "azure-ad-b2b",
+            "azure-timeseries-insights",
+            "azure-front-door",
+            "azure-hdinsight",
+            "azure-ad-v2",
+            "azure-ilb",
+            "azure-vm-templates",
+            "azure-sdk-ruby",
+            "azure-adal-deprecation",
+            "spark-bash-azure-databricks",
+            "azure-sql-reporting",
+            "azure-webjobs-continuous",
+            "azure-load-balancer",
+            "adal.js",
+            "azure-sdk-for-go",
+            "azure-form-recognizer",
+            "azure-rtos",
+            "azure-speech",
+            "azure-security",
+            "azure-dashboard",
+            "rebus-azureservicebus",
+            "azure-communication-services",
+            "azure-load-testing",
+            "azure-function-app-proxy",
+            "azure-gov",
+            "azure-connect",
+            "azure-autoscaling-block",
+            "azure-anomaly-detector",
+            "azure-worker-roles",
+            "azure-postgresql",
+            "azure-function-async",
+            "azure-security-center",
+            "azure-sql-server",
+            "azure-eventhub",
+            "azure-custom-providers",
+            "azure-web-app-firewall",
+            "azure-public-ip",
+            "azure-calculator",
+            "azure-availability-set",
+            "azure-app-registration",
+            "azure-marketplace",
+            "azure-storage",
+            "azurerm-app-service",
+            "azure-ad-domain-services",
+            "azure-caching",
+            "azure-emulator",
+            "azure-resource-group",
+            "azure-purview",
+            "azure-service-runtime",
+            "azure-monitor-workbooks",
+            "azure-video-indexer",
+            "azure-appservice",
+            "azure-container-apps",
+            "azure-app-service-plans",
+            "azureadgraph-deprecation",
+            "azure-machine-learning-service",
+            "azure-notificationhub",
+            "azure-media-player",
+            "azure-media-services",
+            "azure-android-sdk",
+            "azure-auto-ml",
+            "azure-static-website-hosting",
+            "azure-workflow-automation",
+            "azure-private-dns",
+            "azure-rm-template",
+            "azure-defender",
+            "sql-azure-alerts",
+            "azure-identity",
+            "azure-servicebus-queues",
+            "azure-cognitive-services",
+            "azure-java-sdk",
+            "azure-ai",
+            "azure-rbac",
+            "azure-git-deployment",
+            "azure-ai-translator",
+            "azure-cosmosdb-sqlapi",
+            "azure.data.tables",
+            "azure-cloud-services",
+            "azure-app-configuration",
+            "azure-app-api",
+            "azure-application-settings",
+            "azure-billing",
+            "adal",
+            "azure-custom-domain",
+            "azure-sql-managed-instance",
+            "azure-resource-graph",
+            "azure-monitor",
+            "azure-powershell",
+            "django-pyodbc-azure",
+            "azure-performancecounters",
+            "defaultazurecredential",
+            "azure-storage-explorer",
+            "azure-signalr",
+            "azure-blob-trigger",
+            "azure-feature-manager",
+            "azureportal",
+            "azure-sdk-php",
+            "azure-zulu",
+            "azure-cosmosdb-mongovcore",
+            "azure-virtual-network",
+            "sitecore-azure",
+            "azure-web-pubsub",
+            "azure-iot-central",
+            "azure-pack",
+            "azure-management-portal",
+            "azure-qna-maker",
+            "azure-compute-emulator",
+            "azure-web-app-for-containers",
+            "azure-storage-emulator",
+            "azure-role-environment",
+            "azure-arc",
+            "azure-container-registry",
+            "azure-object-anchors",
+            "azure-sql",
+            "sql-azure-federations",
+            "azure-sql-edge",
+            "azure-batch-account",
+            "azure-web-roles",
+            "azure-data-explorer",
+            "azure-industrial-iot",
+            "azure-waf",
+            "azure-text-translation",
+            "azure-spatial-anchors",
+            "azure-mysql-database",
+            "azure-sdk",
+            "azure-monitoring",
+            "azure-data-studio",
+            "microsoft-entra-private-access",
+            "azure-deployment",
+            "azure-functions",
+            "azure-container-service",
+            "azure-cosmosdb-emulator",
+            "azure-application-registration",
+            "kql",
+            "azure-sentinel",
+            "azure-api-management",
+            "azure-spring-boot",
+            "azure-logic-app-standard",
+            "azure-blob-storage",
+            "azure-tablequery",
+            "azure-hub",
+            "azure-api-apps",
+            "azure-disk",
+            "azure-managed-app",
+            "azurekinect",
+            "azure-availability-zones",
+            "azure-static-web-app-routing",
+            "azure-active-directory",
+            "azure-cosmosdb-mongoapi",
+            "azure-elasticpool",
+            "azure-free-services",
+            "azure-digital-twins",
+            "azure-remote-rendering",
+            "azure-relay",
+            "azure-elastic-sharding",
+            "azure-triggers",
+            "azure-appfabric",
+            "azure-affinity-group",
+            "azure-cosmosdb-gremlinapi",
+            "azure-webapps",
+            "sql-server-azure",
+            "azure-data-factory",
+            "azure-file-copy",
+            "azure-information-protection",
+            "azure-table-storage",
+            "azure-ad-graph-api",
+            "azure-data-catalog",
+            "azure-eventgrid",
+            "azure-secrets",
+            "azure-functions-runtime",
+            "azure-application-roles",
+            "azure-iot-sdk",
+            "azure-sdk-.net",
+            "azure-cli2",
+            "azure-promptflow",
+            "azure-rm",
+            "azure-data-sync",
+            "azure-cosmosdb-tables",
+            "azure-functions-core-tools",
+            "azure-migrate",
+            "azure-advisor",
+            "azure-storage-account",
+            "azure-private-dns-zone",
+            "azure-deployment-slots",
+            "azure-database-mysql",
+            "azure-webjobssdk",
+            "azure-integration-account",
+            "microsoft-entra-external-id",
+            "azure-cdn",
+            "azure-diagnostics",
+            "azure-ml-pipelines",
+            "azure-ddos",
+            "azure-authentication",
+            "azure-virtual-machine",
+            "azure-service-principal",
+            "azure-regions",
+            "azure-ml-component",
+            "azure-packaging",
+            "azure-compliance-policy",
+            "azure-linux",
+            "azure-webjobs",
+            "azure-application-insights",
+            "azure-managed-disk",
+            "azure-iot-dps",
+            "azure-cosmosdb",
+            "azure-python-sdk",
+            "azure-storage-files",
+            "azure-ad-powershell-v2",
+            "azure-ad-msal",
+            "azure-queues",
+            "azure-durable-functions",
+            "azure-aks",
+            "azure-cli",
+            "azure-ad-b2c",
+            "azure-mcd",
+            "azure-rest-api",
+            "azure-image-builder",
+            "azure-node-sdk",
+            "azure-mobile-services",
+            "azure-logic-apps",
+            "azuremlsdk",
+            "azure-china",
+            "azure-runbook",
+            "azure-backup-vault",
+            "azure-sdk-for-java",
+            "azure-java-tools",
+            "azure-cost-calculation",
+            "azure-ase",
+            "azure-management",
+            "azure-blockchain-workbench",
+            "azure-scheduler",
+            "azure-ad-role",
+            "azure-iot-hub-device-update",
+            "azure-management-groups",
+            "azure-sphere",
+            "azure-debugger",
+            "microsoft-entra-internet-access",
+            "azure-stream-analytics",
+            "azure-servicebusrelay",
+            "azure-nsg",
+            "azure-bot-service",
+            "azure-cosmosdb-cassandra-api",
+            "azure-devtest-labs",
+            "azure-static-web-app",
+            "azure-synapse-link",
+            "azure-app-service-envrmnt",
+            "azure-vpn",
+            "azureml-python-sdk",
+            "azure-blockchain-service",
+            "azure-synapse",
+            "azure-log-analytics",
+            "azure-adf",
+            "microsoft-custom-vision",
+            "azure-fluent-api",
+            "azure-service-plan",
+            "azure-cosmosdb-changefeed",
+            "azure-webjobs-triggered",
+            "azure-store",
+            "terraform-provider-azure",
+            "azure-iot-edge",
+            "azure-language-understanding",
+            "azure-private-link",
+            "azure-subscription",
+            "azure-ad-verifiable-credentials",
+            "azure-oms",
+            "azure-web-app-service",
+            "azure-service-fabric",
+            "azure-http-trigger",
+            "azure-files",
+            "azure-redis-cache",
+            "pulumi-azure",
+            "azure-bastion",
+            "azure-service-fabric-mesh",
+            "azure-spring-cloud",
+            "azure-iot-suite",
+            "azure-databricks",
+            "azure-sas",
+            "azure-database-postgresql",
+            "azureclicredential",
+            "azure-cognitive-search",
+            "azure-servicebus-subscriptions",
+            "azure-update-management-center",
+            "azure-configuration",
+            "azure-functions-docker",
+            "azureshell",
+            "azure-alerts",
+            "azure-notebooks",
+            "azure-billing-api",
+            "azure-ad-b2c-custom-policy",
+            "azure-mobile-engagement",
+            "azure-site-recovery",
+            "azure-resource-manager",
+            "microsoft-entra-id",
+            "azure-sdk-go",
+            "azure-function-app",
+            "azure-hybrid-connections",
+            "azure-analysis-services",
+            "azure-in-role-cache",
+            "azure-webhooks",
+            "azure-quantum",
+            "azure-batch",
+            "azure-sql-database",
+            "azure-mapping-data-flow",
+            "kitchen-azurerm",
+            "azure",
+            "azure-acs",
+            "azure-application-gateway"
+          ],
+          "external_links": [
+            {
+              "type": "support",
+              "link": "https://stackoverflow.com/contact?topic=15"
+            }
+          ],
+          "description": "A collective for developers to engage, share, and learn about Microsoft Azure’s open-source frameworks, languages, and platform. This collective is organized and managed by the Stack Overflow community.",
+          "link": "/collectives/azure",
+          "name": "Microsoft Azure",
+          "slug": "azure"
+        }
+      ],
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 1613,
+      "name": "adal"
+    },
+    {
+      "collectives": [
+        {
+          "tags": [
+            "azure-servicebus-topics",
+            "azure-vm-scale-set",
+            "azure-static-website-routing",
+            "azure-sdk-for-ruby",
+            "azure-iot-hub",
+            "azure-anomaly-detection",
+            "azure-data-lake-gen2",
+            "azure-function-queue",
+            "azure-dns",
+            "azure-lab-services",
+            "azure-keyvault",
+            "azure-application-insights-profiler",
+            "passport-azure-ad",
+            "azure-blueprints",
+            "azure-application-proxy",
+            "azure-data-lake",
+            "azure-acr",
+            "azure-oauth",
+            "azure-functions-proxies",
+            "azure-bicep",
+            "azure-metrics-advisor",
+            "azure-pipelines-release-pipeline",
+            "azure-managed-database",
+            "azure-function-http",
+            "azure-maps",
+            "azure-stack",
+            "azure-databoxfamily",
+            "azure-log-analytics-workspace",
+            "azure-clouddrive",
+            "azure-data-share",
+            "azure-vm",
+            "azure-managed-grafana",
+            "azure-sdk-python",
+            "fhir-server-for-azure",
+            "azure-storage-queues",
+            "azure-iot-hub-device-management",
+            "azure-cloud-shell",
+            "azure-agent",
+            "azure-elastic-scale",
+            "azure-managed-identity",
+            "azure-traffic-manager",
+            "azure-automation",
+            "azure-policy",
+            "azure-xplat-cli",
+            "azure-analytics",
+            "azure-container-instances",
+            "azure-dev-spaces",
+            "azure-search-.net-sdk",
+            "azure-service-hooks",
+            "azure-sdk-js",
+            "spring-cloud-azure",
+            "azureservicebus",
+            "azure-management-api",
+            "azure-dsvm",
+            "azure-ad-b2b",
+            "azure-timeseries-insights",
+            "azure-front-door",
+            "azure-hdinsight",
+            "azure-ad-v2",
+            "azure-ilb",
+            "azure-vm-templates",
+            "azure-sdk-ruby",
+            "azure-adal-deprecation",
+            "spark-bash-azure-databricks",
+            "azure-sql-reporting",
+            "azure-webjobs-continuous",
+            "azure-load-balancer",
+            "adal.js",
+            "azure-sdk-for-go",
+            "azure-form-recognizer",
+            "azure-rtos",
+            "azure-speech",
+            "azure-security",
+            "azure-dashboard",
+            "rebus-azureservicebus",
+            "azure-communication-services",
+            "azure-load-testing",
+            "azure-function-app-proxy",
+            "azure-gov",
+            "azure-connect",
+            "azure-autoscaling-block",
+            "azure-anomaly-detector",
+            "azure-worker-roles",
+            "azure-postgresql",
+            "azure-function-async",
+            "azure-security-center",
+            "azure-sql-server",
+            "azure-eventhub",
+            "azure-custom-providers",
+            "azure-web-app-firewall",
+            "azure-public-ip",
+            "azure-calculator",
+            "azure-availability-set",
+            "azure-app-registration",
+            "azure-marketplace",
+            "azure-storage",
+            "azurerm-app-service",
+            "azure-ad-domain-services",
+            "azure-caching",
+            "azure-emulator",
+            "azure-resource-group",
+            "azure-purview",
+            "azure-service-runtime",
+            "azure-monitor-workbooks",
+            "azure-video-indexer",
+            "azure-appservice",
+            "azure-container-apps",
+            "azure-app-service-plans",
+            "azureadgraph-deprecation",
+            "azure-machine-learning-service",
+            "azure-notificationhub",
+            "azure-media-player",
+            "azure-media-services",
+            "azure-android-sdk",
+            "azure-auto-ml",
+            "azure-static-website-hosting",
+            "azure-workflow-automation",
+            "azure-private-dns",
+            "azure-rm-template",
+            "azure-defender",
+            "sql-azure-alerts",
+            "azure-identity",
+            "azure-servicebus-queues",
+            "azure-cognitive-services",
+            "azure-java-sdk",
+            "azure-ai",
+            "azure-rbac",
+            "azure-git-deployment",
+            "azure-ai-translator",
+            "azure-cosmosdb-sqlapi",
+            "azure.data.tables",
+            "azure-cloud-services",
+            "azure-app-configuration",
+            "azure-app-api",
+            "azure-application-settings",
+            "azure-billing",
+            "adal",
+            "azure-custom-domain",
+            "azure-sql-managed-instance",
+            "azure-resource-graph",
+            "azure-monitor",
+            "azure-powershell",
+            "django-pyodbc-azure",
+            "azure-performancecounters",
+            "defaultazurecredential",
+            "azure-storage-explorer",
+            "azure-signalr",
+            "azure-blob-trigger",
+            "azure-feature-manager",
+            "azureportal",
+            "azure-sdk-php",
+            "azure-zulu",
+            "azure-cosmosdb-mongovcore",
+            "azure-virtual-network",
+            "sitecore-azure",
+            "azure-web-pubsub",
+            "azure-iot-central",
+            "azure-pack",
+            "azure-management-portal",
+            "azure-qna-maker",
+            "azure-compute-emulator",
+            "azure-web-app-for-containers",
+            "azure-storage-emulator",
+            "azure-role-environment",
+            "azure-arc",
+            "azure-container-registry",
+            "azure-object-anchors",
+            "azure-sql",
+            "sql-azure-federations",
+            "azure-sql-edge",
+            "azure-batch-account",
+            "azure-web-roles",
+            "azure-data-explorer",
+            "azure-industrial-iot",
+            "azure-waf",
+            "azure-text-translation",
+            "azure-spatial-anchors",
+            "azure-mysql-database",
+            "azure-sdk",
+            "azure-monitoring",
+            "azure-data-studio",
+            "microsoft-entra-private-access",
+            "azure-deployment",
+            "azure-functions",
+            "azure-container-service",
+            "azure-cosmosdb-emulator",
+            "azure-application-registration",
+            "kql",
+            "azure-sentinel",
+            "azure-api-management",
+            "azure-spring-boot",
+            "azure-logic-app-standard",
+            "azure-blob-storage",
+            "azure-tablequery",
+            "azure-hub",
+            "azure-api-apps",
+            "azure-disk",
+            "azure-managed-app",
+            "azurekinect",
+            "azure-availability-zones",
+            "azure-static-web-app-routing",
+            "azure-active-directory",
+            "azure-cosmosdb-mongoapi",
+            "azure-elasticpool",
+            "azure-free-services",
+            "azure-digital-twins",
+            "azure-remote-rendering",
+            "azure-relay",
+            "azure-elastic-sharding",
+            "azure-triggers",
+            "azure-appfabric",
+            "azure-affinity-group",
+            "azure-cosmosdb-gremlinapi",
+            "azure-webapps",
+            "sql-server-azure",
+            "azure-data-factory",
+            "azure-file-copy",
+            "azure-information-protection",
+            "azure-table-storage",
+            "azure-ad-graph-api",
+            "azure-data-catalog",
+            "azure-eventgrid",
+            "azure-secrets",
+            "azure-functions-runtime",
+            "azure-application-roles",
+            "azure-iot-sdk",
+            "azure-sdk-.net",
+            "azure-cli2",
+            "azure-promptflow",
+            "azure-rm",
+            "azure-data-sync",
+            "azure-cosmosdb-tables",
+            "azure-functions-core-tools",
+            "azure-migrate",
+            "azure-advisor",
+            "azure-storage-account",
+            "azure-private-dns-zone",
+            "azure-deployment-slots",
+            "azure-database-mysql",
+            "azure-webjobssdk",
+            "azure-integration-account",
+            "microsoft-entra-external-id",
+            "azure-cdn",
+            "azure-diagnostics",
+            "azure-ml-pipelines",
+            "azure-ddos",
+            "azure-authentication",
+            "azure-virtual-machine",
+            "azure-service-principal",
+            "azure-regions",
+            "azure-ml-component",
+            "azure-packaging",
+            "azure-compliance-policy",
+            "azure-linux",
+            "azure-webjobs",
+            "azure-application-insights",
+            "azure-managed-disk",
+            "azure-iot-dps",
+            "azure-cosmosdb",
+            "azure-python-sdk",
+            "azure-storage-files",
+            "azure-ad-powershell-v2",
+            "azure-ad-msal",
+            "azure-queues",
+            "azure-durable-functions",
+            "azure-aks",
+            "azure-cli",
+            "azure-ad-b2c",
+            "azure-mcd",
+            "azure-rest-api",
+            "azure-image-builder",
+            "azure-node-sdk",
+            "azure-mobile-services",
+            "azure-logic-apps",
+            "azuremlsdk",
+            "azure-china",
+            "azure-runbook",
+            "azure-backup-vault",
+            "azure-sdk-for-java",
+            "azure-java-tools",
+            "azure-cost-calculation",
+            "azure-ase",
+            "azure-management",
+            "azure-blockchain-workbench",
+            "azure-scheduler",
+            "azure-ad-role",
+            "azure-iot-hub-device-update",
+            "azure-management-groups",
+            "azure-sphere",
+            "azure-debugger",
+            "microsoft-entra-internet-access",
+            "azure-stream-analytics",
+            "azure-servicebusrelay",
+            "azure-nsg",
+            "azure-bot-service",
+            "azure-cosmosdb-cassandra-api",
+            "azure-devtest-labs",
+            "azure-static-web-app",
+            "azure-synapse-link",
+            "azure-app-service-envrmnt",
+            "azure-vpn",
+            "azureml-python-sdk",
+            "azure-blockchain-service",
+            "azure-synapse",
+            "azure-log-analytics",
+            "azure-adf",
+            "microsoft-custom-vision",
+            "azure-fluent-api",
+            "azure-service-plan",
+            "azure-cosmosdb-changefeed",
+            "azure-webjobs-triggered",
+            "azure-store",
+            "terraform-provider-azure",
+            "azure-iot-edge",
+            "azure-language-understanding",
+            "azure-private-link",
+            "azure-subscription",
+            "azure-ad-verifiable-credentials",
+            "azure-oms",
+            "azure-web-app-service",
+            "azure-service-fabric",
+            "azure-http-trigger",
+            "azure-files",
+            "azure-redis-cache",
+            "pulumi-azure",
+            "azure-bastion",
+            "azure-service-fabric-mesh",
+            "azure-spring-cloud",
+            "azure-iot-suite",
+            "azure-databricks",
+            "azure-sas",
+            "azure-database-postgresql",
+            "azureclicredential",
+            "azure-cognitive-search",
+            "azure-servicebus-subscriptions",
+            "azure-update-management-center",
+            "azure-configuration",
+            "azure-functions-docker",
+            "azureshell",
+            "azure-alerts",
+            "azure-notebooks",
+            "azure-billing-api",
+            "azure-ad-b2c-custom-policy",
+            "azure-mobile-engagement",
+            "azure-site-recovery",
+            "azure-resource-manager",
+            "microsoft-entra-id",
+            "azure-sdk-go",
+            "azure-function-app",
+            "azure-hybrid-connections",
+            "azure-analysis-services",
+            "azure-in-role-cache",
+            "azure-webhooks",
+            "azure-quantum",
+            "azure-batch",
+            "azure-sql-database",
+            "azure-mapping-data-flow",
+            "kitchen-azurerm",
+            "azure",
+            "azure-acs",
+            "azure-application-gateway"
+          ],
+          "external_links": [
+            {
+              "type": "support",
+              "link": "https://stackoverflow.com/contact?topic=15"
+            }
+          ],
+          "description": "A collective for developers to engage, share, and learn about Microsoft Azure’s open-source frameworks, languages, and platform. This collective is organized and managed by the Stack Overflow community.",
+          "link": "/collectives/azure",
+          "name": "Microsoft Azure",
+          "slug": "azure"
+        }
+      ],
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 287,
+      "name": "adal.js"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 61,
+      "name": "adal4j"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 6,
+      "name": "adal-angular4"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 157,
+      "name": "adam"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 4,
+      "name": "adanet"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 19,
+      "name": "adapt"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 5041,
+      "name": "adapter"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 2,
+      "name": "adapter-transformers"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 5,
+      "name": "adaption"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 72,
+      "name": "adaptive-bitrate"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 955,
+      "name": "adaptive-cards"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 4,
+      "name": "adaptive-compression"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 122,
+      "name": "adaptive-design"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 16,
+      "name": "adaptive-dialogs"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 36,
+      "name": "adaptive-icon"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 107,
+      "name": "adaptive-layout"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 7,
+      "name": "adaptive-parallel-payment"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 80,
+      "name": "adaptive-threshold"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 4,
+      "name": "adaptive-trigger"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 53,
+      "name": "adaptive-ui"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 3,
+      "name": "adaptive-user-interfaces"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 78,
+      "name": "adaptor"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 2,
+      "name": "adapt-strap"
+    },
+    {
+      "has_synonyms": true,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 7740,
+      "name": "adb"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 223,
+      "name": "adbannerview"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 4,
+      "name": "adbd"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 8,
+      "name": "adb-drivers"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 416,
+      "name": "adblock"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 25,
+      "name": "adbwireless"
+    },
+    {
+      "has_synonyms": true,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 628,
+      "name": "adc"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 91,
+      "name": "adcolony"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 37,
+      "name": "add-action"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 38,
+      "name": "addattribute"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 14,
+      "name": "addcallback"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 286,
+      "name": "addchild"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 1226,
+      "name": "addclass"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 14,
+      "name": "add-custom-target"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 1,
+      "name": "ad-delivery"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 4440,
+      "name": "addeventlistener"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 146,
+      "name": "add-filter"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 94,
+      "name": "addhandler"
+    },
+    {
+      "has_synonyms": true,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 2580,
+      "name": "add-in"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 62,
+      "name": "addin-express"
+    },
+    {
+      "has_synonyms": true,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 5637,
+      "name": "addition"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 9,
+      "name": "add-member"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 16,
+      "name": "addmodelerror"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 62,
+      "name": "addobserver"
+    },
+    {
+      "has_synonyms": true,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 1103,
+      "name": "add-on"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 51,
+      "name": "addon-domain"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 44,
+      "name": "addr2line"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 85,
+      "name": "addrange"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 25,
+      "name": "add-references-dialog"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 42,
+      "name": "addremoveprograms"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 13,
+      "name": "addressable-gem"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 57,
+      "name": "addressables"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 203,
+      "name": "address-bar"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 925,
+      "name": "addressbook"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 81,
+      "name": "addressbookui"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 7,
+      "name": "address-bus"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 154,
+      "name": "addressing"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 303,
+      "name": "addressing-mode"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 96,
+      "name": "addressof"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 48,
+      "name": "address-operator"
+    },
+    {
+      "has_synonyms": true,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 562,
+      "name": "address-sanitizer"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 77,
+      "name": "address-space"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 1,
+      "name": "addsearch"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 82,
+      "name": "addslashes"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 544,
+      "name": "addsubview"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 94,
+      "name": "addtarget"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 72,
+      "name": "addtextchangedlistener"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 485,
+      "name": "addthis"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 10,
+      "name": "add-this-event"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 4,
+      "name": "addtoany"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 49,
+      "name": "add-type"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 8,
+      "name": "adduplex"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 62,
+      "name": "adehabitathr"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 92,
+      "name": "adempiere"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 3,
+      "name": "adeos"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 4,
+      "name": "adexchange"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 3,
+      "name": "adfc-config"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 2086,
+      "name": "adfs"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 562,
+      "name": "adfs2.0"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 34,
+      "name": "adfs2.1"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 287,
+      "name": "adfs3.0"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 112,
+      "name": "adfs4.0"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 20,
+      "name": "adf-task-flow"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 61,
+      "name": "adgroup"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 13,
+      "name": "adhearsion"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 544,
+      "name": "adhoc"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 516,
+      "name": "ad-hoc-distribution"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 24,
+      "name": "ad-hoc-network"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 33,
+      "name": "adhoc-polymorphism"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 39,
+      "name": "adhoc-queries"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 3,
+      "name": "adif"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 1,
+      "name": "adipoli"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 17,
+      "name": "adium"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 660,
+      "name": "adjacency-list"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 34,
+      "name": "adjacency-list-model"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 913,
+      "name": "adjacency-matrix"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 25,
+      "name": "adjustable"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 6,
+      "name": "adjustable-array"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 10,
+      "name": "adjust-android"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 138,
+      "name": "adjustment"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 74,
+      "name": "adjustpan"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 11,
+      "name": "adjustviewbounds"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 188,
+      "name": "adk"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 83,
+      "name": "adldap"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 103,
+      "name": "adlds"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 39,
+      "name": "adler32"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 2,
+      "name": "adm2"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 5,
+      "name": "ad-management"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 4595,
+      "name": "admin"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 63,
+      "name": "admin-ajax"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 34,
+      "name": "admin-bro"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 142,
+      "name": "adminer"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 6,
+      "name": "adminfaces"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 72,
+      "name": "admin-generator"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 173,
+      "name": "adminhtml"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 13,
+      "name": "admin-interface"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 48,
+      "name": "administrate"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 648,
+      "name": "administration"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 21,
+      "name": "administrative"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 710,
+      "name": "administrator"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 60,
+      "name": "adminjs"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 443,
+      "name": "adminlte"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 501,
+      "name": "admin-on-rest"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 103,
+      "name": "admin-rights"
+    },
+    {
+      "has_synonyms": true,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 10101,
+      "name": "admob"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 9,
+      "name": "admob-cookieconsent"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 150,
+      "name": "admob-rewardedvideoad"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 52,
+      "name": "adm-zip"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 2674,
+      "name": "ado"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 10105,
+      "name": "ado.net"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 506,
+      "name": "ado.net-entity-data-model"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 6102,
+      "name": "adobe"
+    },
+    {
+      "has_synonyms": true,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 733,
+      "name": "adobe-analytics"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 160,
+      "name": "adobe-animate"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 547,
+      "name": "adobe-brackets"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 16,
+      "name": "adobe-bridge"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 4,
+      "name": "adobe-campaign-classic"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 100,
+      "name": "adobe-captivate"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 13,
+      "name": "adobe-cc"
+    },
+    {
+      "has_synonyms": true,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 49,
+      "name": "adobe-cirrus"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 41,
+      "name": "adobe-connect"
+    },
+    {
+      "has_synonyms": true,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 9,
+      "name": "adobe-contribute"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 142,
+      "name": "adobecreativesdk"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 31,
+      "name": "adobe-director"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 9,
+      "name": "adobe-documentgeneration"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 20,
+      "name": "adobe-dps"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 2,
+      "name": "adobe-drive"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 23,
+      "name": "adobe-dtm"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 282,
+      "name": "adobe-edge"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 2,
+      "name": "adobe-edge-inspect"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 29,
+      "name": "adobe-embed-api"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 10,
+      "name": "adobe-exprience-manager"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 19,
+      "name": "adobe-extension"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 33,
+      "name": "adobe-flash-cs3"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 24,
+      "name": "adobe-form"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 1027,
+      "name": "adobe-illustrator"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 5,
+      "name": "adobe-incopy"
+    },
+    {
+      "has_synonyms": true,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 1195,
+      "name": "adobe-indesign"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 31,
+      "name": "adobe-javascript"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 19,
+      "name": "adobe-launch"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 27,
+      "name": "adobe-media-server"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 11,
+      "name": "adobe-native-extensions"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 17,
+      "name": "adobe-pdf-library"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 21,
+      "name": "adobe-pdfservices"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 90,
+      "name": "adobe-premiere"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 308,
+      "name": "adobe-reader"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 23,
+      "name": "adobe-scout"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 56,
+      "name": "adobe-scriptui"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 25,
+      "name": "adobe-sign"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 5,
+      "name": "adobe-stratus"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 140,
+      "name": "adobe-xd"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 43,
+      "name": "adoconnection"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 1846,
+      "name": "adodb"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 43,
+      "name": "adodbapi"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 64,
+      "name": "adodb-php"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 3,
+      "name": "adomd"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 134,
+      "name": "adomd.net"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 55,
+      "name": "adonetappender"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 743,
+      "name": "adonis.js"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 67,
+      "name": "adonisjs-ace"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 139,
+      "name": "adoptopenjdk"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 210,
+      "name": "adorner"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 19,
+      "name": "adornerdecorator"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 46,
+      "name": "adornerlayer"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 15,
+      "name": "adornment"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 69,
+      "name": "adox"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 75,
+      "name": "adp"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 4,
+      "name": "adp-api"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 38,
+      "name": "adpcm"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 44,
+      "name": "adplus"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 2,
+      "name": "adql"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 8,
+      "name": "adroitlogic"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 3,
+      "name": "adroll"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 33,
+      "name": "adrotator"
+    },
+    {
+      "has_synonyms": true,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 3958,
+      "name": "ads"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 32,
+      "name": "ads-api"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 10,
+      "name": "adsapi-php.ini"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 5,
+      "name": "ads-data-hub"
+    },
+    {
+      "has_synonyms": true,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 1861,
+      "name": "adsense"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 16,
+      "name": "adsense-anchor-ads"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 137,
+      "name": "adsense-api"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 5,
+      "name": "adsf"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 270,
+      "name": "adsi"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 13,
+      "name": "adsl"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 4,
+      "name": "adsmanager"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 27,
+      "name": "adsutil.vbs"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 2,
+      "name": "adswizz"
+    },
+    {
+      "has_synonyms": true,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 2500,
+      "name": "adt"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 23,
+      "name": "adtf"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 12,
+      "name": "adtf3"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 25,
+      "name": "adts"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 1,
+      "name": "advagg"
+    },
+    {
+      "has_synonyms": true,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 4563,
+      "name": "advanced-custom-fields"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 302,
+      "name": "advanceddatagrid"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 105,
+      "name": "advanced-filter"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 12,
+      "name": "advanced-indexing"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 311,
+      "name": "advanced-installer"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 5,
+      "name": "advanced-query-tool"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 97,
+      "name": "advanced-queuing"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 74,
+      "name": "advanced-rest-client"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 145,
+      "name": "advanced-search"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 11,
+      "name": "advanced-threat-protection"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 396,
+      "name": "advantage-database-server"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 76,
+      "name": "advapi32"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 186,
+      "name": "adventure"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 219,
+      "name": "adventureworks"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 19,
+      "name": "adversarial-attack"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 18,
+      "name": "adversarial-machines"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 12,
+      "name": "advertised-shortcut"
+    },
+    {
+      "has_synonyms": true,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 99,
+      "name": "advertisement-server"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 298,
+      "name": "adview"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 33,
+      "name": "advising-functions"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 201,
+      "name": "adwhirl"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 9,
+      "name": "adwords-budgetservice"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 98,
+      "name": "adx"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 65,
+      "name": "adxstudio-portals"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 160,
+      "name": "adyen"
+    },
+    {
+      "has_synonyms": true,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 71,
+      "name": "aec"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 21,
+      "name": "aedes"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 16,
+      "name": "aegir"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 23,
+      "name": "aegis"
+    },
+    {
+      "has_synonyms": true,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 5046,
+      "name": "aem"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 348,
+      "name": "aem-6"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 6,
+      "name": "aem-63"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 12,
+      "name": "aem-core-wcm-components"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 3,
+      "name": "aem-developer-tools"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 4,
+      "name": "aem-project-archetype"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 38,
+      "name": "aem-touch-ui"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 289,
+      "name": "aero"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 43,
+      "name": "aerogear"
+    },
+    {
+      "has_synonyms": true,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 149,
+      "name": "aero-glass"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 7,
+      "name": "aerokube-moon"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 90,
+      "name": "aeron"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 10,
+      "name": "aeroolib"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 10,
+      "name": "aero-peek"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 19,
+      "name": "aero-snap"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 827,
+      "name": "aerospike"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 43,
+      "name": "aerospike-ce"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 18,
+      "name": "aerospike-loader"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 7292,
+      "name": "aes"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 2,
+      "name": "aescng"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 67,
+      "name": "aescryptoserviceprovider"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 413,
+      "name": "aes-gcm"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 33,
+      "name": "aes-ni"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 385,
+      "name": "aeson"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 221,
+      "name": "aesthetics"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 7,
+      "name": "aeternity-blockchain"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 105,
+      "name": "aether"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 2,
+      "name": "aether-ant"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 4,
+      "name": "afabstractrestclient"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 6,
+      "name": "afas-online"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 16,
+      "name": "afbedsheet"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 10,
+      "name": "afconvert"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 99,
+      "name": "affdex-sdk"
+    },
+    {
+      "has_synonyms": true,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 288,
+      "name": "affiliate"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 21,
+      "name": "affiliates"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 570,
+      "name": "affinetransform"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 337,
+      "name": "affinity"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 213,
+      "name": "affix"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 44,
+      "name": "afhttpclient"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 84,
+      "name": "afhttprequestoperation"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 26,
+      "name": "afhttpsessionmanager"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 47,
+      "name": "afincrementalstore"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 27,
+      "name": "afjsonrequestoperation"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 10,
+      "name": "afl-fuzz"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 3754,
+      "name": "afnetworking"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 1253,
+      "name": "afnetworking-2"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 263,
+      "name": "afnetworking-3"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 7,
+      "name": "afoauth2client"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 4,
+      "name": "afoauth2manager"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 679,
+      "name": "aforge"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 65,
+      "name": "afp"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 2955,
+      "name": "aframe"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 24,
+      "name": "aframe-networked"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 14,
+      "name": "aframe-react"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 6,
+      "name": "aframe-super-hands"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 3,
+      "name": "afterburner.fx"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 37,
+      "name": "after-create"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 534,
+      "name": "after-effects"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 4,
+      "name": "afterglow"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 68,
+      "name": "after-save"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 6,
+      "name": "afterthought"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 3,
+      "name": "after-update"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 41,
+      "name": "afx"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 121,
+      "name": "ag"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 72,
+      "name": "against"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 54,
+      "name": "agal"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 8,
+      "name": "agatha-rrsl"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 5,
+      "name": "agavi"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 11,
+      "name": "ag-charts"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 11,
+      "name": "ag-charts-react"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 8,
+      "name": "agconnect-functions"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 841,
+      "name": "agda"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 44,
+      "name": "agda-mode"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 19,
+      "name": "agda-stdlib"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 100,
+      "name": "agenda"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 1,
+      "name": "agen-framework"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 111,
+      "name": "agens-graph"
+    },
+    {
+      "has_synonyms": true,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 1307,
+      "name": "agent"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 487,
+      "name": "agent-based-modeling"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 2,
+      "name": "agentpy"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 113,
+      "name": "agents"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 8,
+      "name": "agents.jl"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 33,
+      "name": "agentset"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 280,
+      "name": "agents-jade"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 4,
+      "name": "agfx"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 13,
+      "name": "aggdraw"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 4,
+      "name": "aggpas"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 8352,
+      "name": "aggregate"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 3,
+      "name": "aggregateerror"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 62,
+      "name": "aggregateexception"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 34,
+      "name": "aggregate-filter"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 5843,
+      "name": "aggregate-functions"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 172,
+      "name": "aggregate-initialization"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 451,
+      "name": "aggregateroot"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 180,
+      "name": "aggregates"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 5,
+      "name": "aggregate-type"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 3439,
+      "name": "aggregation"
+    },
+    {
+      "has_synonyms": true,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 12415,
+      "name": "aggregation-framework"
+    },
+    {
+      "has_synonyms": true,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 106,
+      "name": "aggregator"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 16,
+      "name": "aggregators"
+    }
+  ],
+  "has_more": true,
+  "quota_max": 300,
+  "quota_remaining": 291
+}

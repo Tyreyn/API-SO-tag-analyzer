@@ -8,6 +8,8 @@
 
     <IsPackable>false</IsPackable>
     <IsTestProject>true</IsTestProject>
+    <DockerDefaultTargetOS>Windows</DockerDefaultTargetOS>
+    <DockerfileContext>..\API-SO-tag-analyzer</DockerfileContext>
   </PropertyGroup>
 
   <ItemGroup>

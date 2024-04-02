@@ -1,0 +1,12 @@
+name: dockercompose8948163494567054417
+services:
+  api-so-tag-analyzer.test:
+    build:
+      context: C:\Users\athos\source\repos\API-SO-tag-analyzer\API-SO-tag-analyzer
+      dockerfile: ..\API-SO-tag-analyzer.test\Dockerfile
+    image: apisotaganalyzertest
+    networks:
+      default: null
+networks:
+  default:
+    name: dockercompose8948163494567054417_default
