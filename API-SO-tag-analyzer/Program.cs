@@ -1,10 +1,10 @@
+using System.Reflection;
 using API_SO_tag_analyzer.Helpers;
 using API_SO_tag_analyzer.Services;
 using Microsoft.OpenApi.Models;
 using Newtonsoft.Json.Converters;
+using Newtonsoft.Json.Serialization;
 using Serilog;
-using System.Reflection;
-using System.Text.Json.Serialization;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -30,7 +30,7 @@ builder.Services.AddControllers()
     {
         options.SerializerSettings.Converters.Add(new StringEnumConverter
         {
-            CamelCaseText = true
+            NamingStrategy = new CamelCaseNamingStrategy(),
         });
     });
 
@@ -38,15 +38,18 @@ builder.Services.AddControllers()
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen(options =>
 {
-     options.SwaggerDoc("v1", new OpenApiInfo
+    options.SwaggerDoc("v1", new OpenApiInfo
     {
         Version = "v1",
         Title = "SO API tags",
         Description = "StackOverflow tags analyzer",
     });
-    options.SchemaFilter<EnumSchemaFilter>();
+
     var xmlFilename = $"{Assembly.GetExecutingAssembly().GetName().Name}.xml";
-    options.IncludeXmlComments(Path.Combine(AppContext.BaseDirectory, xmlFilename));
+    var xmlPath = Path.Combine(AppContext.BaseDirectory, xmlFilename);
+    options.IncludeXmlComments(xmlPath);
+    options.SchemaFilter<EnumSchemaFilter>(xmlPath);
+    options.DocumentFilter<EnumTypesDocumentFilter>();
 });
 
 builder.Services.AddSwaggerGenNewtonsoftSupport();

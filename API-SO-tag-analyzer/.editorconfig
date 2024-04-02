@@ -64,6 +64,33 @@ csharp_style_pattern_matching_over_as_with_null_check = true:suggestion
 csharp_style_prefer_not_pattern = true:suggestion
 csharp_style_prefer_extended_property_pattern = true:suggestion
 
+# CS8629: Typ wartości dopuszczający wartość null może być równy null.
+dotnet_diagnostic.CS8629.severity = silent
+
+# S3928: Parameter names used into ArgumentException constructors should match an existing one 
+dotnet_diagnostic.S3928.severity = suggestion
+
+# CA1051: Nie deklaruj widocznych pól wystąpień
+dotnet_diagnostic.CA1051.severity = suggestion
+
+# S1104: Fields should not have public accessibility
+dotnet_diagnostic.S1104.severity = suggestion
+
+# CS8602: Wyłuskanie odwołania, które może mieć wartość null.
+dotnet_diagnostic.CS8602.severity = suggestion
+
+# S112: General exceptions should never be thrown
+dotnet_diagnostic.S112.severity = suggestion
+
+# CS1998: Metoda asynchroniczna nie zawiera operatorów „await” i zostanie uruchomiona synchronicznie
+dotnet_diagnostic.CS1998.severity = suggestion
+
+# CS8604: Możliwy argument odwołania o wartości null.
+dotnet_diagnostic.CS8604.severity = suggestion
+
+# CS8618: Pole niedopuszczające wartości null musi zawierać wartość inną niż null podczas kończenia działania konstruktora. Rozważ zadeklarowanie pola jako dopuszczającego wartość null.
+dotnet_diagnostic.CS8618.severity = suggestion
+
 [*.vb]
 #### Style nazewnictwa ####
 

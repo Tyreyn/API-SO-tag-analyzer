@@ -1,13 +1,11 @@
+using API_SO_tag_analyzer.Data.Model;
+using API_SO_tag_analyzer.Helpers.Enums;
+using API_SO_tag_analyzer.Services;
+using Microsoft.AspNetCore.Mvc;
+using ILogger = Serilog.ILogger;
+
 namespace API_SO_tag_analyzer.Controllers
 {
-    using Swashbuckle.AspNetCore.Annotations;
-    using API_SO_tag_analyzer.Services;
-    using Microsoft.AspNetCore.Mvc;
-    using Serilog;
-    using Microsoft.OpenApi.Models;
-    using API_SO_tag_analyzer.Data.Model;
-    using API_SO_tag_analyzer.Helpers.Enums;
-
     /// <summary>
     /// Tags API Controller.
     /// </summary>
@@ -32,6 +30,9 @@ namespace API_SO_tag_analyzer.Controllers
         /// <param name="logger">
         /// The logger object.
         /// </param>
+        /// <param name="tagOperationService">
+        /// Tag operation service.
+        /// </param>
         public TagsController(
             JsonFileService jsonFileService,
             StackOverflowApiService stackOverflowApiService,
@@ -55,59 +56,80 @@ namespace API_SO_tag_analyzer.Controllers
         /// </summary>
         private JsonFileService JsonFileService { get; set; }
 
+        /// <summary>
+        /// Gets or sets tag operation service.
+        /// </summary>
         private TagOperationService TagOperationService { get; set; }
 
         /// <summary>
         /// Download and save tags to file.
         /// </summary>
-        /// <param name="maxItems">sasas</param>
-        /// <param name="startingPage"></param>
-        /// <param name="order"></param>
-        /// <param name="sort"></param>
-        /// <returns></returns>
+        /// <param name="maxItems">
+        /// Max items to download.
+        /// </param>
+        /// <param name="startingPage">
+        /// Starting page from which start to download tags.
+        /// </param>
+        /// <param name="order">
+        /// Describing the order of retrieved data.
+        /// </param>
+        /// <param name="sort">
+        /// Fescribing the sorting of retrieved data.
+        /// </param>
+        /// <returns>
+        /// True, if downloaded and saved tags correctly.
+        /// </returns>
         [HttpGet("{maxItems}/{startingPage:int:range(1,15)}/{order:regex(^(Asc|Desc)$)}/{sort:regex(^(Popular|Activity|Name)$)}")]
         public async Task<IActionResult> GetAndSaveNewTags(
             int maxItems = 1000,
             int startingPage = 1,
-            OrderEnum order = OrderEnum.Asc,
-            SortEnum sort = SortEnum.Popular)
+            Order order = Order.Asc,
+            Sorting sort = Sorting.Popular)
         {
-            int pageNumber = startingPage;
             NewTagParamsModel newTagParams = new NewTagParamsModel
             {
-                maxItems = maxItems,
-                startingPage = startingPage,
-                order = OrderEnum.Asc.ToString().ToLower(),
-                sort = SortEnum.Popular.ToString().ToLower(),
+                MaxItems = maxItems,
+                StartingPage = startingPage,
+                Order = Order.Asc.ToString().ToLower(),
+                Sort = Sorting.Popular.ToString().ToLower(),
             };
             await this.StackOverflowApiService.PrepareTagsStorage(newTagParams);
-            return Ok("New tags saved correctly");
+            return this.Ok("New tags saved correctly");
         }
 
+        /// <summary>
+        /// Get percentage of all occurences tags.
+        /// </summary>
+        /// <param name="orderBy">
+        /// Order by enum.
+        /// </param>
+        /// <param name="order">
+        /// Order enum.
+        /// </param>
+        /// <returns>
+        /// True, if correctly calculated.
+        /// </returns>
         [HttpGet("{orderBy}/{order}")]
-        public async Task<IActionResult> GetPercentageOfTagOccurences(OrderByEnum orderBy = OrderByEnum.Value, [FromRoute]OrderEnum order = OrderEnum.Desc)
+        public async Task<IActionResult> GetPercentageOfTagOccurences(OrderBy orderBy = OrderBy.Value, [FromRoute]Order order = Order.Desc)
         {
             await this.TagOperationService.InitializeTagStorage();
             long? sum = await this.TagOperationService.SumAllTagOccurences();
             Dictionary<string, double> tagDictionary = await this.TagOperationService.CalculatePercentageOfOccurrences(sum);
 
-            if (orderBy == OrderByEnum.Name)
+            if (orderBy == OrderBy.Name)
             {
-                var sortedTagDictionary = order == OrderEnum.Asc ?
+                var sortedTagDictionary = order == Order.Asc ?
                     tagDictionary.OrderBy(item => item.Key).ToList() :
                     tagDictionary.OrderByDescending(item => item.Key).ToList();
-                return Ok(sortedTagDictionary);
-
+                return this.Ok(sortedTagDictionary);
             }
             else
             {
-                var sortedTagDictionary = order == OrderEnum.Asc ?
+                var sortedTagDictionary = order == Order.Asc ?
                     tagDictionary.OrderBy(item => item.Value).ToList() :
                     tagDictionary.OrderByDescending(item => item.Value).ToList();
-                return Ok(sortedTagDictionary);
-
+                return this.Ok(sortedTagDictionary);
             }
-
         }
     }
 }

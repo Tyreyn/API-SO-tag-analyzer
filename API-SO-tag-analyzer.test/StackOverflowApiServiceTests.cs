@@ -42,7 +42,7 @@ namespace API_SO_tag_analyzer.test
         {
             try
             {
-                string response = StackOverflowApiService.GetTagsAsync().Result;
+                StackOverflowApiService.GetTagsAsync().GetAwaiter();
                 this.logger.Information("The connection was carried out successfully");
             }
             catch (Exception ex)

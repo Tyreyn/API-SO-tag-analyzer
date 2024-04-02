@@ -27,6 +27,9 @@
             <param name="logger">
             The logger object.
             </param>
+            <param name="tagOperationService">
+            Tag operation service.
+            </param>
         </member>
         <member name="P:API_SO_tag_analyzer.Controllers.TagsController.StackOverflowApiService">
             <summary>
@@ -38,15 +41,44 @@
             Gets or sets json file service.
             </summary>
         </member>
-        <member name="M:API_SO_tag_analyzer.Controllers.TagsController.GetAndSaveNewTags(System.Int32,System.Int32,API_SO_tag_analyzer.Helpers.Enums.OrderEnum,API_SO_tag_analyzer.Helpers.Enums.SortEnum)">
+        <member name="P:API_SO_tag_analyzer.Controllers.TagsController.TagOperationService">
+            <summary>
+            Gets or sets tag operation service.
+            </summary>
+        </member>
+        <member name="M:API_SO_tag_analyzer.Controllers.TagsController.GetAndSaveNewTags(System.Int32,System.Int32,API_SO_tag_analyzer.Helpers.Enums.Order,API_SO_tag_analyzer.Helpers.Enums.Sorting)">
             <summary>
             Download and save tags to file.
             </summary>
-            <param name="maxItems">sasas</param>
-            <param name="startingPage"></param>
-            <param name="order"></param>
-            <param name="sort"></param>
-            <returns></returns>
+            <param name="maxItems">
+            Max items to download.
+            </param>
+            <param name="startingPage">
+            Starting page from which start to download tags.
+            </param>
+            <param name="order">
+            Describing the order of retrieved data.
+            </param>
+            <param name="sort">
+            Fescribing the sorting of retrieved data.
+            </param>
+            <returns>
+            True, if downloaded and saved tags correctly.
+            </returns>
+        </member>
+        <member name="M:API_SO_tag_analyzer.Controllers.TagsController.GetPercentageOfTagOccurences(API_SO_tag_analyzer.Helpers.Enums.OrderBy,API_SO_tag_analyzer.Helpers.Enums.Order)">
+            <summary>
+            Get percentage of all occurences tags.
+            </summary>
+            <param name="orderBy">
+            Order by enum.
+            </param>
+            <param name="order">
+            Order enum.
+            </param>
+            <returns>
+            True, if correctly calculated.
+            </returns>
         </member>
         <member name="T:API_SO_tag_analyzer.Data.Collective">
             <summary>
@@ -96,6 +128,33 @@
         <member name="P:API_SO_tag_analyzer.Data.ExternalLink.Link">
             <summary>
             Gets or sets link variable.
+            </summary>
+        </member>
+        <member name="T:API_SO_tag_analyzer.Data.Model.NewTagParamsModel">
+            <summary>
+            API request parameters model.
+            </summary>
+        </member>
+        <member name="F:API_SO_tag_analyzer.Data.Model.NewTagParamsModel.MaxItems">
+            <summary>
+            Max items to download.
+            </summary>
+        </member>
+        <member name="F:API_SO_tag_analyzer.Data.Model.NewTagParamsModel.StartingPage">
+            <summary>
+            Starting page from which start to download tags.
+            </summary>
+        </member>
+        <member name="F:API_SO_tag_analyzer.Data.Model.NewTagParamsModel.Order">
+            <summary>
+            Describing the order of retrieved data.
+            Ascending, descending.
+            </summary>
+        </member>
+        <member name="F:API_SO_tag_analyzer.Data.Model.NewTagParamsModel.Sort">
+            <summary>
+            Fescribing the sorting of retrieved data.
+            Name, popular, activity.
             </summary>
         </member>
         <member name="T:API_SO_tag_analyzer.Data.TagItem">
@@ -158,10 +217,100 @@
             Gets or sets quota remaining variable.
             </summary>
         </member>
-        <member name="F:API_SO_tag_analyzer.Helpers.Enums.OrderEnum.Desc">
+        <member name="T:API_SO_tag_analyzer.Helpers.EnumSchemaFilter">
+            <summary>
+            Enum schema filter.
+            </summary>
+        </member>
+        <member name="F:API_SO_tag_analyzer.Helpers.EnumSchemaFilter.xmlComments">
+            <summary>
+            Output xml documentation.
+            </summary>
+        </member>
+        <member name="M:API_SO_tag_analyzer.Helpers.EnumSchemaFilter.#ctor(System.String)">
+            <summary>
+            Initializes a new instance of the <see cref="T:API_SO_tag_analyzer.Helpers.EnumSchemaFilter"/> class.
+            </summary>
+            <param name="xmlPath">
+            Path to xml document.
+            </param>
+        </member>
+        <member name="M:API_SO_tag_analyzer.Helpers.EnumSchemaFilter.Apply(Microsoft.OpenApi.Models.OpenApiSchema,Swashbuckle.AspNetCore.SwaggerGen.SchemaFilterContext)">
+            <summary>
+            Apply filters on application start.
+            </summary>
+            <param name="schema">
+            OpenApi object.
+            </param>
+            <param name="context">
+            Document filter context.
+            </param>
+        </member>
+        <member name="T:API_SO_tag_analyzer.Helpers.Enums.Order">
+            <summary>
+            Order enum.
+            </summary>
+        </member>
+        <member name="F:API_SO_tag_analyzer.Helpers.Enums.Order.Asc">
+            <summary>
+            Ascending.
+            </summary>
+        </member>
+        <member name="F:API_SO_tag_analyzer.Helpers.Enums.Order.Desc">
             <summary>
             Descending.
             </summary>
+        </member>
+        <member name="T:API_SO_tag_analyzer.Helpers.Enums.OrderBy">
+            <summary>
+            Order by enum.
+            </summary>
+        </member>
+        <member name="F:API_SO_tag_analyzer.Helpers.Enums.OrderBy.Name">
+            <summary>
+            Order by name.
+            </summary>
+        </member>
+        <member name="F:API_SO_tag_analyzer.Helpers.Enums.OrderBy.Value">
+            <summary>
+            Order by value.
+            </summary>
+        </member>
+        <member name="T:API_SO_tag_analyzer.Helpers.Enums.Sorting">
+            <summary>
+            Sorting enum.
+            </summary>
+        </member>
+        <member name="F:API_SO_tag_analyzer.Helpers.Enums.Sorting.Popular">
+            <summary>
+            Sorting by popularity.
+            </summary>
+        </member>
+        <member name="F:API_SO_tag_analyzer.Helpers.Enums.Sorting.Activity">
+            <summary>
+            Sorting by activity.
+            </summary>
+        </member>
+        <member name="F:API_SO_tag_analyzer.Helpers.Enums.Sorting.Name">
+            <summary>
+            Sorting by name.
+            </summary>
+        </member>
+        <member name="T:API_SO_tag_analyzer.Helpers.EnumTypesDocumentFilter">
+            <summary>
+            Enums types document filter.
+            </summary>
+        </member>
+        <member name="M:API_SO_tag_analyzer.Helpers.EnumTypesDocumentFilter.Apply(Microsoft.OpenApi.Models.OpenApiDocument,Swashbuckle.AspNetCore.SwaggerGen.DocumentFilterContext)">
+            <summary>
+            Apply filters on application start.
+            </summary>
+            <param name="swaggerDoc">
+            OpenApi object.
+            </param>
+            <param name="context">
+            Document filter context.
+            </param>
         </member>
         <member name="T:API_SO_tag_analyzer.Services.JsonFileService">
             <summary>
@@ -266,11 +415,8 @@
             <summary>
             Request and save json api response to file.
             </summary>
-            <param name="maxItemCount">
-            Item count to be downloaded.
-            </param>
-            <param name="startingPage">
-            Starting page from which start to download.
+            <param name="newTagParamsModel">
+            Request paramaters for tag.
             </param>
             <returns>
             Always true.
@@ -291,6 +437,11 @@
             The logger object.
             </summary>
         </member>
+        <member name="F:API_SO_tag_analyzer.Services.TagOperationService.tagStorage">
+            <summary>
+            The tag storage object.
+            </summary>
+        </member>
         <member name="M:API_SO_tag_analyzer.Services.TagOperationService.#ctor(API_SO_tag_analyzer.Services.JsonFileService,Serilog.ILogger)">
             <summary>
             Initializes a new instance of the <see cref="T:API_SO_tag_analyzer.Services.TagOperationService"/> class.
@@ -301,6 +452,41 @@
             <param name="logger">
             The logger object.
             </param>
+        </member>
+        <member name="M:API_SO_tag_analyzer.Services.TagOperationService.InitializeTagStorage">
+            <summary>
+            Download from stackoverflow API and save tags to file.
+            </summary>
+            <returns>
+            Always true.
+            </returns>
+        </member>
+        <member name="M:API_SO_tag_analyzer.Services.TagOperationService.SumAllTagOccurences">
+            <summary>
+            Sums up all occurrences of tags.
+            </summary>
+            <returns>
+            Sum of all occurrences tags.
+            </returns>
+            <exception cref="T:System.NullReferenceException">
+            Throws exception when tagstorage file is not saved.
+            </exception>
+        </member>
+        <member name="M:API_SO_tag_analyzer.Services.TagOperationService.CalculatePercentageOfOccurrences(System.Nullable{System.Int64})">
+            <summary>
+            Calculate percentage of occurrences tag.
+            </summary>
+            <param name="sum">
+            Sum of all occurrences tags.
+            </param>
+            <returns>
+            Dictionary:
+            Key: name of tag
+            Value: percentage of occurrences.
+            </returns>
+            <exception cref="T:System.ArgumentNullException">
+            Throws exception when tag storage is not initialized.
+            </exception>
         </member>
     </members>
 </doc>

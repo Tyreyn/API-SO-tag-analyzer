@@ -2,9 +2,14 @@
 
 namespace API_SO_tag_analyzer.Helpers.Enums
 {
-    [JsonConverter(typeof(JsonStringEnumConverter))]
-    public enum OrderEnum
+    /// <summary>
+    /// Order enum.
+    /// </summary>
+    public enum Order
     {
+        /// <summary>
+        /// Ascending.
+        /// </summary>
         Asc,
 
         /// <summary>

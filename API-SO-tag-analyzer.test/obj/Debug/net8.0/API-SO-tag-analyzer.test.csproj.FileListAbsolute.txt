@@ -125,3 +125,11 @@ C:\Users\athos\source\repos\API-SO-tag-analyzer\API-SO-tag-analyzer.test\obj\Deb
 C:\Users\athos\source\repos\API-SO-tag-analyzer\API-SO-tag-analyzer.test\obj\Debug\net8.0\API-SO-tag-analyzer.test.pdb
 C:\Users\athos\source\repos\API-SO-tag-analyzer\API-SO-tag-analyzer.test\obj\Debug\net8.0\API-SO-tag-analyzer.test.genruntimeconfig.cache
 C:\Users\athos\source\repos\API-SO-tag-analyzer\API-SO-tag-analyzer.test\obj\Debug\net8.0\ref\API-SO-tag-analyzer.test.dll
+C:\Users\athos\source\repos\API-SO-tag-analyzer\API-SO-tag-analyzer.test\bin\Debug\net8.0\launchSettings.json
+C:\Users\athos\source\repos\API-SO-tag-analyzer\API-SO-tag-analyzer.test\bin\Debug\net8.0\API-SO-tag-analyzer.staticwebassets.runtime.json
+C:\Users\athos\source\repos\API-SO-tag-analyzer\API-SO-tag-analyzer.test\bin\Debug\net8.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\athos\source\repos\API-SO-tag-analyzer\API-SO-tag-analyzer.test\bin\Debug\net8.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Users\athos\source\repos\API-SO-tag-analyzer\API-SO-tag-analyzer.test\bin\Debug\net8.0\Newtonsoft.Json.Bson.dll
+C:\Users\athos\source\repos\API-SO-tag-analyzer\API-SO-tag-analyzer.test\bin\Debug\net8.0\Swashbuckle.AspNetCore.Annotations.dll
+C:\Users\athos\source\repos\API-SO-tag-analyzer\API-SO-tag-analyzer.test\bin\Debug\net8.0\Swashbuckle.AspNetCore.Newtonsoft.dll
+C:\Users\athos\source\repos\API-SO-tag-analyzer\API-SO-tag-analyzer.test\bin\Debug\net8.0\API-SO-tag-analyzer.xml

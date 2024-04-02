@@ -92,11 +92,8 @@
         /// <summary>
         /// Request and save json api response to file.
         /// </summary>
-        /// <param name="maxItemCount">
-        /// Item count to be downloaded.
-        /// </param>
-        /// <param name="startingPage">
-        /// Starting page from which start to download.
+        /// <param name="newTagParamsModel">
+        /// Request paramaters for tag.
         /// </param>
         /// <returns>
         /// Always true.
@@ -108,12 +105,12 @@
                 newTagParamsModel = new NewTagParamsModel();
             }
 
-            this.logger.Information("Prepare {0} tags storage", newTagParamsModel.maxItems);
-            int pageNumber = newTagParamsModel.startingPage;
+            this.logger.Information("Prepare {0} tags storage", newTagParamsModel.MaxItems);
+            int pageNumber = newTagParamsModel.StartingPage;
             JObject jsonMergedResponse = new JObject();
             do
             {
-                string requestString = $"tags?page={pageNumber}&pagesize=100&order={newTagParamsModel.order}&sort={newTagParamsModel.sort}&site=stackoverflow";
+                string requestString = $"tags?page={pageNumber}&pagesize=100&order={newTagParamsModel.Order}&sort={newTagParamsModel.Sort}&site=stackoverflow";
                 string response = await this.GetTagsAsync(requestParamUrl: requestString);
                 JObject jsonResponse = JObject.Parse(response);
                 jsonMergedResponse.Merge(jsonResponse);
@@ -123,8 +120,8 @@
                     this.logger.Information("Can't access api on this page without special token");
                     break;
                 }
-
-            } while (jsonMergedResponse["items"].Count() < newTagParamsModel.maxItems);
+            }
+            while (jsonMergedResponse["items"].Count() < newTagParamsModel.MaxItems);
 
             await this.JsonFileService.WriteTagsToFileAsync(jsonMergedResponse);
         }
