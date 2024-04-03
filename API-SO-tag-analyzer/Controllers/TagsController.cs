@@ -80,25 +80,39 @@ namespace API_SO_tag_analyzer.Controllers
         /// True, if downloaded and saved tags correctly.
         /// </returns>
         [HttpGet("{maxItems}/{startingPage:int:range(1,15)}/{order:regex(^(Asc|Desc)$)}/{sort:regex(^(Popular|Activity|Name)$)}")]
+        [ProducesResponseType(200)]
+        [ProducesResponseType(404)]
         public async Task<IActionResult> GetAndSaveNewTags(
-            int maxItems = 1000,
-            int startingPage = 1,
-            Order order = Order.Asc,
-            Sorting sort = Sorting.Popular)
+            int? maxItems = 1000,
+            int? startingPage = 1,
+            Order? order = Order.Asc,
+            Sorting? sort = Sorting.Popular)
         {
+            if (maxItems == null ||
+                startingPage == null ||
+                maxItems <= 0 ||
+                startingPage <= 0 ||
+                startingPage >= 15 ||
+                order == null ||
+                sort == null)
+            {
+                return this.BadRequest();
+            }
+
             NewTagParamsModel newTagParams = new NewTagParamsModel
             {
-                MaxItems = maxItems,
-                StartingPage = startingPage,
-                Order = Order.Asc.ToString().ToLower(),
-                Sort = Sorting.Popular.ToString().ToLower(),
+                MaxItems = (int)maxItems,
+                StartingPage = (int)startingPage,
+                Order = order.ToString().ToLower(),
+                Sort = sort.ToString().ToLower(),
             };
+
             await this.StackOverflowApiService.PrepareTagsStorage(newTagParams);
             return this.Ok("New tags saved correctly");
         }
 
         /// <summary>
-        /// Get percentage of all occurences tags.
+        /// Get percentage of all occurrences tags.
         /// </summary>
         /// <param name="orderBy">
         /// Order by enum.
@@ -110,9 +124,28 @@ namespace API_SO_tag_analyzer.Controllers
         /// True, if correctly calculated.
         /// </returns>
         [HttpGet("{orderBy}/{order}")]
-        public async Task<IActionResult> GetPercentageOfTagOccurences(OrderBy orderBy = OrderBy.Value, [FromRoute]Order order = Order.Desc)
+        [ProducesResponseType(200)]
+        [ProducesResponseType(404)]
+        [ProducesResponseType(500)]
+        public async Task<IActionResult> GetPercentageOfTagOccurrences(
+            OrderBy? orderBy = OrderBy.Value,
+            Order? order = Order.Desc)
         {
-            await this.TagOperationService.InitializeTagStorage();
+            if (orderBy == null ||
+                order == null)
+            {
+                return this.BadRequest();
+            }
+
+            try
+            {
+                await this.TagOperationService.InitializeTagStorage();
+            }
+            catch (Exception ex)
+            {
+                return this.Problem(ex.ToString());
+            }
+
             long? sum = await this.TagOperationService.SumAllTagOccurences();
             Dictionary<string, double> tagDictionary = await this.TagOperationService.CalculatePercentageOfOccurrences(sum);
 

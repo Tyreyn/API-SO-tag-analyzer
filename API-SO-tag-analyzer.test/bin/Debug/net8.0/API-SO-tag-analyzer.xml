@@ -66,9 +66,9 @@
             True, if downloaded and saved tags correctly.
             </returns>
         </member>
-        <member name="M:API_SO_tag_analyzer.Controllers.TagsController.GetPercentageOfTagOccurences(API_SO_tag_analyzer.Helpers.Enums.OrderBy,API_SO_tag_analyzer.Helpers.Enums.Order)">
+        <member name="M:API_SO_tag_analyzer.Controllers.TagsController.GetPercentageOfTagOccurrences(API_SO_tag_analyzer.Helpers.Enums.OrderBy,API_SO_tag_analyzer.Helpers.Enums.Order)">
             <summary>
-            Get percentage of all occurences tags.
+            Get percentage of all occurrences tags.
             </summary>
             <param name="orderBy">
             Order by enum.
@@ -381,7 +381,7 @@
             The logger object.
             </summary>
         </member>
-        <member name="M:API_SO_tag_analyzer.Services.StackOverflowApiService.#ctor(API_SO_tag_analyzer.Services.JsonFileService,Serilog.ILogger)">
+        <member name="M:API_SO_tag_analyzer.Services.StackOverflowApiService.#ctor(API_SO_tag_analyzer.Services.JsonFileService,Serilog.ILogger,System.Boolean)">
             <summary>
             Initializes a new instance of the <see cref="T:API_SO_tag_analyzer.Services.StackOverflowApiService"/> class.
             </summary>
@@ -390,6 +390,9 @@
             </param>
             <param name="logger">
             The logger object.
+            </param>
+            <param name="prepareTagStorage">
+            Indicates whenever storage should be prepared at start of application.
             </param>
         </member>
         <member name="P:API_SO_tag_analyzer.Services.StackOverflowApiService.JsonFileService">

@@ -10,7 +10,6 @@ C:\Users\athos\source\repos\API-SO-tag-analyzer\API-SO-tag-analyzer.test\bin\Deb
 C:\Users\athos\source\repos\API-SO-tag-analyzer\API-SO-tag-analyzer.test\bin\Debug\net8.0\API-SO-tag-analyzer.runtimeconfig.json
 C:\Users\athos\source\repos\API-SO-tag-analyzer\API-SO-tag-analyzer.test\bin\Debug\net8.0\appsettings.Development.json
 C:\Users\athos\source\repos\API-SO-tag-analyzer\API-SO-tag-analyzer.test\bin\Debug\net8.0\appsettings.json
-C:\Users\athos\source\repos\API-SO-tag-analyzer\API-SO-tag-analyzer.test\bin\Debug\net8.0\so-response.json
 C:\Users\athos\source\repos\API-SO-tag-analyzer\API-SO-tag-analyzer.test\bin\Debug\net8.0\API-SO-tag-analyzer.exe
 C:\Users\athos\source\repos\API-SO-tag-analyzer\API-SO-tag-analyzer.test\bin\Debug\net8.0\testhost.exe
 C:\Users\athos\source\repos\API-SO-tag-analyzer\API-SO-tag-analyzer.test\bin\Debug\net8.0\NUnit3.TestAdapter.dll

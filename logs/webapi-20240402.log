@@ -1038,3 +1038,41 @@ File name: 'C:\Users\athos\source\repos\API-SO-tag-analyzer\API-SO-tag-analyzer\
 2024-04-02 20:01:42.541 +02:00  INF  Request finished HTTP/1.1 GET http://localhost:5072/_vs/browserLink - 200 null text/javascript; charset=UTF-8 52.7037ms
 2024-04-02 20:01:42.670 +02:00  INF  Request starting HTTP/1.1 GET http://localhost:5072/swagger/v1/swagger.json - null null
 2024-04-02 20:01:42.921 +02:00  INF  Request finished HTTP/1.1 GET http://localhost:5072/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 250.498ms
+2024-04-02 22:02:37.257 +02:00  INF  Starting JsonFileService
+2024-04-02 22:02:37.702 +02:00  INF  Starting TagOperationService
+2024-04-02 22:02:37.703 +02:00  INF  Starting StackOverflowApiService
+2024-04-02 22:02:37.723 +02:00  INF  Prepare 1000 tags storage
+2024-04-02 22:02:37.749 +02:00  INF  Calling https://api.stackexchange.com/2.3tags?page=1&pagesize=100&order=desc&sort=popular&site=stackoverflow
+2024-04-02 22:02:38.207 +02:00  INF  Now listening on: http://localhost:5072
+2024-04-02 22:02:38.211 +02:00  INF  Application started. Press Ctrl+C to shut down.
+2024-04-02 22:02:38.213 +02:00  INF  Hosting environment: Development
+2024-04-02 22:02:38.214 +02:00  INF  Content root path: C:\Users\athos\source\repos\API-SO-tag-analyzer\API-SO-tag-analyzer
+2024-04-02 22:02:38.507 +02:00  FTL  Problem with connecting to API
+2024-04-02 22:02:40.941 +02:00  INF  Request starting HTTP/1.1 GET http://localhost:5072/swagger/index.html - null null
+2024-04-02 22:02:41.288 +02:00  INF  Request finished HTTP/1.1 GET http://localhost:5072/swagger/index.html - 200 null text/html;charset=utf-8 351.2497ms
+2024-04-02 22:02:41.466 +02:00  INF  Request starting HTTP/1.1 GET http://localhost:5072/_framework/aspnetcore-browser-refresh.js - null null
+2024-04-02 22:02:41.548 +02:00  INF  Request finished HTTP/1.1 GET http://localhost:5072/_framework/aspnetcore-browser-refresh.js - 200 13774 application/javascript; charset=utf-8 82.2958ms
+2024-04-02 22:02:41.675 +02:00  INF  Request starting HTTP/1.1 GET http://localhost:5072/_vs/browserLink - null null
+2024-04-02 22:02:42.131 +02:00  INF  Request finished HTTP/1.1 GET http://localhost:5072/_vs/browserLink - 200 null text/javascript; charset=UTF-8 456.1044ms
+2024-04-02 22:02:42.384 +02:00  INF  Request starting HTTP/1.1 GET http://localhost:5072/swagger/v1/swagger.json - null null
+2024-04-02 22:02:42.590 +02:00  INF  Request finished HTTP/1.1 GET http://localhost:5072/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 206.8751ms
+2024-04-02 22:03:06.668 +02:00  INF  Request starting HTTP/1.1 GET http://localhost:5072/swagger/index.html - null null
+2024-04-02 22:03:06.707 +02:00  INF  Request finished HTTP/1.1 GET http://localhost:5072/swagger/index.html - 200 null text/html;charset=utf-8 38.2579ms
+2024-04-02 22:03:06.752 +02:00  INF  Request starting HTTP/1.1 GET http://localhost:5072/swagger/swagger-ui.css - null null
+2024-04-02 22:03:06.760 +02:00  INF  Request starting HTTP/1.1 GET http://localhost:5072/swagger/swagger-ui-bundle.js - null null
+2024-04-02 22:03:06.770 +02:00  INF  Request starting HTTP/1.1 GET http://localhost:5072/swagger/swagger-ui-standalone-preset.js - null null
+2024-04-02 22:03:06.771 +02:00  INF  Request starting HTTP/1.1 GET http://localhost:5072/_vs/browserLink - null null
+2024-04-02 22:03:06.779 +02:00  INF  Request starting HTTP/1.1 GET http://localhost:5072/_framework/aspnetcore-browser-refresh.js - null null
+2024-04-02 22:03:06.808 +02:00  INF  Request finished HTTP/1.1 GET http://localhost:5072/_vs/browserLink - 200 null text/javascript; charset=UTF-8 36.9309ms
+2024-04-02 22:03:06.823 +02:00  INF  Request finished HTTP/1.1 GET http://localhost:5072/_framework/aspnetcore-browser-refresh.js - 200 13774 application/javascript; charset=utf-8 44.6513ms
+2024-04-02 22:03:06.842 +02:00  INF  Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-04-02 22:03:06.842 +02:00  INF  Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-04-02 22:03:06.842 +02:00  INF  Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-04-02 22:03:06.847 +02:00  INF  Request finished HTTP/1.1 GET http://localhost:5072/swagger/swagger-ui.css - 200 143943 text/css 95.7032ms
+2024-04-02 22:03:06.847 +02:00  INF  Request finished HTTP/1.1 GET http://localhost:5072/swagger/swagger-ui-bundle.js - 200 1096145 text/javascript 92.9918ms
+2024-04-02 22:03:06.849 +02:00  INF  Request finished HTTP/1.1 GET http://localhost:5072/swagger/swagger-ui-standalone-preset.js - 200 339486 text/javascript 78.6679ms
+2024-04-02 22:03:06.967 +02:00  INF  Request starting HTTP/1.1 GET http://localhost:5072/swagger/favicon-16x16.png - null null
+2024-04-02 22:03:06.971 +02:00  INF  Sending file. Request path: '/favicon-16x16.png'. Physical path: 'N/A'
+2024-04-02 22:03:06.972 +02:00  INF  Request finished HTTP/1.1 GET http://localhost:5072/swagger/favicon-16x16.png - 200 665 image/png 5.1041ms
+2024-04-02 22:03:07.062 +02:00  INF  Request starting HTTP/1.1 GET http://localhost:5072/swagger/v1/swagger.json - null null
+2024-04-02 22:03:07.069 +02:00  INF  Request finished HTTP/1.1 GET http://localhost:5072/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 7.6984ms

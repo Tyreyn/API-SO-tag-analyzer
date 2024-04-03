@@ -30,12 +30,18 @@
         /// <param name="logger">
         /// The logger object.
         /// </param>
-        public StackOverflowApiService(JsonFileService jsonFileService, Serilog.ILogger logger)
+        /// <param name="prepareTagStorage">
+        /// Indicates whenever storage should be prepared at start of application.
+        /// </param>
+        public StackOverflowApiService(JsonFileService jsonFileService, Serilog.ILogger logger, bool prepareTagStorage = true)
         {
             this.JsonFileService = jsonFileService;
             this.logger = logger;
             this.logger.Information("Starting StackOverflowApiService");
-            this.PrepareTagsStorage().GetAwaiter();
+            if (prepareTagStorage)
+            {
+                this.PrepareTagsStorage().GetAwaiter();
+            }
         }
 
         /// <summary>

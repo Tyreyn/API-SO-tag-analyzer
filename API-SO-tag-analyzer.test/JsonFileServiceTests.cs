@@ -127,8 +127,10 @@ namespace API_SO_tag_analyzer.test
         [TearDown]
         public void TearDown()
         {
+            this.logger.Information("Cleaning after test");
             if (File.Exists(jsonFilePath))
             {
+                this.logger.Information("Delete json file");
                 File.Delete(jsonFilePath);
             }
 

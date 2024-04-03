@@ -1,6 +1,5 @@
 C:\Users\athos\source\repos\API-SO-tag-analyzer\API-SO-tag-analyzer\bin\Debug\net8.0\appsettings.Development.json
 C:\Users\athos\source\repos\API-SO-tag-analyzer\API-SO-tag-analyzer\bin\Debug\net8.0\appsettings.json
-C:\Users\athos\source\repos\API-SO-tag-analyzer\API-SO-tag-analyzer\bin\Debug\net8.0\so-response.json
 C:\Users\athos\source\repos\API-SO-tag-analyzer\API-SO-tag-analyzer\bin\Debug\net8.0\API-SO-tag-analyzer.exe
 C:\Users\athos\source\repos\API-SO-tag-analyzer\API-SO-tag-analyzer\bin\Debug\net8.0\API-SO-tag-analyzer.deps.json
 C:\Users\athos\source\repos\API-SO-tag-analyzer\API-SO-tag-analyzer\bin\Debug\net8.0\API-SO-tag-analyzer.runtimeconfig.json
@@ -53,3 +52,4 @@ C:\Users\athos\source\repos\API-SO-tag-analyzer\API-SO-tag-analyzer\bin\Debug\ne
 C:\Users\athos\source\repos\API-SO-tag-analyzer\API-SO-tag-analyzer\bin\Debug\net8.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
 C:\Users\athos\source\repos\API-SO-tag-analyzer\API-SO-tag-analyzer\bin\Debug\net8.0\Newtonsoft.Json.Bson.dll
 C:\Users\athos\source\repos\API-SO-tag-analyzer\API-SO-tag-analyzer\bin\Debug\net8.0\Swashbuckle.AspNetCore.Newtonsoft.dll
+C:\Users\athos\source\repos\API-SO-tag-analyzer\API-SO-tag-analyzer\bin\Debug\net8.0\so-response.json

@@ -77,6 +77,7 @@
                 throw new NullReferenceException("Load tagstorage! Use InitializeTagStorage method.");
             }
 
+            this.logger.Information("Sum: {0}", sum);
             return sum;
         }
 
@@ -101,7 +102,9 @@
             {
                 foreach (TagItem item in this.tagStorage.Items)
                 {
-                    tagItemDictionary.Add(item.Name, Math.Round(((double)item.Count / (double)sum) * 100, 6));
+                    double percentage = Math.Round(((double)item.Count / (double)sum) * 100, 4);
+                    this.logger.Information($"{item.Name} percentage {percentage}");
+                    tagItemDictionary.Add(item.Name, percentage);
                 }
             }
             else
